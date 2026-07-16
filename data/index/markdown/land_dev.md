@@ -749,13 +749,13 @@ unless adoption of the proposed change is recommended by unanimous vote of the P
 
 ---
 
-## Conflict with other laws.
+## Effective date.
 
 **Citation:** LDR Art. I, Sec. 8
 
-Validity and severability.
-Repetitive petitions.
-Effective date.
+The effective date of this ordinance is December 20, 1990.
+
+Section 2
 
 ---
 
@@ -4332,186 +4332,118 @@ Additional permits may be required from the municipal officers.
 
 ---
 
-## 2 "Vegetative BMPs" (Nov.
+## Architectural standards.30 [Ord.
 
 **Citation:** LDR Art. VI, Sec. 6
 
-95). Refer to the most current
-version of this source for further information. Applicant shall be responsible for meeting
-current standards.
-6.2.1 Vegetative Buffer:
-Design criteria. References to "Table 6-1": For buffer removal efficiencies see this
-table in the most recent version of the MDEP Best Management Practices.
-1. Maximum contributing drainage area: The length of the vegetated buffer should be
-at least as long as the runoff flow path across the contributing drainage area. The
-depth, or buffer width referred to in Table 6-1, of the buffer strip should not be
-more than 250 feet in length without an intervening level spreader.
-2. Maximum slope: Must be less than 30% to be included in the calculation of
-buffer width. Areas with slopes greater than 30% are too steep to be effective as
-a treatment buffer but should be left undisturbed. The optimum slope for effective
-treatment is around 1%.
-3. Distribution of runoff over the buffer: To be treated, runoff must enter the buffer
-as sheet flow and cannot be allowed to channelize. Buffers will not treat shallow
-concentrated or channelized flow.
-Runoff should be distributed across the buffer strip so that the maximum flow
-velocities are well below one fps. The maximum allowable Q10 velocity should be
-less than three fps (Galli, 1993).
+No. 2003.66, 7-1-2003]
+A.
 
-4. Restabilization of buffers used for sediment control during construction: If a buffer
-has been used to trap sediment during construction, sediments shall be removed
-and buffer will be regraded and the top of the buffer will be reseeded.
-5. Pretreatment for buffers with "bare soil" contributing areas: To prevent a heavy
-sediment loading from damaging the buffer, sites that will have areas of bare soil
-for a long time can not utilize this BMP without first pretreating the runoff with a
-sediment control BMP.
-6. Buffer width (length): The recommended minimum buffer width is 25 feet (Maine
-DEP, 1992). Only continuous width may be counted when calculating buffer
-width. Maximum buffer width (length) is 250 feet.
-7. Provision of ditch turnouts: Turnouts should receive no more than one cfs of peak
-flow during a storm event. If the peak flow is greater than one cfs, the spacing
-between turnouts should be reduced so that the peak flow from each turn-out's
-drainage area is less than 1.0 cfs. The following formula can be used to find the
-peak flow from a drainage area to a ditch turnout (Maine DEP, 1992):
-Peak Flow = (Impervious area in ft2)(0.000139) + (pervious area in ft2)(0.000069)
-The turnout should extend into the side ditch or cut slope in a manner that it
-intercepts the ditch runoff and carries it into the buffer area. The buffer end of
-the turnout must be level or equipped with a level spreader such as a shallow
-stone trench to promote sheet flow. Refer to Erosion and Sediment Control for
-Construction (MDEP, 1991) for level spreader designs.
-Use Table 6-1 to determine the treatment factor of the buffer by measuring the
-length the road runoff travels through the buffer continuously or, in cases where
-the runoff parallels the road, until the runoff encounters the next ditch turnout.
-8. Buffer vegetation: For buffer strip design and practice in Maine, the following
-vegetation designations are suggested to be utilized:
-a. Wooded: Example of a wooded buffer is shown in Figure 6.3.
-b. Non-wooded: Fields or reverting fields, as well as forested areas where more
-than 40% of the timber has been harvested in the past 10 years or where ground
-cover or leaf litter has been disturbed. When mowed the height should be
-cropped to not less that six inches.
-c. Seeded: Mowed lawns or seeded or sodded areas previously disturbed by
-construction activity. An example of a seeded buffer is shown in Figure 6.3.
-Refer to the Maine Erosion and Sediment Control Handbook (Maine DEP,
-1991) for appropriate seed mixtures and application methods for seeded
-buffers.
+Building additions constructed within MSRD Districts. All additions shall be visually related
+generally in terms of the following:
+1.
 
-Section 51
+Mass. The height of principal building or structure, its bulk; the nature of its roofline, and the
+proportions of the new construction will be of the same scale and proportion as the existing
+significant structures;
 
-Section 51
+2.
 
-Figure 6.3: Schematic of a Seeded and Wooded Buffer Strip
-Maintenance of the buffer. The Planning Board will require the applicant to submit a
-maintenance agreement and a maintenance schedule for the buffer. These items need
-to be approved of by the Board as part of the project.
-Maintenance requirements for buffers can be reduced by managing them as
-undisturbed, natural areas. Wooded buffers should be maintained as specified in
-Phosphorus Control in Lake Watersheds (Maine DEP, 1992) (pp. 60-62).
-1. Mowing: Four to six inches of dense grass cover or natural vegetation, and the area
-should receive the minimum fertilizer application needed to maintain the grass in
-a healthy condition. Fertilizer use should be in accordance with the Maine Erosion
-and Sediment Control Handbook (Maine DEP, 1991) and BMP 7.2 (Me DEP BMP
-Stormwater).
-2. Inspection frequency: Annually. All eroded areas should be repaired, seeded and
-mulched. A shallow stone trench should be installed and maintained as a level
-spreader to distribute flows evenly in any area showing concentrated flows.
-3. Access and use: Buffers should not be traversed by all-terrain vehicles or other
-vehicles. Activities within buffers should be conducted so as not to damage
-vegetation, disturb any organic duff layer, and expose soil.
-6.2.2 Vegetative Swale:
-Design criteria.
-1. Soils: Underlying soils should have a high infiltration rate (at least 1.0 inches/
-hour).
+The location, size and proportions of openings in the facade, primarily windows and doors, of
+new construction will be consistent in proportion and rhythm with openings in the facade of
+existing significant structures;
 
-2. Channel design: The channel should be designed for low velocity flow. A velocity
-of one fps is the maximum design storm flow velocity recommended when
-vegetated swales are being designed as a BMP. Higher velocities might be
-permissible for channel stability, but could result in resuspension of settled
-particulates. The maximum allowable Q10 velocity should be less than three
-fps. Flow depths in the swales should be minimized to increase the amount of
-vegetative filtering and settling. A maximum design flow depth of one foot is
-suggested. The minimum width of the flat bottom of a trapezoidal channel shall
-be at least three times the channel depth. Non-trapezoidal channels should have
-similar depth to width relationships.
-The grade of the channel should be as flat as possible, and preferably less than
-2% (MPCA, 1989). Channels should be designed for capacity and stability in
-accordance with Erosion and Sediment Control BMP 36.0 of the Maine Erosion
-and Sediment Control Handbook for Construction (1991).
-3. Infiltration and sedimentation enhancement: The hydrologic performance of
-vegetated swales can be improved if check dams are used to temporarily pond
-runoff (see swale with check dams BMP).
-4. Vegetation: Vegetation for swale linings should be selected based on soils and
-hydrologic conditions at the site, in accordance with applicable erosion and
-sediment control BMPs described in the Maine Erosion and Sediment Control
-Handbook for Construction. Recommended grasses include Ky-31 tall fescue, reed
-canary grass, redtop, roughstalked blue grass, and mixtures thereof (Galli, 1993).
-5. Construction considerations: Construct and stabilize the waterway in advance of
-any other channels or facilities that will discharge into it.
-Maintenance of the buffer. The Planning board will require the applicant to submit a
-maintenance agreement and a maintenance schedule for the buffer. These items need
-to be approved of by the Board as part of the project.
-Routine maintenance should include: the immediate repair of newly formed channels
-or gullies, reseeding/sodding of bare spots, removal of trash, leaves and/or
-accumulated sediments, and the control of woody or other undesirable vegetation.
-Swales must be maintained to remove fine sediment if their infiltrative capacity is to
-be maintained. In addition, the buffer strip may require periodic mechanical aeration
-to restore infiltration capacity. This aeration must be done during a time when the area
-can be reseeded and mulched prior to any significant rainfall. It is important to install
-erosion and sediment control measures to stabilize this area as soon as possible and to
-retain any organic matter in the bottom of the trench. Routine fertilization and/or use of
-pesticides is strongly discouraged. A minimum mow height of six inches is generally
-recommended (Galli, 1993).
-Vehicular traffic should be excluded from the waterway. The area should be inspected
-for failures following heavy rainfall and repaired as necessary. If complete re-seeding
-is necessary, half the original recommended rate of fertilizer should be applied with a
-full rate of seed.
-6.2.3 Swales with Check Dams:
-Design criteria.
+3.
 
-Section 51
+The massing and type of roof (flat, gabled, hip, gambrel, mansard) of the new construction shall
+complement the massing and type of roof of existing significant structures;
 
-Section 51
+4.
 
-1. Soils: Swales with check dams should not be located on soils with a final
-infiltration rate (f) less than 1.0 inches per hour. The recommended depth to
-seasonal high groundwater or bedrock is a minimum of two feet.
-2. Channel design: The design storm channel velocity should be no greater than one
-fps, and the maximum Q10 velocity should be less than three fps. The grade of the
-channel should be less than 5%, but preferably less than 2% for maximum storage
-and effectiveness. Channels should also be designed for capacity and stability in
-accordance with Erosion and Sediment Control BMP 36.0 of the Maine Erosion
-and Sediment Control Handbook for Construction (1991).
-Channel side slopes shall not exceed 3 (horizontal): 1 (vertical) for seeded or
-sodded slopes, or 2:1 for riprap slopes, although the channels may be vee-shaped,
-parabolic, or trapezoidal (Maryland, 1984).
-If underdrains are provided under the swale, there should be a minimum of two
-feet of "soil" between the bottom of the swale and the top of the drainpipe.
+Nature of building materials and texture shall exhibit the characteristics of texture, composition
+and reflectivity of adjacent significant structures and buildings; and
 
-Figure 6.4: Examples of Check Dam Swales and Railroad Tie Swales
+5.
 
-Section 52A
+Mechanical equipment or other utility hardware on the roof, ground or buildings will be
+screened from public view with materials harmonious with the building, or they will be so
+located not to be visible from public ways.
 
-3. Check dam design: The check dam should be constructed of durable rock or rocklined material so that it will not erode. The area just downstream of the check dam
-should be protected from scour with properly designed rock riprap or protective
-channel lining. The check dam may have a solid level surface integrated into it for
-added durability as shown in Figure 6.4.
-Check dam heights are generally six to 12 inches, depending on channel slope and
-desired storage capacity. The check dams should be notched or ported to allow the
-flows in excess of their infiltrative capacity to be bypassed. Check dams should be
-designed so that the water ponded behind them will infiltrate in 12 hours or less
-(Galli, 1993).
-Maintenance of the buffer: The Planning Board will require the applicant to submit a
-maintenance agreement and a maintenance schedule for the buffer. These items need
-to be approved of by the board as part of the project.
-Grassed waterways need to be checked regularly to repair erosion problems, remove
-accumulated debris, and to check the condition and integrity of the check dams.
-The level of sediment deposition in the channel should be monitored regularly, and
-removed from grassed channels before permanent damage is done to the grassed
-vegetation, or if infiltration times are longer than 12 hours. Sediment should be
-removed from riprap channels when it reduces the capacity of the channel.
-F.
+6.
 
-For roads and driveways within Shoreland and Resource Protection Areas, additional design
-standards apply to these projects. See Article XIV, Shoreland Zoning, Section 15-H for requirements.
-For stream crossings, DEP permits must be obtained prior to Planning Board approval.
+Height. The height of proposed buildings shall be compatible with adjacent buildings.
+
+7.
+
+Proportion of building's front facade. The relationship of the width of the building to the height
+of the front elevation shall be visually compatible with buildings, structures and open spaces
+where it is visually related.
+
+8.
+
+Proportion of openings within the facade. The relationship of the width of the windows to the
+height of windows and doors in a building shall be visually compatible with that of windows
+and doors of buildings to which the building is visually related.
+
+9.
+
+Rhythm of solids to voids in front facades. The relationship of solids to voids in the front facade
+of a building shall be visually compatible with that of the buildings to which it is visually
+related.
+
+10. Rhythm of spacing of buildings on streets. The relationship of the building to the open space
+between it and adjoining buildings shall be visually compatible with that prevailing in the area
+to which it is visually related.
+11. Rhythm of entrance and/or porch projection. The relationship of entrances and porch projections
+to sidewalks of a building shall be visually compatible with that of buildings to which it is
+visually related.
+12. Relationship of materials and textures. The relationship of the materials and textures of the
+facade of a building shall be visually compatible with that of the predominant materials used in
+the buildings to which it is visually related.
+30. Editor's Note: Former Section 6, Archeological sites, adopted by Ord. of 11-20-1990, was repealed by Ord. of 9-15-1998(4).
+
+Section 7
+
+13. Roof shapes. The roof shape of a building shall be visually compatible with that of the buildings
+to which it is visually related.
+14. Scale of building. The size of the building, the building mass of a building in relation to open
+spaces, the windows, door openings, porches and balconies shall be visually compatible with
+those characteristics of buildings and spaces to which it is visually related.
+15. Directional expression of front elevation. A building shall be visually compatible with the
+building, squares and places to which it is visually related in its directional character, whether
+this shall be vertical character, horizontal character or nondirectional character.
+16. All additions along a right-of-way may not be set back from the property line. This may be
+waived if at least 60% of the building's front facade is on the property.
+B.
+
+New buildings constructed within the MSRD Districts.
+1.
+
+Parking lots shall be prohibited in side and front yards, except if the application involves the
+renovation of existing structures where such a configuration currently exists. In cases where
+such parking configurations exist, the parking area shall be screened from the street with
+landscaping or fencing not to exceed three feet in height. (Refer to Article VI Section 49, Offstreet parking, for further details).
+
+2.
+
+Site plans shall identify pedestrianways and connections from parking areas to streets.
+Pedestrian paths to, from and across parking lots to the street shall be required.
+
+3.
+
+All dumpsters and mechanical equipment shall be located 25 feet away from a right-of-way and
+shall be screened from view of a public street.
+
+4.
+
+Where a side setback exists it shall be at least 10 feet wide. Side yards of more than 10 feet shall
+be landscaped and may be used as driveways, pedestrian pathways and semipublic spaces, such
+as restaurant patios.
+
+5.
+
+All new buildings along a right-of-way may not be set back from the property line. This may be
+waived if at least 60% of the building's front facade is on the property line.
 
 ---
 
@@ -17686,241 +17618,53 @@ special flood hazard area.
 
 ---
 
-## CONTAINMENT WALL — A wall surrounding all sides of an above ground tank to contain any spills or
-leaks.
+## Conditional use review.
 
 **Citation:** LDR Art. XII, Sec. 7
 
-DEVELOPMENT — Any manmade change to improved or unimproved real estate. This includes, but is
-not limited to, buildings or other structures; mining, dredging, filling, grading, paving, excavation, drilling
-operations or storage of equipment or materials; and the storage, deposition, or extraction of materials.
-ELEVATED BUILDING — A nonbasement building that is:
+[Added 7-16-2024 by Ord. No. 2024.98]
+The Planning Board shall hear and decide upon applications for conditional uses provided for in this article.
+The Planning Board shall hear and approve, approve with conditions, or disapprove all applications for
+conditional uses. An applicant informed by the Code Enforcement Officer that a conditional use permit is
+required shall file an application for the permit with the Planning Board.
 A.
 
-Built, in the case of a building in Zones A or AE, so that the top of the elevated floor, or in the case
-of a building in Zone VE or Coastal AE Zone, to have the bottom of the lowest horizontal structural
-member of the elevated floor, elevated above the ground level by means of pilings, columns, posts,
-or piers; and
-
-Adequately anchored to not impair the structural integrity of the building during a flood of up to one
-foot above the magnitude of the base flood.
-In the case of Zones A or AE, "elevated building" also includes a building elevated by means of fill
-or solid foundation perimeter walls with hydraulic openings sufficient to facilitate the unimpeded
-movement of flood waters, as required in Section 6, Subsection N. In the case of Zone VE and
-Coastal AE Zone, "elevated building" also includes a building otherwise meeting the definition
-of elevated building, even though the lower area is enclosed by means of breakaway walls, if the
-breakaway walls meet the standards of Section 6, Subsection R.3.b(3).
-
-ELEVATION CERTIFICATE — An official form (FEMA Form FF-206-FY-22-152, as amended) that is
-used to verify compliance with the floodplain management regulations of the National Flood Insurance
-Program.
-EXISTING MANUFACTURED HOME PARK OR SUBDIVISION — A manufactured home park or
-subdivision that was recorded in the deed registry prior to the adoption date of the community's first
-floodplain management regulations.
-FLOOD ELEVATION STUDY — An examination, evaluation, and determination of flood hazards and, if
-appropriate, corresponding water surface elevations.
-FLOOD INSURANCE RATE MAP (FIRM) — An official map of a community, on which the Federal
-Insurance Administrator has delineated both the special hazard areas and the risk premium zones applicable
-to the community.
-FLOOD INSURANCE STUDY — See "Flood Elevation Study."
-FLOOD or FLOODING —
-A.
-
-B.
-
-A general and temporary condition of partial or complete inundation of normally dry land areas from:
+Review procedure for a conditional use flood hazard development permit.
 1.
 
-The overflow of inland or tidal waters.
+The flood hazard development permit application with additional information attached
+addressing how each of the conditional use criteria specified in this article will be satisfied may
+serve as the permit application for the conditional use permit.
 
 2.
 
-The unusual and rapid accumulation or runoff of surface waters from any source.
+Before deciding any application, the Planning Board shall hold a public hearing on the
+application within 30 days of their receipt of the application.
 
-The collapse or subsidence of land along the shore of a lake or other body of water as a result of
-erosion or undermining caused by waves or currents of water exceeding anticipated cyclical levels
-or suddenly caused by an unusually high water level in a natural body of water, accompanied by a
-severe storm, or by an unanticipated force of nature, such as flash flood or an abnormal tidal surge, or
-by some similarly unusual and unforeseeable event which results in flooding as defined in Subsection
-A.1 of this definition.
+3.
 
-FLOODPLAIN MANAGEMENT — The operation of an overall program of corrective and preventive
-measures for reducing flood damage, including but not limited to emergency preparedness plans, flood
-control works, and floodplain management regulations.
-FLOODPLAIN MANAGEMENT REGULATIONS — Zoning ordinances, subdivision regulations,
-building codes, health regulations, special purpose ordinances (such as a floodplain ordinance, grading
-ordinance, and erosion control ordinance), and other applications of police power. The term describes such
-state or local regulations, in any combination thereof, which provide standards for the purpose of flood
-damage prevention and reduction.
-FLOODPLAIN or FLOODPRONE AREA — Any land area susceptible to being inundated by water from
-any source (see Flood or Flooding).
-FLOODPROOFING — Any combination of structural and non-structural additions, changes, or
+If the Planning Board finds that the application satisfies all relevant requirements of the
+ordinance, the Planning Board must approve the application or approve with conditions within
+45 days of the date of the public hearing.
 
-Section 14
+4.
 
-Section 14
+A conditional use permit issued under the provisions of this article shall expire if the work or
+change involved is not commenced within 180 days of the issuance of the permit by the
+Planning Board.
 
-adjustments to structures which reduce or eliminate flood damage to real estate or improved real property,
-water and sanitary facilities, structures, and contents.
-FLOODWAY — See "Regulatory Floodway."
-FLOODWAY ENCROACHMENT LINES — The lines marking the limits of floodways on federal, state,
-and local floodplain maps.
-FREEBOARD — A factor of safety usually expressed in feet above a flood level for purposes of floodplain
-management. Freeboard tends to compensate for the many unknown factors, such as wave action, bridge
-openings, and the hydrological effect of urbanization of the watershed, which could contribute to flood
-heights greater than the height calculated for a selected size flood and floodway conditions.
-FUNCTIONALLY DEPENDENT USE — A use which cannot perform its intended purpose unless it is
-located or carried out in close proximity to water. The term includes only docking facilities, port facilities
-that are necessary for the loading and unloading of cargo or passengers, and ship building and ship repair
-facilities, but does not include long-term storage or related manufacturing facilities.
-HISTORIC STRUCTURE — Any structure that is:
-A.
+5.
 
-Listed individually in the National Register of Historic Places (a listing maintained by the Department
-of Interior) or preliminarily determined by the Secretary of the Interior as meeting the requirements
-for individual listing on the National Register;
+The applicant shall be notified by the Planning Board in writing over the signature of the
+Chairman of the Planning Board that flood insurance is not available for structures located
+entirely over water or seaward of mean high tide.
 
-B.
+Section 9
 
-Certified or preliminarily determined by the Secretary of the Interior as contributing to the historical
-significance of a registered historic district or a district preliminarily determined by the Secretary of
-the Interior to qualify as a registered historic district;
-
-C.
-
-Individually listed on a state inventory of historic places in states with historic preservation programs
-which have been approved by the Secretary of the Interior; or
-
-D.
-
-Individually listed on a local inventory of historic places in communities with historic preservation
-programs that have been certified either:
-1.
-
-By an approved state program as determined by the Secretary of the Interior, or
-
-2.
-
-Directly by the Secretary of the Interior in states without approved programs.
-
-LIMIT OF MODERATE WAVE ACTION (LiMWA) — The landward limit of the one-and-one-half-foot
-breaking wave within a Coastal AE Zone. These areas are bounded by a line labeled "Limit of Moderate
-Wave Action (LiMWA)" on a Flood Insurance Rate Map (FIRM). The LiMWA line delineates that portion
-of the special flood hazard area (SFHA) landward of a VE Zone in which the principal sources of flooding
-are astronomical high tides, storm surges, or tsunamis, not riverine sources. These areas may be subject to
-wave effects, velocity flows, erosion, scour, or combinations of these forces. The floodplain development
-and construction standards for VE Zones will be applied in the Coastal AE Zone.
-LOCALLY ESTABLISHED DATUM — For purposes of this article, an elevation established for a
-specific site to which all other elevations at the site are referenced. This elevation is generally not
-referenced to the National Geodetic Vertical Datum (NGVD), North American Vertical Datum (NAVD),
-or any other established datum and is used in areas where Mean Sea Level data is too far from a specific
-site to be practically used.
-LOWEST FLOOR — The lowest floor of the lowest enclosed area (including basement). An unfinished or
-flood resistant enclosure, usable solely for parking of vehicles, building access, or storage in an area other
-than a basement area is not considered a building's lowest floor, provided that such enclosure is not built
-so as to render the structure in violation of the applicable non-elevation design requirements described in
-
-Section 6, Subsection N of this article.
-MANUFACTURED HOME — A structure, transportable in one or more sections, which is built on a
-permanent chassis and is designed for use with or without a permanent foundation when connected to the
-required utilities. For floodplain management purposes the term manufactured home also includes park
-trailers, travel trailers, and other similar vehicles placed on a site for greater than 180 consecutive days.
-MANUFACTURED HOME PARK OR SUBDIVISION — A parcel (or contiguous parcels) of land
-divided into two or more manufactured home lots for rent or sale.
-MEAN SEA LEVEL — For the purposes of the National Flood Insurance Program, the National Geodetic
-Vertical Datum (NGVD) of 1929, North American Vertical Datum (NAVD), or other datum, to which base
-flood elevations shown on a community's Flood Insurance Rate Map are referenced.
-MINOR DEVELOPMENT — All development that is not new construction or a substantial improvement,
-such as repairs, maintenance, renovations, or additions, whose value is less than 50% of the market value
-of the structure. It also includes, but is not limited to: accessory structures as provided for in Section
-6, Subsection J, mining, dredging, filling, grading, paving, excavation, drilling operations, storage of
-equipment or materials, deposition or extraction of materials, public or private sewage disposal systems
-or water supply facilities that do not involve structures; and non-structural projects such as bridges, dams,
-towers, fencing, pipelines, wharves, and piers.
-NATIONAL GEODETIC VERTICAL DATUM (NGVD) — The national vertical datum, a standard
-established in 1929, which is used by the National Flood Insurance Program (NFIP). NGVD is based upon
-mean sea level in 1929 and has been called "1929 Mean Sea Level (MSL)."
-NEW CONSTRUCTION — Structures for which the "start of construction" commenced on or after the
-effective date of the initial floodplain management regulations adopted by a community and includes any
-subsequent improvements to such structures.
-NORTH AMERICAN VERTICAL DATUM (NAVD) — The national datum whose standard was
-established in 1988, which is the new vertical datum used by the National Flood Insurance Program
-(NFIP) for all new Flood Insurance Rate Maps. NAVD is based upon the vertical data used by other
-North American countries such as Canada and Mexico and was established to replace NGVD because of
-constant movement of the earth's crust, glacial rebound and subsidence, and the increasing use of satellite
-technology.
-RECREATIONAL VEHICLE — A vehicle that is:
-A.
-
-Built on a single chassis;
-
-B.
-
-Four hundred square feet or less when measured at the largest horizontal projection, not including
-slideouts;
-
-C.
-
-Designed to be self-propelled or permanently towable by a motor vehicle; and
-
-D.
-
-Designed primarily not for use as a permanent dwelling but as temporary living quarters for
-recreational, camping, travel, or seasonal use.
-
-REGULATORY FLOODWAY —
-A.
-
-The channel of a river or other watercourse and the adjacent land areas that must be reserved in order
-to discharge the base flood without cumulatively increasing the water surface elevation more than a
-designated height, and
-
-B.
-
-When not designated on the community's Flood Insurance Rate Map, it is considered to be the
-
-Section 14
-
-channel of a river or other watercourse and the adjacent land areas to a distance of one-half the width
-of the floodplain, as measured from the normal high water mark to the upland limit of the floodplain.
-RIVERINE — Relating to, formed by, or resembling a river (including tributaries), stream, brook, etc.
-SPECIAL FLOOD HAZARD AREA — See "Area of Special Flood Hazard."
-START OF CONSTRUCTION — The date the building permit was issued, provided the actual start of
-construction, repair, reconstruction, rehabilitation, addition, placement, substantial improvement, or other
-improvement was within 180 days of the permit date. The actual start means either the first placement of
-permanent construction of a structure on a site, such as the pouring of slab or flootings, the installation
-of piles, the construction of columns, or any work beyond the stage of excavation; or the placement of
-a manufactured home on a foundation. Permanent construction does not include land preparation, such
-as clearing, grading, and filling; nor does it include the installation of streets and/or walkways; nor does
-it include excavation for basement, footings, piers, or foundations or the erection of temporary forms;
-nor does it include the installation on the property of accessory buildings, such as garages or sheds not
-occupied as dwelling units or not part of the main structure. For a substantial improvement, the actual start
-of construction means the first alteration of any wall, ceiling, floor, or other structural part of a building, or
-modification of any construction element, whether or not that alteration affects the external dimensions of
-the building.
-STRUCTURE — For floodplain management purposes, a walled and roofed building. A gas or liquid
-storage tank that is principally above ground is also a structure.
-SUBSTANTIAL DAMAGE — Damage of any origin sustained by a structure whereby the cost of
-restoring the structure to its before damage condition would equal or exceed 50% of the market value of
-the structure before the damage occurred.
-SUBSTANTIAL IMPROVEMENT — Any reconstruction, rehabilitation, addition, or other improvement
-of a structure, the cost of which equals or exceeds 50% of the market value of the structure before the start
-of construction of the improvement. This term includes structures which have incurred substantial damage,
-regardless of the actual repair work performed. The term does not, however, include either:
-A.
-
-Any project for improvement of a structure to correct existing violations of state or local health,
-sanitary, or safety code specifications which have been identified by the local code enforcement
-official and which are the minimum necessary to assure safe living conditions; or
-
-B.
-
-Any alteration of a historic structure, provided that the alteration will not preclude the structure's
-continued designation as a historic structure, and a variance is obtained from the Board of Appeals.
-
-VARIANCE — A grant of relief by a community from the terms of a floodplain management regulation.
-VIOLATION — The failure of a structure or development to comply with a community's floodplain
-management regulations.
+Expansion of conditional uses. No existing building or use of premises may be expanded or enlarged
+without a permit issued under this section if that building or use was established or constructed under
+a previously issued conditional use permit or if it is a building or use which would require a
+conditional use permit if being newly-established or constructed under this article.
 
 ---
 

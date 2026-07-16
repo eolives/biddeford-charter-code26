@@ -2,7 +2,7 @@
 
 > As of 2026-07-14. Source: https://ecode360.com/BI3074
 
-_1397 records indexed._
+_1262 records indexed._
 
 > ⚠️ **Data quality note:** This corpus was parsed automatically from a PDF export downloaded from https://ecode360.com/BI3074 on 2026-07-14 — unlike data/source/charter.json, it was NOT hand-verified section by section (that was feasible for the Charter's 74 sections; it is not for a corpus this size). The parser strips repeated page headers/footers and splits on citation markers (e.g. 'Sec. 18-1.', 'Article VI'), picking the longest of the two occurrences of each section (the real content, vs. its entry in that chapter's table of contents) as the canonical text. Known limitations: a small number of '(Reserved)' placeholder sections may show a trailing title fragment from the next division; heading/body splitting uses the first sentence-ending period, which can occasionally cut a heading short if it contains an abbreviation. Always verify anything load-bearing — especially permitting, setback, or fee figures — against the live source.
 
@@ -185,8 +185,6 @@ widening, vacating, etc., any street or public way in the City;
 (4)
 
 Any ordinance or order establishing or prescribing grades in the City;
-
-Sec. 1-10
 
 (5)
 
@@ -417,8 +415,6 @@ Maine, Official Ward Map, Adopted by order of the Biddeford City Council, Octobe
 inch equals 2,000 feet, prepared by City of Biddeford, Maine Engineering Department-GIS Division and
 recorded in the City of Biddeford, Maine Engineering Department as Plan D-1900.
 
-Sec. 2-4
-
 ---
 
 ## Code of Ethics.
@@ -603,8 +599,6 @@ regular or special meeting open to the public following a good-faith determinati
 the member has engaged in conduct that is contrary to rules and regulations, impedes the orderly
 business of the board, commission or committee. The chairperson is encouraged to provide the
 
-Sec. 2-6
-
 member with a written warning identifying the conduct of concern and an opportunity for the member
 to participate in training or refresher prior to the initiation of a formal censure motion. The City
 Council shall use the following procedure when censuring an appointed board member, commission
@@ -673,28 +667,11 @@ commission. This removal provision shall not apply to elected officials.
 
 ---
 
-## Seal.
+## (Reserved, through Sec. 2-25)
 
 **Citation:** Sec. 2-6
 
-Election wards.
-Code of Ethics.
-Code of Ethics enforcement.
-Censure and removal.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-25
-
-2-27
-
-ARTICLE II
-CITY COUNCIL
+_No text — heading/divider record only._
 
 ---
 
@@ -708,26 +685,11 @@ the City of Biddeford, as follows:"
 
 ---
 
-## Ordinances, enacting style.
+## (Reserved, through Sec. 2-45)
 
 **Citation:** Sec. 2-27
 
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-45
-
-2-48
-
-ARTICLE III
-OFFICERS AND EMPLOYEES
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -771,27 +733,11 @@ of City departments shall be with the City Manager.
 
 ---
 
-## Subordinate officers to be
-sworn in.
+## (Reserved, through Sec. 2-55)
 
 **Citation:** Sec. 2-48
 
-Establishment of City
-Departments.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-55
-
-2-57
-
-DIVISION 2
-CITY CLERK
+_No text — heading/divider record only._
 
 ---
 
@@ -815,26 +761,11 @@ available for public examination on demand.
 
 ---
 
-## Duty to submit monthly
-reports; contents; reports to be
-on file and available to public.
+## (Reserved, through Sec. 2-65)
 
 **Citation:** Sec. 2-57
 
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-65
-
-2-73
-
-DIVISION 3
-CITY SOLICITOR
+_No text — heading/divider record only._
 
 ---
 
@@ -952,37 +883,11 @@ to the City Solicitor, such counsel may be engaged at the expense of the City.
 
 ---
 
-## ARTICLE III
+## (Reserved, through Sec. 2-85)
 
 **Citation:** Sec. 2-75
 
-OFFICERS AND EMPLOYEES
-DIVISION 1
-GENERALLY
-
----
-
-## (Reserved)
-
-Duties, responsibilities
-generally.
-
-**Citation:** Sec. 2-85
-
-Duty to keep account of City
-property, debts and obligations.
-Duty to direct, supervise
-manner of keeping books,
-accounts; duty to keep books;
-contents of books.
-Duty to submit annual financial
-reports; contents of report.
-Duty to submit monthly
-statement; contents of
-statement.
-Clerk of Finance Committee.
-
-ADMINISTRATION
+_No text — heading/divider record only._
 
 ---
 
@@ -1053,26 +958,11 @@ Performs other technical and engineering tasks as directed by the Director of Pu
 
 ---
 
-## Qualifications.
+## (Reserved, through Sec. 2-100)
 
 **Citation:** Sec. 2-89
 
-Nomination.
-Duties.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-100
-
-2-107
-
-DIVISION 5
-CITY AUDITOR
+_No text — heading/divider record only._
 
 ---
 
@@ -1161,46 +1051,20 @@ and such other financial information as the Council may direct.
 
 ---
 
-## Duty to draft bonds, deeds,
-other legal instruments.
+## Clerk of Finance Committee.
 
 **Citation:** Sec. 2-106
 
-Duty to render opinions
-generally.
-Duty to render opinions
-regarding duties of City
-officers.
-Duty to pay over moneys to
-Treasurer.
-Duty to make annual report;
-contents; report to be
-published.
-Compensation; retainer.
-Engaging additional legal
-counsel authorized.
-through
+[Code 1975, § 2-173]
+The City Auditor shall be the Clerk of the Finance Committee.
 
 ---
 
-## through
+## (Reserved, through Sec. 2-115)
 
 **Citation:** Sec. 2-107
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-115
-
-2-118
-
-DIVISION 6
-CITY TREASURER
 
 ---
 
@@ -1480,30 +1344,11 @@ following its acceptance by the City Council.
 
 ---
 
-## Bond required; conditions.
+## (Reserved, through Sec. 2-150)
 
 **Citation:** Sec. 2-119
 
-Duties and responsibilities.
-Procedural policy for
-disposition of foreclosed
-property.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-150
-
-2-153
-
-ARTICLE IV
-BOARDS, COMMITTEES, COMMISSIONS
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -1528,26 +1373,11 @@ in the Chambers of the City Council.
 
 ---
 
-## Roberts Rules of Order.
+## (Reserved, through Sec. 2-160)
 
 **Citation:** Sec. 2-153
 
-Internet access by members
-during public meetings.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-160
-
-2-165
-
-DIVISION 2
-EMERGENCY MANAGEMENT STAFF
+_No text — heading/divider record only._
 
 ---
 
@@ -1636,41 +1466,17 @@ consistent with the state civil emergency preparedness and public safety plan an
 
 [Code 1975, § 2-85; amended 4-6-2010 by Ord. No.
 
-Sec. 2-166
-
 2010.26]
 The officers and personnel of all City departments are directed to cooperate with and extend their services
 and facilities, to every reasonable extent, to the Director of the Emergency Management Staff upon request.
 
 ---
 
-## Organization created;
-membership.
+## (Reserved, through Sec. 2-175)
 
 **Citation:** Sec. 2-166
 
-Director nominated; duties
-generally.
-Duties of organization.
-Mutual aid arrangements.
-City departments to cooperate.
-through
-
----
-
-## (Reserved)1
-
-1.
-
-**Citation:** Sec. 2-175
-
-Editor’s Note: Former Section 2-166, Unlawful to disregard civil emergency preparedness test, police orders during tests; penalty,
-was repealed 4-6-2010 by Ord. No. 2010.26.
-
-Sec. 2-183
-
-DIVISION 3
-COMMISSION ON ECONOMIC IMPROVEMENT
+_No text — heading/divider record only._
 
 ---
 
@@ -1720,15 +1526,12 @@ appointments are made.
 
 ---
 
-## Established.
+## Quorum.
 
 **Citation:** Sec. 2-180
 
-"Commission" defined.
-Composition; appointment of
-Commissioners; terms of office.
-Filling of vacancies.
-Quorum.
+[Code 1975, § 2-102]
+Four Commissioners shall constitute a quorum.
 
 ---
 
@@ -1772,8 +1575,6 @@ To perform such other functions as may be required for economic development.
 [Code 1975, § 2-103]
 The Commission shall act by majority vote of those present and voting, except that an absolute majority of
 three shall be required for actions taken under Section 2-189.
-
-Sec. 2-194
 
 ---
 
@@ -1887,45 +1688,11 @@ Sec. 2-194
 
 ---
 
-## Functions and purposes.
+## (Reserved, through Sec. 2-205)
 
 **Citation:** Sec. 2-194
 
-Required vote.
-Annual election of Chairman.
-Management of Commission.
-Nomination of director.
-Director to perform assigned
-duties.
-Director to supervise
-Commission's activities.
-Director to submit budget,
-reports.
-Director, Chairman to execute
-contracts and agreements.
-Authority to establish
-subcommittees.
-Authority of Council to assign
-powers, duties to Commission.
-Council authorized to designate
-Commission as agent for City.
-Expenditures.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-205
-
-2-194
-
-Sec. 2-214
-
-DIVISION 4
-CONSERVATION COMMISSION
+_No text — heading/divider record only._
 
 ---
 
@@ -2057,28 +1824,13 @@ The members of such committees shall not be Commissioners on the Conservation Co
 
 ---
 
-## Created.
+## Duty to conduct research, coordinate conservation activities.
 
 **Citation:** Sec. 2-217
 
-Composition; appointment of
-Commissioners; terms of office.
-Filling of vacancies.
-Quorum at meetings.
-Election of officers.
-Chair to call meetings and
-preside.
-Vice Chair's power in absence
-of Chair.
-Majority vote required.
-Secretary's duties.
-Administration of Commission.
-Authority to establish
-committees; membership
-restricted.
-Duty to conduct research,
-coordinate conservation
-activities.
+[Code 1975, § 2-136]
+The Conservation Commission shall conduct research in conjunction with the Planning Board into the local
+land areas and shall seek to coordinate the activities of Conservation bodies organized for similar purposes.
 
 ---
 
@@ -2120,7 +1872,7 @@ Board.
 
 ---
 
-## through
+## (Reserved, through Sec. 2-230)
 
 **Citation:** Sec. 2-221
 
@@ -2128,41 +1880,11 @@ _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-**Citation:** Sec. 2-230
-
-DIVISION 5
-(RESERVED)2
-
----
-
-## Authority to advertise, print,
-distribute books, maps, plans
-and pamphlets.
+## (Reserved, through Sec. 2-250)
 
 **Citation:** Sec. 2-231
 
-Index of open areas and
-working landscapes; purpose.
-To work in advisory capacity.
-through
-
----
-
-## (Reserved)
-
-2.
-
-**Citation:** Sec. 2-250
-
-Editor's Note: Former Division 5, which contained provisions on the Community Development Commission, was repealed 7-16-2002
-by Ord. No. 2002.63.
-
-Sec. 2-255
-
-DIVISION 6
-DOWNTOWN DEVELOPMENT COMMISSION
+_No text — heading/divider record only._
 
 ---
 
@@ -2249,8 +1971,6 @@ Commission, for consideration by the Policy Committee and City Council.
 
 Perform such other functions as may be required or delegated by the Mayor or City Council.
 
-Sec. 2-265
-
 ---
 
 ## Filling of vacancies.
@@ -2306,29 +2026,11 @@ Development or designee.
 
 ---
 
-## through
+## (Reserved, through Sec. 2-261)
 
 **Citation:** Sec. 2-260
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Director to supervise
-Commission activities.
-
-**Citation:** Sec. 2-261
-
-Chair to submit budget,
-reports.
-Authority to establish
-subcommittees.
-Authority of Council to assign
-powers, duties.
-Designation as agent for City.
-Expenditures.
-through
 
 ---
 
@@ -2406,66 +2108,19 @@ of Ordinances, Procurement, Sec. 2-331 et seq.
 
 ---
 
-## DIVISION 8
-BOARD OF ASSESSMENT REVIEW
-
-Established.
+## (Reserved, through Sec. 2-280)
 
 **Citation:** Sec. 2-268
 
-"Commission" defined.
-Composition; appointment of
-Commissioners; terms of office;
-removal of members.
-Functions and purposes.
-Filling of vacancies.
-Quorum.
-Required vote.
-Annual election of Chairman.
-Management of Commission.
-through
+_No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-**Citation:** Sec. 2-280
-
-DIVISION 7
-(RESERVED)5
-
----
-
-## Adopted.
+## (Reserved, through Sec. 2-295)
 
 **Citation:** Sec. 2-281
 
-Composition.
-Appointment of members.
-Terms of office of members.
-Compensation.
-Duty to review tax appeals.
-Authority to review tax
-assessments.
-Political activities of members
-restricted.
-through
-
----
-
-## (Reserved)
-
-5.
-
-**Citation:** Sec. 2-295
-
-Editor's Note: Former Division 7, Cultural Affairs Commission, adopted 11-19-1991, as amended, was repealed 10-5-2010 by Ord.
-No. 2010.103.
-
-Sec. 2-304
-
-DIVISION 8
-BOARD OF ASSESSMENT REVIEW
+_No text — heading/divider record only._
 
 ---
 
@@ -2547,25 +2202,11 @@ understood under the Hatch Act.
 
 ---
 
-## DIVISION 9
+## (Reserved, through Sec. 2-305)
 
 **Citation:** Sec. 2-304
 
-RECREATION COMMISSION
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-305
-
-2-308
-
-DIVISION 9
-RECREATION COMMISSION6
-[Added 1-17-2017 by Ord. No. 2017.3]
+_No text — heading/divider record only._
 
 ---
 
@@ -2739,24 +2380,11 @@ The Recreation Commission will review and approve marketing activities.
 
 ---
 
-## through
+## (Reserved, through Sec. 2-311)
 
 **Citation:** Sec. 2-310
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-311
-
-2-314
-
-DIVISION 10
-PROJECT CANOPY COMMITTEE
 
 ---
 
@@ -2820,11 +2448,6 @@ If a vacancy in the membership of the Committee occurs, the Mayor shall nominate
 the vacancy within a period not to exceed 30 days of its occurrence. The nomination shall be subject
 to the confirmation of the City Council. The person named to fill a vacancy shall serve until the
 normal expiration date of the term being filled.
-
-Sec. 2-319
-
-DIVISION 11
-FIRE ADVISORY COMMITTEE
 
 ---
 
@@ -2905,11 +2528,6 @@ through 2-319, respectively as the Code already contained Sections 2-326 through
 8.
 
 Editor's Note: Former Sec. 2-319, Meetings, added 1-3-2017 by Ord. No. 2016.118; was repealed 10-21-2025 by Ord. No. 2025.127.
-
-Sec. 2-325
-
-DIVISION 12
-POLICE ADVISORY COMMITTEE
 
 ---
 
@@ -3000,11 +2618,6 @@ through 2-324, respectively as the Code already contained Sections 2-341 through
 10. Editor's Note: Former Sec. 2-324, Meetings, added 1-3-2017 by Ord. No. 2016.118; amended 12-15-2020 by Ord. No. 2020.84; was
 repealed 10-21-2025 by Ord. No. 2025.127.
 
-Sec. 2-329
-
-DIVISION 13
-DIVERSITY, EQUITY AND INCLUSION COMMITTEE
-
 ---
 
 ## Established.
@@ -3091,8 +2704,6 @@ diversity, equity, and inclusion;
 (3)
 
 Make recommendations to the Council on public engagement strategies and methods by which
-
-Sec. 2-337
 
 all Biddeford residents have the opportunity to better participate in the decision-making process;
 (4)
@@ -3304,8 +2915,6 @@ must be unobtrusive and consistent across all City gifts to ensure uniformity.
 
 Memorials cannot have a commercial appearance or corporate label.
 
-Sec. 2-342
-
 DIVISION 1A
 MILITARY PERSONNEL TAX EXEMPTION
 [Added 4-4-2017 by Ord. No. 2017.9]
@@ -3365,14 +2974,9 @@ and shall remain in effect unless and until it or 36 M.R.S.A. § 1483-A is repea
 
 ## (Reserved)
 
-Sec.
-
 **Citation:** Sec. 2-342
 
-2-345
-
-DIVISION 2
-PROCUREMENT
+_No text — heading/divider record only._
 
 ---
 
@@ -3439,8 +3043,6 @@ CONSTRUCTION — The process of building, altering, repairing, improving or demo
 structure or building, or other public improvements of any kind to any public real property. It does not
 include the routine operation, routine repair or routine maintenance of existing structures, buildings or real
 property.
-
-Sec. 2-347
 
 CONTRACT — All types of agreements, regardless of what they may be called, for the procurement of
 supplies, services or construction.
@@ -3761,8 +3363,6 @@ most advantageous to the City, taking into consideration price and the evaluatio
 the request for proposals. No other factors or criteria shall be used in the evaluation. The contract file
 shall contain the basis on which the award is made. When finalized by the Purchasing Agent, proposal
 
-Sec. 2-351
-
 results will be processed and awarded in the same manner as and under the same dollar thresholds as
 idententified in Section 2-348(g).
 
@@ -3928,8 +3528,6 @@ b.
 
 Purchases of goods or services that exceed the estimated project costs shall remain subject
 to the requirements of the tiered review thresholds established under Section 2-348(g),
-
-Sec. 2-356
 
 unless the City Council explicitly exempts such purchases through its project approval
 vote.
@@ -4224,69 +3822,32 @@ would properly be charged has been fully expended, or when such payment would ov
 department's appropriation without approval of the City Manager who will then report such overages
 to the Finance Committee.
 
-DIVISION 3
-(RESERVED)
-
 ---
 
-## Exempting eligible active-duty
-military personnel from vehicle
-excise tax.
+## (Reserved, through Sec. 2-365)
 
 **Citation:** Sec. 2-364
 
-(Reserved)
+_No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-365
-
-2-364
-
-Sec. 2-367
-
-DIVISION 4
-BONDS AND NOTES
-
----
-
-## DIVISION 2
-PROCUREMENT
-
-Competitive sealed bidding.
+## Notes to be countersigned, recorded.
 
 **Citation:** Sec. 2-366
 
-Competitive sealed proposals.
-Contracting for professional
-services.
-Small purchases.
-Sole source procurement and
-reporting exceptions.
-Emergency procurements.
-Cancellation of invitation for
-bids or requests for proposals.
-Responsibility for selection of
-methods of construction
-contract management.
-Bid security.
-Contract performance and
-payment bonds.
-Maximum practicable
-competition.
-Brand name or equal
-specification.
-Brand name specification.
-Finance Committee may
-examine and order payments.
-Signed statement required.
-Finance Director forbidden to
-pay or honor certain bills,
-warrants.
+[Code 1975, § 2-158]
+(a)
+
+When it shall become the duty of the Treasurer to sign any note by the passage of any order or
+ordinance authorizing him to do so, such note shall be countersigned by the Mayor and attested by
+the City Clerk.
+
+(b)
+
+The Treasurer shall keep a record of all notes countersigned by him in a book to be kept by him for
+that purpose. He shall record the amount of each note so signed, the date, name of payee, for what
+object, when payable, the rate of interest and the fact and date of payment.
 
 ---
 
@@ -4323,34 +3884,16 @@ Countersigned
 
 , Treasurer
 
-Sec. 2-368
 , Mayor
 , City Clerk
 
 ---
 
-## Notes to be countersigned,
-recorded.
+## (Reserved, through Sec. 2-370)
 
 **Citation:** Sec. 2-368
 
-Form of notes.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-370
-
-2-372
-
-DIVISION 5
-UNRESTRICTED FUND BALANCE POLICY
-[Ord. of 2-16-1999(1); Ord. No. 2000.91, 10-26-2000; amended 4-1-2014 by Ord. No. 2014.24;
-6-5-2018 by Ord. No. 2018.45]
+_No text — heading/divider record only._
 
 ---
 
@@ -4571,16 +4114,11 @@ stating how the deficit will be handled.
 
 ---
 
-## Unassigned fund balance.
+## (Reserved)
 
 **Citation:** Sec. 2-375
 
-Other provisions.
-(Reserved)
-
-DIVISION 6
-OPIOID USE SETTLEMENT FUND
-TRACKING AND REPORTING
+_No text — heading/divider record only._
 
 ---
 
@@ -4738,34 +4276,11 @@ process.
 
 ---
 
-## Purpose and title.
+## (Reserved, through Sec. 2-400)
 
 **Citation:** Sec. 2-382
 
-Establishment of a dedicated
-account.
-Use of funds.
-Reporting requirements.
-Strategic planning.
-Implementation and review.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 2-400
-
-2-403
-
-ARTICLE VI
-CABLE TELEVISION COMMITTEE; PUBLIC, EDUCATION AND GOVERNMENTAL (PEG)
-ACCESS
-[Ord. Of 5-21-1996; Amended By Ords. Of 2-17-1998(1); 4-21-1998(3); 12-15-1998(1); 8-17-1999 By
-Ord. No. 99.69; 5-13-2002 By Ord. No. 2002.47; 2-18-2003 By Ord. No. 2003.28; 2-17-2004 By Ord.
-No. 2004.11; 3-16-2004 By Ord. No. 2004.23; 10-15-2013 By Ord. No. 2013.83]
+_No text — heading/divider record only._
 
 ---
 
@@ -4918,8 +4433,6 @@ commercial advertising of a product or service; any form of lottery; any materia
 or slanderous in a court of law; and any other material which is defined as indecent; obscene or violent
 by the courts or any applicable federal law or regulation.
 
-Sec. 2-413
-
 ---
 
 ## Liability.
@@ -4993,50 +4506,11 @@ part of the franchisee fee obligation of the franchisee.
 
 ---
 
-## through
+## (Reserved, through Sec. 2-412)
 
 **Citation:** Sec. 2-411
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Disputes.
-
-**Citation:** Sec. 2-412
-
-(Reserved)
-
-GENERAL REFERENCES
-Charter — See Part I of Code.
-
-Personnel — See Ch. 50.
-
-Aviation administration — See Ch. 14, Art. II
-
-Director of Public Works — See Ch. 62, Art. II.
-
-Building Inspector — See Ch. 18, Art. II, Div. 2.
-
-Wastewater Management Commission — See Ch. 70, Art. II, Div.
-2.
-
-Superintendent of Burials — See Ch. 26, Art. II, Div. 2.
-Harbormaster — See Ch. 74, Art. II, Div. 2.
-Air toxics control administration — See Ch. 34, Art. IV, Div. 2.
-Harbor Commission — See Ch. 74, Art. II, Div. 3.
-Fire Prevention Bureau — See Ch. 38, Art. II.
-Rules of City Council — See Appendix A.
-Recreation Commission — See Ch. 46, Art. II.
-Board of Appeals — See Land Development Regulations, Art. IX.
-Recreation Director — See Ch. 46, Art. III.
-Planning Board — See Land Development Regulations, Art. X.
-
-Sec. 2-3
-
-ARTICLE I
-IN GENERAL
 
 ---
 
@@ -5055,22 +4529,11 @@ the City Manager to be held in consultation with the Cable Committee.
 
 ---
 
-## Established; purpose.
+## (Reserved)
 
 **Citation:** Sec. 2-414
 
-Definitions.
-Cable Television Committee.
-Public, educational and
-governmental (PEG) access TV
-center; Access Director.
-Franchise fee.
-Scheduling.
-Prohibitions.
-Liability.
-Programming rules.
-Franchising process.
-through
+_No text — heading/divider record only._
 
 ---
 
@@ -5082,28 +4545,11 @@ _No text — heading/divider record only._
 
 ---
 
-## ARTICLE III
+## (Reserved, through Sec. 6-25)
 
 **Citation:** Sec. 6-1
 
-ALCOHOLIC BEVERAGE
-ESTABLISHMENTS
-
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 6-25
-
-DIVISION 1
-GENERALLY
-
-ARTICLE II
-DANCES AND DANCE HALLS
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -5143,27 +4589,11 @@ No ticket shall be sold or accepted for admission to a dance after midnight.
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 6-40)
 
 **Citation:** Sec. 6-29
 
-Termination of dances.
-Sale of ticket, admission to
-dance after midnight.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 6-40
-
-6-46
-
-DIVISION 2
-DANCE HALL LICENSE
+_No text — heading/divider record only._
 
 ---
 
@@ -5238,30 +4668,11 @@ and shall be a safe and suitable place for the purpose for which it is to be use
 
 ---
 
-## Required.
+## (Reserved, through Sec. 6-55)
 
 **Citation:** Sec. 6-46
 
-Application.
-Prerequisites to issuance.
-Licensee's duty to maintain hall
-in sanitary, safe manner.
-Requirements for dance halls
-generally.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 6-55
-
-6-60
-
-DIVISION 3
-DANCE LICENSE
+_No text — heading/divider record only._
 
 ---
 
@@ -5312,28 +4723,11 @@ and time of each dance. Such continuous licenses may be issued quarterly.
 
 ---
 
-## Required.
+## (Reserved, through Sec. 6-80)
 
 **Citation:** Sec. 6-60
 
-Application.
-Number of dances authorized
-under license restricted.
-License may authorize several
-dances.
-through
-
----
-
-## (Reserved)
-
-Admission charge.
-
-**Citation:** Sec. 6-80
-
-Penalty for violation of article;
-notice for noise violation.
-through
+_No text — heading/divider record only._
 
 ---
 
@@ -5361,32 +4755,11 @@ Subsequent violations will subject the alleged violator to sanctions set out in 
 
 ---
 
-## DIVISION 2
+## (Reserved, through Sec. 6-95)
 
 **Citation:** Sec. 6-83
 
-SPECIAL AMUSEMENT PERMIT
-
----
-
-## (Reserved)
-
-Definitions.
-
-**Citation:** Sec. 6-95
-
-Purpose.
-Dancing, entertainment in
-Class A restaurants.
-Required; application; fee;
-permit conditions.
-Inspections.
-Suspension or revocation of
-permit.
-Permit issuance and appeals
-procedures.
-Regulation of noise.
-through
+_No text — heading/divider record only._
 
 ---
 
@@ -5534,8 +4907,6 @@ officer shall record the findings by completing a compliance report.
 In addition to any other penalty which may be provided, the City Council may revoke the special
 amusement permit of any licensee in the municipality who refuses to permit any such officer, official
 
-Sec. 6-103
-
 or employee to make an inspection or take sufficient samples pursuant to Section 34-58 of this Code
 or who interferes with such officer, official or employee while in the performance of his duties,
 provided that no license or special amusement permit shall be revoked unless written demand for the
@@ -5669,24 +5040,11 @@ which results in disturbing the peace and tranquility of the neighborhood.
 
 ---
 
-## DIVISION 3
+## (Reserved, through Sec. 6-139)
 
 **Citation:** Sec. 6-104
 
-DANCE LICENSE
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 6-139
-
-6-143
-
-ARTICLE IV
-SPECIAL EVENTS
+_No text — heading/divider record only._
 
 ---
 
@@ -5852,8 +5210,6 @@ necessitated by the event.
 
 The application must describe the event coordinator's notification plan for the residents and/or
 
-Sec. 6-146
-
 businesses in the area that could be affected by the special event. At the least, this shall include a
 public notification shared online or in print at least 30 days before the event and a mass mailing to the
 residents and/or business in the area.
@@ -6006,13 +5362,6 @@ against claims by the City for excessive damage to real or personal property in 
 [4-19-2011 by Ord. No. 2011.26; amended 6-18-2024 by Ord. No. 2024.92]
 Any person firm or organization who has been denied a special event permit may appeal to the City
 Manager for reconsideration.
-
-Sec. 6-153
-
-ARTICLE V
-SALES, POSSESSION AND CONSUMPTION OF LIQUOR AT AND DURING SPECIAL
-EVENTS ON CITY PUBLIC PROPERTY
-[Adopted 5-16-2017 By Ord. No. 2017.36]
 
 ---
 
@@ -6174,8 +5523,6 @@ age may serve, possess and/or consume liquor.
 closing time of the special event.
 (14) All liquor and related containers must be removed from the premises immediately after the
 
-Sec. 6-156
-
 event. The applicant must provide appropriate cleaning of the area sufficient to eliminate any
 liquor residue or smell on the premises.
 (15) An adequate supply of food must be served and available to persons attending the special event.
@@ -6251,28 +5598,12 @@ entity.
 
 ---
 
-## Properties authorized for
-special events.
+## Prohibited acts.
 
 **Citation:** Sec. 6-156
 
-Reviewing authority.
-Restrictions and permissions.
-Termination of activity.
-Assignment.
-Prohibited acts.
-
-GENERAL REFERENCES
-Buildings — See Ch. 18.
-
-Noise — See Ch. 34, Art. III.
-
-Businesses — See Ch. 22.
-
-Miscellaneous provisions and offenses — See Ch. 40.
-
-ARTICLE I
-IN GENERAL
+Except as authorized herein, liquor may not be sold, served or consumed at any of the City's athletic fields
+or playgrounds.
 
 ---
 
@@ -6374,29 +5705,11 @@ Sec. 10-4
 
 ---
 
-## through
+## (Reserved, through Sec. 10-25)
 
 **Citation:** Sec. 10-4
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-ANIMALS
-
-Sec.
-
-**Citation:** Sec. 10-25
-
-10-4
-
-Sec. 10-31
-
-ARTICLE II
-DOGS
-[Code 1975, §§ 5-21 through 5-32 and 5-35; amended in its entirety 4-16-2019 by Ord. No. 2019.27]
 
 ---
 
@@ -6465,8 +5778,6 @@ specially designated "off leash" areas.
 Off-leash areas: All dogs must be within 50 feet of owner or keeper and be under voice control. "Voice
 control" is defined as being able to immediately call the dog back with one call.
 Off-leash areas within the City include:
-
-Sec. 10-36
 
 (1)
 
@@ -6562,33 +5873,11 @@ Sec. 10-36
 
 ---
 
-## ARTICLE III
+## (Reserved, through Sec. 10-54)
 
 **Citation:** Sec. 10-36
 
-DOMESTICATED CHICKENS
-
-ARTICLE II
-DOGS
-
----
-
-## (Reserved)
-
-Definitions.
-
-**Citation:** Sec. 10-54
-
-License, record and tag
-requirements.
-Impoundment authorized;
-disposal of unclaimed dogs.
-Reclaiming after impoundment.
-Notifying owner as alternative
-to impoundment.
-Running at large on public
-ways prohibited; restraint
-required.
+_No text — heading/divider record only._
 
 ---
 
@@ -6721,27 +6010,12 @@ long as the ten-foot setback is met. A henhouse shall not be placed in a front y
 
 ---
 
-## GENERAL REFERENCES
-Parks and recreation — See Ch.
+## Prohibit acts.
 
 **Citation:** Sec. 10-63
 
-46.
-
-Purpose.
-Permit required.
-Fencing and screening.
-Waste storage and removal.
-Lighting.
-Proximity to bodies of water.
-Insects and parasites; rodents.
-Number of animals per lot.
-Prohibit acts.
-
-Sec. 10-4
-
-ARTICLE I
-IN GENERAL
+No person shall sell eggs or engage in chicken breeding or fertilizer production for commercial purposes.
+The slaughtering of chickens is prohibited.
 
 ---
 
@@ -6807,66 +6081,19 @@ having legal custody, care and control thereof shall be subject to the penalty p
 
 ---
 
-## ARTICLE I
+## (Reserved, through Sec. 14-25)
 
 **Citation:** Sec. 14-3
-
-IN GENERAL
-
----
-
-## (Reserved)
-
-12.
-
-**Citation:** Sec. 14-25
-
-Editor's Note: The definition of "Municipal Airport Supervisor," added 2-4-2014 by Ord. No. 2014.8, which immediately followed,
-was repealed 6-7-2016 by Ord. No. 2016.41.
-
-ARTICLE II
-ADMINISTRATION
-DIVISION 1
-GENERALLY
-
----
-
-## through
-
-**Citation:** Sec. 14-26
 
 _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-DIVISION 2
-AIRPORT COMMISSION
-Established.
+## (Reserved, through Sec. 14-35)
 
-**Citation:** Sec. 14-35
+**Citation:** Sec. 14-26
 
-Purposes.
-Composition; qualification of
-Commissioners; appointment;
-terms of office.
-Filling vacancies.
-Election of officers.
-Chairman to call meetings and
-preside.
-Quorum at meetings.
-
-Majority vote required.
-Vice Chairman's power in
-absence of Chairman.
-Secretary's duties.
-Administration by
-Commissioners.
-Authority to establish
-committees; membership
-restricted.
-Designation as agent for City.
-through
+_No text — heading/divider record only._
 
 ---
 
@@ -7034,24 +6261,11 @@ relating to the federal government, the state, other cities and towns or persons
 
 ---
 
-## DIVISION 1
+## (Reserved, through Sec. 14-60)
 
 **Citation:** Sec. 14-49
 
-GENERALLY
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 14-60
-
-14-69
-
-DIVISION 3
-AIRPORT MANAGER
+_No text — heading/divider record only._
 
 ---
 
@@ -7134,31 +6348,12 @@ The salary of the Airport Manager shall be determined by the City Manager.
 
 ---
 
-## Nomination.
+## Removal.
 
 **Citation:** Sec. 14-69
 
-Tenure.
-Duties.
-Supervision of airport
-operations.
-Attendance at Commission
-meetings.
-Duty to submit budget, report.
-Duty to obtain licenses for
-operation of airport.
-Salary.
-Removal.
-
-GENERAL REFERENCES
-General penalty — See Ch. 1.
-
-Administration — See Ch. 2.
-
-Sec. 14-3
-
-ARTICLE I
-IN GENERAL
+[Code 1975, § 3-38]
+The Airport Manager may be removed from office pursuant to the Charter.
 
 ---
 
@@ -7245,8 +6440,6 @@ Upon receiving twenty-four-hour notice including reasons for and scope of the re
 access to the premises, a tenant shall grant the landlord of the dwelling unit, the landlord's agent
 or the landlord's pest control agent and its employees access to the unit for purposes of an
 
-Sec. 18-24
-
 inspection for or control of the infestation of bedbugs. The initial inspection may include only
 a visual inspection and manual inspection of the tenant's bedding and upholstered furniture.
 Employees of the pest control agent may inspect items other than bedding and upholstered
@@ -7270,26 +6463,11 @@ section, The City of Biddeford may impose a fine pursuant to Biddeford Code of O
 
 ---
 
-## through
+## (Reserved, through Sec. 18-21)
 
 **Citation:** Sec. 18-2
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Notices and orders.
-
-**Citation:** Sec. 18-21
-
-Form.
-Method of service.
-Notice and service by other
-means.
-
-DIVISION 3
-PERMITS; FEE SCHEDULE
 
 ---
 
@@ -7402,14 +6580,6 @@ summons; and
 
 The completed summons is properly recorded in the District Court of the State of Maine having
 jurisdiction over the violation.
-
-Sec. 18-28
-
-ARTICLE II
-BUILDINGS
-DIVISION 1
-Registrations and Inspections
-[Added 1-3-2019 by Ord. No. 2018.145]
 
 ---
 
@@ -7560,31 +6730,11 @@ paid in full.
 
 ---
 
-## Purpose.
+## (Reserved, through Sec. 18-35)
 
 **Citation:** Sec. 18-31
 
-Definitions.
-Multifamily dwelling unit
-ownership/registration.
-Inspections.
-Violations and enforcement.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 18-35
-
-18-31
-
-Sec. 18-45
-
-DIVISION 2
-BUILDING INSPECTOR
+_No text — heading/divider record only._
 
 ---
 
@@ -7618,24 +6768,11 @@ Official without his written consent.
 
 ---
 
-## through
+## (Reserved, through Sec. 18-41)
 
 **Citation:** Sec. 18-39
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Accounting, disposition of
-funds.
-
-**Citation:** Sec. 18-41
-
-Monthly report to Council;
-contents of report.
-Keeping reports on file.
-through
 
 ---
 
@@ -7672,29 +6809,11 @@ available for public examination on demand.
 
 ---
 
-## Nomination.
+## (Reserved, through Sec. 18-59)
 
 **Citation:** Sec. 18-45
 
-Qualifications.
-Records to be available for
-public inspection.
-through
-
----
-
-## (Reserved)
-
-13.
-
-**Citation:** Sec. 18-59
-
-Editor's Note: This ordinance also repealed former Art. II, which contained provisions on buildings.
-
-Sec. 18-61
-
-DIVISION 3
-PERMITS; FEE SCHEDULE
+_No text — heading/divider record only._
 
 ---
 
@@ -7897,78 +7016,80 @@ the City Council.
 
 In making a determination as to the adequacy of access to any house lot, the inspector (Building
 
-Sec. 18-64
-
 Inspector, City Engineer or Director of Public Works) will consider the width, grades, condition of
 surface, drainage features, and any other condition which may result in future deterioration of the
 adequacy of access to the subject lot.
 
 ---
 
-## ARTICLE II
+## (Reserved, through Sec. 18-75)
 
 **Citation:** Sec. 18-64
 
-BUILDINGS
-DIVISION 1
-Registrations and Inspections
+_No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-Permission required.
-
-**Citation:** Sec. 18-75
-
-Penalty for violation of
-division; continuing violations.
-Bond.
-
----
-
-## 1
+## 1.
 
 **Citation:** Sec. 18-76
 
-(12) Section 1612.3, Establishment of flood hazard areas (page 300): Insert "City of Biddeford" and
-"November 20, 1990."
-(13) Section 1612.4, Design and construction (page 301): Delete the period at the end of the section
-and insert "and Article XII of the Code of the City of Biddeford."
-(14) Section 2111, Masonry Fireplaces (page 427): Delete entire section and insert "Masonry
-Fireplaces shall be constructed to the standards found in NFPA 211, Standard for Chimneys,
-Fireplaces, Vents and Solid Fuel-Burning Appliances, 2002 Edition."
-(15) Section 2112, Masonry Heaters (page 431): Delete entire section and insert "Masonry Heaters
-shall be constructed to the standards found in NFPA 211, Standard for Chimneys, Fireplaces,
-Vents and Solid Fuel-Burning Appliances, 2002 Edition."
-(16) Section 2113, Masonry Chimneys (page 431): Delete entire section and insert "Masonry
-chimneys shall be constructed to the standards found in NFPA 211, Standard for Chimneys,
-Fireplaces, Vents and Solid Fuel-Burning Appliances, 2002 Edition."
-(17) Section 2701.1, Scope (page 543): Delete "ICC Electrical Code" and insert "Electric Code as
-adopted by Chapter 18, Article III of the Code of the City of Biddeford."
-(18) Section 2702.1, Installation (page 543): Delete "the ICC Electric Code" insert "NFPA 70
-National Electrical Code (NEC)."
-(19) Section 2702.2.8, Membrane structures, Section 2702.10, Highly toxic and toxic materials,
-Section 2702.11, Organic peroxides, Section 2702.12, Pyrophoric materials (page 543): Delete
-"International Fire Code" and insert "NFPA 1."
-(20) Section 2702.3, Maintenance (page 543): Delete "the International Fire Code" and insert "NFPA
-110, Standard for Emergency and Standby Power."
-(21) Section 2801.1, Scope (page 545): Delete "International Fuel Gas Code" and insert "NFPA 54
-National Fuel Gas Code."
-(22) Section 2901.1, Scope (page 547): Insert "State of Maine Internal Plumbing Code, Chapter
-238." Delete International Private Sewage Disposal Code" and replace with "Maine Subsurface
-Wastewater Disposal Rules, Chapter 241."
-(23) Section 2902.1.1, Unisex toilet and bath fixtures (page 549): Insert "the State of Maine Internal
-Plumbing Code, Chapter 238."
-(24) Chapter 30, Elevator and Conveying Systems (page 551 through 553); Delete the entire chapter
-and insert "All Elevator and Conveying Systems installed shall comply with the Maine State
-Elevator Regulations found in Title 32, Chapter 133 of the Maine Revised Statutes, Annotated."
-(25) Chapter 32, Encroachments into the Public Way (page 561): Delete the entire section without
-replacement.
-(26) Section 3305.1, Facilities required (page 563): Delete "the International Plumbing Code" and
-insert "Federal and State OSHA requirements."
-(27) Section 3309.2, Fire hazards (page 565): Delete "International Fire Code" and insert "NFPA 1."
-(28) Section 3401.3, Compliance with other codes (page 567): Delete "in the International Fire
+Same — Amendments. [Ord. No. 2002.10, 2-5-2002; Ord. No. 2004.35, 6-1-2004; Ord.
+No. 2005.67, 8-2-2005]
+A.
+
+The building code adopted in Section 18-76 shall be amended as follows:
+(1)
+
+Section 101.1, Title (page 1): Insert "City of Biddeford."
+
+(2)
+
+Section 101.4.1, Electrical (page 1): Delete "ICC Electrical Code" and insert "Electric Code as
+adopted by Chapter 18, Article III, of the Code of the City of Biddeford."
+
+(3)
+
+Section 101.4.4, Plumbing (page 1): "International Plumbing Code" and "State of Maine
+Internal Plumbing Code, Chapter 238."
+
+(4)
+
+Section 105.1, Required (page 3): Delete the words "gas, mechanical" without replacement.
+
+(5)
+
+Section 105.1.1, Annual permit (page 3): Delete entire section without replacement.
+
+(6)
+
+Section 105.1.2, Annual permit records (page 3): Delete entire section without replacement.
+
+(7)
+
+Section 105.2, Work exempt from permit (page 3): Delete the following items 1, 2, 4, 5, 8, 9
+under the heading "Building" without replacement. Delete all items under the heading "Gas"
+and insert "No local permit required for Gas Installations." Delete all items under the heading
+"Mechanical" and insert "No local permit required for Mechanical Installations."
+
+(8)
+
+Section 105.5, Expiration (page 4): Delete entire section and replace as follows:
+"Time limitation of permits: A building permit issued under the provisions of this
+code shall become void if work has not commenced within six months of the date of
+approval and shall expire one year from the date of issue. A building permit may be
+renewed once for a one-year period upon submission of an application and payment
+of the prescribed fee. All codes, ordinances and statutes in effect at the time of the
+renewal application must be complied with before said permit is issued."
+
+(9)
+
+Section 107.3, Temporary power (page 6): Delete "ICC Electrical Code" and insert "Electric
+Code as adopted by Chapter 18, Article III of the Code of the City of Biddeford."
+
+(10) Section 112.1, Board of Appeals, General (page 8): Insert "The Biddeford Zoning Board of
+Appeals shall serve as the Board of Appeals." after the first sentence.
+(11) Section 1025.2, Minimum size (page 223): Delete exception without replacement.
 
 ---
 
@@ -8061,24 +7182,11 @@ action as may be necessary to the best interests of the City may be taken.
 
 ---
 
-## Building Code — adopted.
+## through 18-95.
 
 **Citation:** Sec. 18-82
 
-Same — Amendments.
-Violations.
-Definitions of terms used in
-code adopted in Section .
-Conflicting provisions.
-Erecting, altering external
-walls.
-Director of Public Works duty
-upon receiving notice of
-external wall construction.
-through 18-95. (Reserved)
-
-DIVISION 5
-DANGEROUS BUILDINGS
+(Reserved)
 
 ---
 
@@ -8126,15 +7234,11 @@ of ordinances inconsistent with this section are hereby repealed.
 
 ---
 
-## Order for disposal; notice;
-abatement by City; recovery of
-costs.
+## through 18-105.
 
 **Citation:** Sec. 18-97
 
-through 18-105. (Reserved)
-DIVISION 6
-MOVING BUILDINGS
+(Reserved)
 
 ---
 
@@ -8172,7 +7276,7 @@ in its original condition.
 
 ---
 
-## through
+## (Reserved, through Sec. 18-115)
 
 **Citation:** Sec. 18-109
 
@@ -8180,38 +7284,11 @@ _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-**Citation:** Sec. 18-115
-
-DIVISION 7
-(Reserved)14
-
----
-
-## through
+## (Reserved, through Sec. 18-120)
 
 **Citation:** Sec. 18-116
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-14.
-
-**Citation:** Sec. 18-120
-
-Editor's Note: Former Division 7, Disclosure of Building Ownership, was repealed 1-3-2019 by Ord. No. 2018.145.
-
-Sec. 18-116
-
-Sec. 18-122
-
-DIVISION 8
-DISORDERLY HOUSING
-[Added 8-16-2011 by Ord. No. 2011.56; amended 3-4-2014 by Ord. No. 2014.14]
 
 ---
 
@@ -8276,8 +7353,6 @@ occurring is presumed to satisfy host status.
 NUISANCE PROPERTY — Conditions of record such as waste disposal violations, health or safety
 violations or repeated parking or traffic violations on or in the vicinity of premises and caused by tenants,
 guest, persons patronizing or employed by the premises and/or property, other such conditions caused
-
-Sec. 18-125
 
 by tenants, guests, persons patronizing or employed by the premises and/or property that unreasonably
 disturb, interfere with or affect the ability of persons or businesses residing or located in the vicinity of
@@ -8457,8 +7532,6 @@ Penalties.
 
 Whenever in this Code or in any ordinance of the City any act is prohibited or is made or
 
-Sec. 18-130
-
 declared to be unlawful or a misdemeanor, or whenever in such Code or ordinance the doing
 of any act is required or the failure to do any act is declared to be unlawful, where no specific
 penalty is provided therefor, the violation of any such provision of this Code or any ordinance
@@ -8517,13 +7590,6 @@ hearing shall be limited to the question of the reasonability of the amount of e
 for hearing must be in writing and filed with the Code Enforcement Office within 10 days after the date of
 the finance.
 
-Sec. 18-132
-
-ARTICLE III
-ELECTRICAL CODE
-DIVISION 1
-GENERALLY
-
 ---
 
 ## Penalty for violation of article.
@@ -8538,26 +7604,11 @@ M.R.S.A. § 4452.
 
 ---
 
-## Penalty for violation of article.
+## (Reserved, through Sec. 18-140)
 
 **Citation:** Sec. 18-132
 
-through
-
----
-
-## (Reserved)
-
-15.
-
-**Citation:** Sec. 18-140
-
-Editor's Note: This ordinance also repealed former Art. III, which contained provisions on the electrical code.
-
-Sec. 18-146
-
-DIVISION 2
-INSPECTIONS
+_No text — heading/divider record only._
 
 ---
 
@@ -8613,27 +7664,11 @@ ordinances of the City.
 
 ---
 
-## DIVISION 3
+## (Reserved, through Sec. 18-155)
 
 **Citation:** Sec. 18-146
 
-PERMITS
-
-DIVISION 8
-DISORDERLY HOUSING
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 18-155
-
-18-158
-
-DIVISION 3
-PERMITS
+_No text — heading/divider record only._
 
 ---
 
@@ -8961,8 +7996,6 @@ Additional horsepower: $0.50 per horsepower.
 
 Sec. 18-158
 
-Sec. 18-159
-
 r.
 
 Permit not specified: $50.
@@ -8984,20 +8017,11 @@ $25 will be charged for each additional inspection.
 
 ---
 
-## through
+## (Reserved, through Sec. 18-170)
 
 **Citation:** Sec. 18-159
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 18-170
-
-DIVISION 4
-STANDARDS
 
 ---
 
@@ -9063,8 +8087,6 @@ into the pool structure more than 25 mm one inch shall not require bonding.
 Electrical equipment. Metal parts of electrical equipment associated with the pool water
 circulating system, including pump motors and metal parts of equipment associated with
 pool covers, including electric motors, shall be bonded. Metal parts of listed equipment
-
-Sec. 18-172
 
 incorporating an approved system of double insulation and providing a means for
 grounding internal nonaccessible, non-current-carrying metal parts shall not be bonded.
@@ -9180,148 +8202,52 @@ continues, plus any associated legal and court costs. Each day will be considere
 
 ---
 
-## 1
-
-Department shall be installed without the permission of the City Council.
+## International Property Maintenance Code 2009 — adopted.
 
 **Citation:** Sec. 18-174
 
-(c)
-
-Any corporation, person or individual servicing any commercial or industrial establishment with an
-alarm system shall submit such plan to the Chief of Police, and such system shall be controlled and
-operated through the central control board owned and operated by the City.
-
-(d)
-
-The installation of any alarm system as described in this section on any premises in the City shall be
-installed under the supervision of the Chief of Police.
-
-(e)
-
-Before permission is granted to any person for the installation of a burglar or fire alarm system, or a
-combination of both, an installation fee to be paid to the City shall be assessed as follows:
-(1)
-
-The sum of $50 for the installation of a burglar alarm system, for each account.
-
-(2)
-
-The sum of $50 for the installation of a fire alarm system, for each account.
+[Ord. No. 2001.36,
+5-1-2001; Ord. No. 2004.35, 6-1-2004; amended 12-7-2010 by Ord. No. 2010.124]
+There is hereby adopted by the City for the purpose of establishing rules and regulations for the
+construction, alteration, removal, demolition, equipment, use and occupancy, location and maintenance of
+buildings and structures, including permits, that certain building code known as the, International Property
+Maintenance Code 2009, of which not less than one copy is on file in the office of the City Clerk. Such
+code is hereby adopted and incorporated as fully as if set out at length in this article. The provisions hereof
+shall be controlling in the construction of all buildings and structures therein contained within the corporate
+limits of the City.
 
 ---
 
-## 1
-
-No.
+## International Existing Building Code 2003 — Adopted and National Fire Protection
+Association (NFPA) 73 Electrical Inspection Code for existing buildings.
 
 **Citation:** Sec. 18-175
 
-2005.67, 8-2-2005; amended 12-7-2010 by Ord. No. 2010.124]
-The International Property Maintenance Code 2009 adopted in Section 18-174 shall be amended as
-follows:
-(1)
-
-Section 101.1, Title (page 1): Insert "City of Biddeford."
-
-(2)
-
-Section 103.5, Fees (page 2): Insert "as per City of Biddeford's Fee Schedule."
-
-(3)
-
-Section 111: Delete entirely and replace with "As per Article IX of the City of Biddeford's Code of
-Ordinance Board of Appeals."
-
-(4)
-
-Sections 303.14 and 304.14, Insect screens (page 1014): Insert "May 15" after" . . . the period from"
-and insert "October 1" after ". . . to."
-
-(5)
-
-Section 602.3, Heat supply (page 1721): Insert "September 1" after ". . . the period from" and insert
-"May 15" after" . . . to."
-Failure of owner to provide fuel: In the event of the failure of the owner of his designated
-agent to comply with Section 602.3, upon determination of the Code Enforcement Officer that
-an emergency exists, the City shall be entitled to supply the necessary maintenance or fuel.
-The City shall, in such case, in addition to the penalties provided for herein for violation of
-this code, be entitled to recover amounts expended hereunder in an action against the owner or
-agent, together with costs, including reasonable attorney fees."
-
-(6)
-
-Section 602.4, Occupiable work spaces: Insert "September 1" after ". . . the period from" and insert
-"May 15" after ". . . to."
-
-(7)
-
-Chapter 8, Referenced Standards (page 2127): and insert "may use the following reference: 'State of
-Maine Internal Plumbing Rules, 144A CMR 238' Delete "IZC-03 ICC International Zoning Code"
-without replacement. Insert "NFPA 73 National Electric Code for Existing Dwellings 2011" in last
-line.
+[Ord. No. 2004.35,
+6-1-2004]
+There is hereby adopted by the City for the purpose of establishing rules and regulations for the
+construction, alteration, removal, demolition, equipment, use and occupancy, location and maintenance of
+buildings and structures, including permits, that certain building code known as the, International Existing
+Building Code Edition 2003, including appendix chapters, of which not less than one copy is on file in the
+office of the City Clerk. Such code is hereby adopted and incorporated as fully as if set out at length in this
+article. The provisions hereof shall be controlling in the construction of all buildings and structures therein
+contained within the corporate limits of the City.
 
 ---
 
-## Rules and regulations.
+## (Reserved, through Sec. 18-195)
 
 **Citation:** Sec. 18-176
-
-Alarm systems.
-Periodic inspections.
-International Property
-Maintenance Code 2009 —
-adopted.
-Same—Amendments.
-International Existing Building
-Code 2003 — Adopted and
-National Fire Protection
-Association (NFPA) 73
-Electrical Inspection Code for
-existing buildings.
-Same—Amendments.
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 18-195
-
-ARTICLE IV
-(RESERVED)16
-
----
-
-## through
-
-**Citation:** Sec. 18-196
 
 _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
+## (Reserved, through Sec. 18-410)
 
-BUILDINGS AND BUILDING REGULATIONS
+**Citation:** Sec. 18-196
 
-GENERAL REFERENCES
-Fire prevention and protection — See Ch.
-
-**Citation:** Sec. 18-410
-
-38.
-
-Utilities — See Ch. 70.
-
-Solid waste — See Ch. 58.
-
-Land development — See Part III.
-
-Subdivisions — See Ch. 66.
-
-ARTICLE I
-IN GENERAL
+_No text — heading/divider record only._
 
 ---
 
@@ -9555,8 +8481,6 @@ VICTUALER — A person who serves food or drink prepared on site for consumption
 WAYS — Any municipally controlled way or public easement as defined in 23 M.R.S.A. §3021, and
 includes sidewalks along such ways and public easements.[Amended 5-1-2012 by Ord. No. 2012.33]
 
-Sec. 22-4
-
 ---
 
 ## License required.
@@ -9597,26 +8521,11 @@ that the premises, device or vehicle is open to the public.
 
 ---
 
-## Purpose.
+## (Reserved, through Sec. 22-8)
 
 **Citation:** Sec. 22-4
 
-Definitions.
-License required.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 22-8
-
-22-10
-
-ARTICLE II
-LICENSES AND PERMITS GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -10064,8 +8973,6 @@ renewed. The City Clerk may waive any part or all of the late fee upon good caus
 
 19. Editor’s Note: Former Subsection (d) was redesignated as Subsection (e) to accommodate the addition of this new Subsection (d).
 
-Sec. 22-16
-
 ---
 
 ## Expiration.
@@ -10248,11 +9155,6 @@ consider proper.
 
 Appeal. The licensee may seek review of the denial in superior court pursuant to Maine Rules of Civil
 Procedure 80B, within 30 days after the denial.
-
-Sec. 22-19
-
-ARTICLE III
-CRITERIA
 
 ---
 
@@ -10765,8 +9667,6 @@ a.
 
 A request for a license under this section will be conditioned on the satisfactory inspection of
 the facility by all appropriate departments including the Airport Manager to ensure structural
-
-Sec. 22-23
 
 and operational safety issues.
 b.
@@ -12897,11 +11797,6 @@ penalties set forth under Chapter 1, Section 1-12 of this Code; and in addition 
 may be cause for the suspension or revocation of the vendor's license to operate within the City of
 Biddeford.
 
-Sec. 22-37
-
-ARTICLE IV
-PROHIBITED CONDUCT
-
 ---
 
 ## Adult reading material.
@@ -13004,26 +11899,11 @@ prohibit further and continued violation thereof.
 
 ---
 
-## Adult reading material.
+## (Reserved, through Sec. 22-45)
 
 **Citation:** Sec. 22-38
 
-Nudity in places of
-entertainment.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 22-45
-
-22-47
-
-ARTICLE V
-PUBLIC MARKETS
+_No text — heading/divider record only._
 
 ---
 
@@ -13076,8 +11956,6 @@ be used as a public market. A public market shall be for the sale of fruit, vege
 plants and crafts. The following items may also be sold, provided that the product is produced, processed
 or manufactured in an establishment licensed by the Department of Agriculture to produce the item, and
 that the seller has produced, processed or manufactured the item: farm-fresh eggs, provided that they are
-
-Sec. 22-50
 
 stored at or below 45° F. during transport to, and display at, the public market, honey, jams, jellies, pickles,
 relishes, maple syrup, apple cider, packaged herbs or herb blend mixtures and pesto. The following items
@@ -13323,40 +12201,12 @@ Date: _______________
 
 ---
 
-## Definitions.
+## Penalty.
 
 **Citation:** Sec. 22-54
 
-Designation and products sold.
-License required.
-Biddeford Public Market
-licensing.
-Street closure in Public Market
-area.
-Revocation or suspension.
-Penalty.
-Solicitation.
-Penalty.
-
-GENERAL REFERENCES
-General penalty — See Ch. 1.
-
-Streets, sidewalks and other public places — See Ch. 62.
-
-Amusements — See Ch. 6.
-
-Waterways — See Ch. 74.
-
-Parks and recreation — See Ch. 46.
-
-Land development regulations — See Part III.
-
-Solid waste — See Ch. 58.
-
-Sec. 22-2
-
-ARTICLE I
-IN GENERAL
+[Added 9-1-2009 by Ord. No. 2009.42]
+Referenced in Chapter 1, Sec. 1-12 in this Code of Ordinances.
 
 ---
 
@@ -13368,7 +12218,7 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 26-25)
 
 **Citation:** Sec. 26-1
 
@@ -13376,41 +12226,11 @@ _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 26-25
-
-26-1
-
-ARTICLE II
-ADMINISTRATION
-DIVISION 1
-GENERALLY
-
----
-
-## through
+## (Reserved, through Sec. 26-35)
 
 **Citation:** Sec. 26-26
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 26-35
-
-26-26
-
-Sec. 26-40
-
-DIVISION 2
-SUPERINTENDENT OF BURIALS
 
 ---
 
@@ -13495,29 +12315,11 @@ number of each lot in the cemetery and the owner thereof.
 
 ---
 
-## ARTICLE III
+## (Reserved, through Sec. 26-60)
 
 **Citation:** Sec. 26-40
 
-CEMETERY LOTS
-
-ARTICLE II
-ADMINISTRATION
-DIVISION 1
-GENERALLY
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 26-60
-
-26-65
-
-ARTICLE III
-CEMETERY LOTS
+_No text — heading/divider record only._
 
 ---
 
@@ -13637,8 +12439,6 @@ $550
 [Code 1975, § 8-8]
 The City cemetery shall be used only for the burial of human beings.
 
-Sec. 26-67
-
 ---
 
 ## Removal of body from grave, tomb.
@@ -13661,27 +12461,19 @@ tomb or grave in the City cemetery.
 
 ---
 
-## Office created.
+## Crossing lots, graves.
 
 **Citation:** Sec. 26-67
 
-Nomination.
+[Code 1975, § 8-11]
+(a)
 
-GENERAL REFERENCES
-Administration — See Ch. 2.
+No person shall unnecessarily go on or across any lot in the City cemetery belonging to any person
+other than himself.
 
-Lot fees.
-Form of deeds.
-Miscellaneous fees.
-Kind of burials permitted.
-Removal of body from grave,
-tomb.
-Breaking up, disturbing tombs,
-graves.
-Crossing lots, graves.
+(b)
 
-ARTICLE I
-IN GENERAL
+No person shall step on or drive any vehicle across the grave of any person in the cemetery.
 
 ---
 
@@ -13693,26 +12485,11 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 30-25)
 
 **Citation:** Sec. 30-1
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 30-25
-
-30-1
-
-Sec. 30-31
-
-DIVISION 2
-EMERGENCY MEDICAL SERVICES
 
 ---
 
@@ -13779,30 +12556,11 @@ This article shall not affect cities and towns within the State of Maine as esta
 
 ---
 
-## Ambulance location.
+## (Reserved, through Sec. 30-50)
 
 **Citation:** Sec. 30-31
 
-Charge for use.
-Use of ambulance by other
-municipalities; fee.
-Collection, remittance of fees.
-Mutual aid pacts.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 30-50
-
-30-53
-
-DIVISION 3
-EMERGENCY RESPONSE TO INTRUSION ALARMS, HOLD-UP ALARMS, AND FIRE
-ALARMS
+_No text — heading/divider record only._
 
 ---
 
@@ -13885,18 +12643,11 @@ All new alarm systems will have a one-month grace period from the false alarm pr
 
 ---
 
-## Findings.
+## through 30-75.
 
 **Citation:** Sec. 30-55
 
-Definitions.
-Fees for false alarms;
-collection; appeal.
-Grace period for false alarms.
-through 30-75. (Reserved)
-
-DIVISION 4
-EMERGENCY TELEPHONE SYSTEM
+(Reserved)
 
 ---
 
@@ -14033,13 +12784,6 @@ and upon conviction thereof shall be fined in an amount no less than $100 and no
 placed by a person which is in violation of the provisions of this article shall be considered as a separate
 violation and shall be subject to the aforementioned fine for each violation.
 
-Sec. 30-87
-
-ARTICLE II
-FIRE PREVENTION AND PROTECTION
-DIVISION 1
-IN GENERAL
-
 ---
 
 ## Failure to comply with orders at fire.
@@ -14160,34 +12904,11 @@ located to the City of Biddeford before the acceptance of the subdivision by the
 
 ---
 
-## ARTICLE III
+## (Reserved, through Sec. 30-100)
 
 **Citation:** Sec. 30-88
 
-FIRE PREVENTION BUREAU
-
-DIVISION 3
-EMERGENCY RESPONSE TO INTRUSION
-ALARMS, HOLD-UP ALARMS, AND FIRE
-ALARMS
-
-DIVISION 1
-IN GENERAL
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 30-100
-
-30-106
-
-ARTICLE III
-FIRE PREVENTION BUREAU
-DIVISION 1
-IN GENERAL
+_No text — heading/divider record only._
 
 ---
 
@@ -14275,31 +12996,11 @@ with or without charge.
 
 ---
 
-## Established; enforcement
-authority.
+## (Reserved, through Sec. 30-140)
 
 **Citation:** Sec. 30-107
 
-Appointment, tenure of Chief.
-Inspectors.
-Annual report.
-Copy of codes on file.
-Definitions of words used in
-codes adopted in this chapter.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 30-140
-
-30-145
-
-DIVISION 2
-STANDARDS
+_No text — heading/divider record only._
 
 ---
 
@@ -14447,8 +13148,6 @@ lanes with the City Clerk. Any person aggrieved by such order may file with the 
 reasons for aggrievement. A public hearing shall be held by the Planning Board, after which the
 board must affirm, modify or rescind such order within 30 days of the public hearing. The Board
 
-Sec. 30-148
-
 shall notify the Fire Chief, as may be applicable, by written communication, any and all action
 taken relative to the establishment of a fire lane.
 (3)
@@ -14557,27 +13256,11 @@ in this article. Each day such violation exists shall be deemed a separate viola
 
 ---
 
-## Penalty for violations.
+## (Reserved, through Sec. 30-159)
 
 **Citation:** Sec. 30-149
 
-Appeals.
-Fire lanes.
-Smoke detectors.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 30-159
-
-30-161
-
-DIVISION 3
-OPEN BURNING
+_No text — heading/divider record only._
 
 ---
 
@@ -14671,27 +13354,11 @@ Engineering Division of the Department of Human Services.
 
 ---
 
-## Types permissible with permit.
+## (Reserved, through Sec. 30-199)
 
 **Citation:** Sec. 30-162
 
-Types permissible without
-permit.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 30-199
-
-30-204
-
-ARTICLE IV
-SEX OFFENDER RESIDENCY RESTRICTIONS
-[Added 5-19-2015 By Ord. No. 2015.28]
+_No text — heading/divider record only._
 
 ---
 
@@ -14814,33 +13481,13 @@ of Biddeford.
 
 ---
 
-## Title.
+## Severability.
 
 **Citation:** Sec. 30-207
 
-Findings and purpose.
-Authority.
-Definitions.
-Restricted property map;
-restrictions.
-Exceptions.
-Violations and penalties.
-Severability.
-
-[HISTORY: Adopted by the City Council of the City of Biddeford 8-19-2014 by Ord. No. 2014.78.25
-Amendments noted where applicable.]
-
-GENERAL REFERENCES
-Administration — See Ch. 2.
-
-Buildings and building regulations — See Ch. 18.
-
-25. Editor’s Note: This ordinance also superseded former Ch. 30, Emergency Services, as amended.
-
-ARTICLE I
-EMERGENCY SERVICES
-DIVISION 1
-IN GENERAL
+If any section, phrase, sentence or portion of this article is for any reason held invalid or unconstitutional
+by any court of competent jurisdiction, such portion shall be deemed a separate, distinct and independent
+provision, and such holding shall not affect the validity of the remaining portions thereof.
 
 ---
 
@@ -14852,26 +13499,11 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 34-25)
 
 **Citation:** Sec. 34-1
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 34-25
-
-34-1
-
-Sec. 34-30
-
-ARTICLE II
-LITTERING
 
 ---
 
@@ -14945,8 +13577,6 @@ vehicle or watercraft, as well as the person littering, commits a violation of t
 No person may deposit household waste, leaves, clippings, gardening refuse, hazardous waste, or
 demolition debris in any public litter receptacle.
 
-Sec. 34-31
-
 ---
 
 ## Penalty for violation of article.
@@ -14966,8 +13596,6 @@ City.
 [Ord. of 7-17-1990(3), § 15-76]
 The City shall pay a reward of $150 for information which leads to the arrest and conviction of a person
 violating this article.
-
-Sec. 34-35
 
 ARTICLE IIA
 DELIVERY OF UNSOLICITED PRINTED OR WRITTEN MATERIALS
@@ -15038,8 +13666,6 @@ administratively issue the license unless the City Council previously has revoke
 a license previously held by the applicant. If the City Council previously has revoked or declined to
 renew a license application by the same applicant, then the City Clerk shall forward the application
 to the City Council who shall decide whether to issue the license.
-
-Sec. 34-38
 
 ---
 
@@ -15201,33 +13827,11 @@ such holding shall not affect the validity of the remaining portions thereof.
 
 ---
 
-## Purpose and intent.
+## (Reserved, through Sec. 34-50)
 
 **Citation:** Sec. 34-42
 
-Opt-out list.
-Annual license and
-recordkeeping requirements.
-License renewal.
-Prohibition of delivery to optout properties; exception.
-Delivery in public places;
-exceptions.
-Required removal from public
-places.
-Required removal of
-uncollected items; exceptions.
-Violations and penalties.
-Severability.
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 34-50
-
-ARTICLE III
-NOISE
+_No text — heading/divider record only._
 
 ---
 
@@ -15555,8 +14159,6 @@ noise.
 
 No person shall hinder, obstruct, delay, resist, prevent in any way, interfere or attempt to interfere
 
-Sec. 34-61
-
 with any authorized person while in the performance of his duties under this article.
 
 ---
@@ -15599,29 +14201,11 @@ the same nature shall result in the immediate filing of a misdemeanor complaint.
 
 ---
 
-## ARTICLE IV
+## (Reserved, through Sec. 34-100)
 
 **Citation:** Sec. 34-61
 
-AIR TOXICS CONTROL REGULATIONS
-(SUSPENDED)
-DIVISION 1
-GENERAL PROVISIONS
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 34-100
-
-34-102
-
-ARTICLE IV
-AIR TOXICS CONTROL REGULATIONS (SUSPENDED)27
-DIVISION 1
-GENERAL PROVISIONS
+_No text — heading/divider record only._
 
 ---
 
@@ -15669,8 +14253,6 @@ current and complete version of this article.
 
 27. Editor's Note: This Article Was Suspended In Its Entirety As Of 7-1-2016 By Ord. No. 2016.41, Adopted 6-7-2016.
 28. Editor's Note: This ordinance also repealed former Art. IV, adopted 11-7-2001 by Ord. No. 2001.102.
-
-Sec. 34-103
 
 ---
 
@@ -15838,8 +14420,6 @@ given effect in whole or in part without the invalid provision or application, a
 of this article is declared to be severable and independent. It is the intent of the City of Biddeford that
 each and every part, clause, paragraph, section and subsection of this article be given effect to the degree
 possible.
-
-Sec. 34-109
 
 ---
 
@@ -16064,37 +14644,11 @@ an enforceable permit or document.
 
 ---
 
-## Preface.
+## (Reserved, through Sec. 34-130)
 
 **Citation:** Sec. 34-111
 
-Short title.
-Findings, purposes and intent.
-Authority.
-Territorial application.
-Severability.
-Effective date and applicable
-dates.
-Savings clause.
-Other rights.
-General definitions.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 34-130
-
-34-111
-
-Sec. 34-137
-
-DIVISION 2
-CODE ADMINISTRATION AND ENFORCEMENT
-Subdivision I. Environmental Board
+_No text — heading/divider record only._
 
 ---
 
@@ -16178,8 +14732,6 @@ The City Council may declare a vacancy on the Board upon the nonacceptance, resi
 removal, permanent disability or relocation of a member's place of residence outside of Biddeford. In such
 circumstances, the Mayor, upon approval of the City Council, shall fill all positions; pending any such
 action, the Chairman may designate an alternate member to act to fill a vacancy.
-
-Sec. 34-139
 
 ---
 
@@ -16356,8 +14908,6 @@ To hold hearings jointly with other agencies of the government in connection wit
 
 31. Editor's Note: Table I is included at the end of this chapter.
 
-Sec. 34-152
-
 are subject to the provisions of this article;
 (9)
 
@@ -16419,25 +14969,11 @@ accordance with Section 34-213.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-150)
 
 **Citation:** Sec. 34-142
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Establishment.
-
-**Citation:** Sec. 34-150
-
-Appointments; terms.
-Powers and duties.
-Compliance.
-Investigation.
-Enforcement.
-through
 
 ---
 
@@ -16632,34 +15168,11 @@ hearings as set forth in Division 2.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-170)
 
 **Citation:** Sec. 34-157
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-General.
-
-**Citation:** Sec. 34-170
-
-Investigations.
-Emergencies.
-Commencement of enforcement
-proceedings.
-Response to complaint.
-Default order.
-Board decision.
-Prehearing conference.
-Enforcement hearings.
-Enforcement orders.
-Penalties.
-Judicial review.
-Stay.
-Judicial enforcement.
-through
 
 ---
 
@@ -16743,8 +15256,6 @@ the circumstances, but to the extent that the circumstances require expedited ac
 may apply such procedural rules as required by the circumstances and shall clearly state such procedures at
 the start of the proceeding. Within three days after such hearing, the Board shall make findings of fact and
 continue, revoke or modify the order. The findings of fact and order shall be served as specified above in
-
-Sec. 34-175
 
 this subsection. The decision of the Board shall be considered final Board action which may be appealed
 in accordance with Section 34-182. This subsection is additional to and independent of any and all other
@@ -16912,8 +15423,6 @@ the ECO, the Board shall ratify or disapprove those sanctions.
 
 In the event the respondent admits to the violation set forth in the complaint, but contends that the
 amount of the monetary penalty and/or the terms and conditions of the suspension, revocation or
-
-Sec. 34-179
 
 modification recommended by the ECO are inappropriate, or in the event the complaint does not seek
 specific monetary penalties or other specific sanctions but respondent does not contest the allegations,
@@ -17425,8 +15934,6 @@ operate as a stay of the Board's emergency order.
 
 General. In the event of a violation of any provision of this article or of any order, permit, approval
 
-Sec. 34-185
-
 or final decision or action of the Board or decree of court, as the case may be, the City of Biddeford
 may institute judicial proceedings in accordance with state law for an order enjoining those acts or
 practices which constitute such a violation, for an order directing compliance with this article, or any
@@ -17449,31 +15956,11 @@ costs, including attorneys fees, incurred in connection with such action.
 
 ---
 
-## Short title.
+## (Reserved, through Sec. 34-200)
 
 **Citation:** Sec. 34-185
 
-Establishment.
-Composition.
-Appointment.
-Terms of office.
-Vacancies.
-Removal.
-Officers.
-Meetings, quorum, agenda,
-materials, conflict of interest.
-Powers and duties.
-Appeals.
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 34-200
-
-DIVISION 3
-ADMINISTRATION AND APPEALS
+_No text — heading/divider record only._
 
 ---
 
@@ -17550,8 +16037,6 @@ process for which a permit is sought under this article, for the five-year perio
 application. In addition, upon the request of the ECO, the applicant shall provide, for inspection
 and copying, all monitoring reports required by any state or federal air pollution permits and
 licenses; operating and maintenance records; accidental or excess emissions, and all other
-
-Sec. 34-203
 
 unlicensed emissions and releases; and reports on which the permits or licenses were based for
 the same five-year period.
@@ -17716,8 +16201,6 @@ Board action. Within 30 days of the close of the public hearing, or any continue
 a permit application, or within 120 days of acceptance of the application if no hearing is held, or
 within such other time limits as the Board may establish by order, either with the applicant's consent
 or for good cause after giving the applicant notice and an opportunity to be heard, the Board shall
-
-Sec. 34-207
 
 take any of the following actions:
 (1)
@@ -18057,8 +16540,6 @@ Official record. An official record or lack thereof may be evidenced in the mann
 Objections. All objections to rulings of the presiding officer regarding evidence or procedure and the
 grounds therefore shall be timely stated during the course of the hearing. If during the course of, or
 after the close of, the hearing and during its deliberations the Board determines that the ruling of the
-
-Sec. 34-211
 
 presiding officer was in error, it may reopen the hearing or take such action as it deems appropriate
 to correct such error.
@@ -18485,8 +16966,6 @@ All applications, motions, proposed findings, documents, petitions, briefs, comp
 complaints and, to the extent practicable, written testimony filed with the Board, (all hereinafter referred
 to as "form"), except for documents not susceptible of reproduction in the manner provided or for other
 
-Sec. 34-217
-
 good cause shown, shall be typewritten or printed on white paper 8 1/2 inches by 11 inches in size and
 bound; type matter shall be double spaced. The first page of each such form shall be headed by the title
 "State of Maine; City of Biddeford Environmental Board" and shall have a caption with (1) the title of the
@@ -18641,8 +17120,6 @@ regulated air toxic pollutant or to modify a parameter for any substance or comp
 list described in Table I. Within 30 days of reviewing the petition, the Board shall determine whether
 to grant or deny the petition. If the Board denies the petition, the Board shall notify the petitioner of
 
-Sec. 34-222
-
 its decision in writing and shall state its reasons for denial. If the Board grants the petition, it shall
 notify petitioner, publish notice of its decision as provided in Section 34-202, and shall direct ECO to
 incorporate the change into Table I.
@@ -18694,23 +17171,11 @@ air limits for air toxics or can be controlled or reduced so as not to violate t
 
 ---
 
-## DIVISION 4
+## (Reserved, through Sec. 34-240)
 
 **Citation:** Sec. 34-222
 
-AIR TOXICS CONTROL REGULATIONS
-
----
-
-## (Reserved)
-
-DIVISION 4
-AIR TOXICS CONTROL REGULATIONS
-Subdivision I.
-
-**Citation:** Sec. 34-240
-
-General Provisions
+_No text — heading/divider record only._
 
 ---
 
@@ -18801,8 +17266,6 @@ under Subsection (b)(18) below;
 
 The use of bathroom and locker room ventilation;
 
-Sec. 34-243
-
 (10) The activities of maintenance, including welding, gluing, painting of process equipment and
 soldering, but excluding VOC degreasing operations;
 (11) First aid or medical care provided at the facility, including related activities such as sterilization
@@ -18865,22 +17328,11 @@ Sec. 34-253
 
 ---
 
-## through
+## (Reserved, through Sec. 34-250)
 
 **Citation:** Sec. 34-243
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Application procedures for new
-sources and processes.
-
-**Citation:** Sec. 34-250
-
-Application procedures for
-existing sources and processes.
 
 ---
 
@@ -18958,8 +17410,6 @@ applicable state and federal law.
 [Ord. No. 2002.112,
 § 4-203, 11-6-2002]
 
-Sec. 34-261
-
 (a)
 
 The owner of an existing source or process requiring a modification of a permit issued under this
@@ -19005,30 +17455,11 @@ operating the modification.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-260)
 
 **Citation:** Sec. 34-255
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Methods for determining
-emissions.
-
-**Citation:** Sec. 34-260
-
-Emissions testing.
-Methods for determining
-compliance.
-Air dispersion modeling
-analysis.
-De minimus emission level
-method.
-In-stack concentration method.
-Alternative methods.
-through
 
 ---
 
@@ -19164,8 +17595,6 @@ Alternative method.
 
 Upon request by the ECO or the Board, the owner of any stationary source or process which emits a
 regulated toxic air pollutant shall provide documentation of compliance with the ambient air limits to
-
-Sec. 34-266
 
 the Board.
 
@@ -19321,27 +17750,11 @@ this part.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-280)
 
 **Citation:** Sec. 34-268
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Classification of air toxic
-pollutants.
-
-**Citation:** Sec. 34-280
-
-Class I regulated air toxic
-pollutants.
-Class II regulated air toxic
-pollutants.
-Class III regulated air toxic
-pollutants.
-through
 
 ---
 
@@ -19351,8 +17764,6 @@ through
 
 [Ord. No. 2002.112, § 4-401, 11-6-2002]
 The Board shall classify each regulated toxic air pollutant as a Class I regulated toxic air pollutant, Class
-
-Sec. 34-284
 
 II regulated toxic air pollutant, or Class III regulated toxic air pollutant, in accordance with this article.
 
@@ -19461,24 +17872,11 @@ regulated toxic air pollutant other than a regulated toxic air pollutant classif
 
 ---
 
-## through
+## (Reserved, through Sec. 34-295)
 
 **Citation:** Sec. 34-285
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Designation of safety factors.
-
-**Citation:** Sec. 34-295
-
-Designation of time adjustment
-factors.
-Criteria for time adjustment
-factors.
-through
 
 ---
 
@@ -19547,28 +17945,11 @@ hazards, the time adjustment factor shall be 2.8.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-310)
 
 **Citation:** Sec. 34-299
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Determination of twenty-fourhour ambient air limits.
-
-**Citation:** Sec. 34-310
-
-Calculation of twenty-fourhour ambient air limits.
-Determination of annual
-ambient air limits.
-Calculation of annual ambient
-air limits.
-Calculation of twenty-fourhour de minimus emissions.
-Calculation of annual de
-minimus emissions.
-through
 
 ---
 
@@ -19577,8 +17958,6 @@ through
 **Citation:** Sec. 34-311
 
 [Ord. No. 2002.112, § 4-601,
-
-Sec. 34-316
 
 11-6-2002]
 (a)
@@ -19685,23 +18064,11 @@ the annual ambient air limit shall be multiplied by 3.281.
 
 ---
 
-## Application procedures for
-modified sources and processes.
+## (Reserved, through Sec. 34-325)
 
 **Citation:** Sec. 34-317
 
-Notification procedures for
-minor modifications.
-through
-
----
-
-## (Reserved)
-Subdivision VII.
-
-**Citation:** Sec. 34-325
-
-The List Naming All Regulated Toxic Air Pollutants And Other Information
+_No text — heading/divider record only._
 
 ---
 
@@ -19780,8 +18147,6 @@ adopted by the Board at the first meeting at which a quorum is present.
 The list of regulated pollutants, and any additions, deletions, or modifications to the list and to any AAL
 
 33. Editor's Note: Table I is included at the end of this chapter.
-
-Sec. 34-330
 
 established therein shall be published by the City annually in the form of as fact sheet and shall be
 distributed by the Board to the owner of any stationary source or process permitted under this article. The
@@ -19924,20 +18289,11 @@ whether the proposed revision ensures the promotion of public health.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-340)
 
 **Citation:** Sec. 34-332
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Subdivision VIII.
-
-**Citation:** Sec. 34-340
-
-Variance Procedure
 
 ---
 
@@ -19976,8 +18332,6 @@ other ordinance of the City of Biddeford.
 In determining under what conditions and to what extent the variance may be granted, the Board shall
 give due recognition to the progress which the person requesting the variance shall have made in
 
-Sec. 34-342
-
 reducing and eliminating the emission of regulated air toxics, the character and degree of injury to, or
 interference with, the health and physical property of the people; and the social and economic value
 of the source of the emissions.
@@ -19997,37 +18351,11 @@ petitioner receiving it from liability imposed by state or federal law or mainte
 
 ---
 
-## List establishing regulated air
-toxics.
+## (Reserved, through Sec. 34-350)
 
 **Citation:** Sec. 34-342
 
-Adoption of list establishing
-regulated air toxic pollutants.
-Publication of regulated air
-toxics list.
-Additions, deletions, or
-modification to regulated
-compounds.
-Petition to add, delete, or
-modify a regulated compound.
-Decision on whether to grant or
-deny petition.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 34-350
-
-34-361
-
-DIVISION 5
-MONITORING, RECORDKEEPING AND REPORTING
-Subdivision I. Short Title and Definitions
+_No text — heading/divider record only._
 
 ---
 
@@ -20053,23 +18381,11 @@ emissions.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-360)
 
 **Citation:** Sec. 34-353
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-General recordkeeping
-requirements.
-
-**Citation:** Sec. 34-360
-
-Additional recordkeeping
-requirements.
-through
 
 ---
 
@@ -20192,22 +18508,11 @@ additional records, as required by the Board for the purpose of demonstrating co
 
 ---
 
-## through
+## (Reserved, through Sec. 34-370)
 
 **Citation:** Sec. 34-363
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-General reporting
-requirements.
-
-**Citation:** Sec. 34-370
-
-Additional reporting.
-through
 
 ---
 
@@ -20274,20 +18579,11 @@ with all requirements of this article.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-380)
 
 **Citation:** Sec. 34-373
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Subdivision IV.
-
-**Citation:** Sec. 34-380
-
-Recordkeeping and Reporting Requirements for Permit Deviations
 
 ---
 
@@ -20441,20 +18737,11 @@ if applicable; and
 
 ---
 
-## through
+## (Reserved, through Sec. 34-390)
 
 **Citation:** Sec. 34-384
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Subdivision V.
-
-**Citation:** Sec. 34-390
-
-Continuous Emissions Monitoring Reporting
 
 ---
 
@@ -20537,8 +18824,6 @@ adjusted, such information shall be provided in a quarterly report.
 Any source subject to the requirements of this division shall at its own cost and in consultation with the
 ECO place a CEM (read out) at a location in the offices of the ECO at the ECO's designation. Emission
 
-Sec. 34-402
-
 monitoring data shall be linked to City computers, and continuously transmitted as required under the
 permit to operate. The source's next annual fee due under Section 34-214 of this article shall be reduced by
 an amount equal to the costs of the equipment and of establishing transmission of the data in complying
@@ -20546,20 +18831,11 @@ with this section.
 
 ---
 
-## through
+## (Reserved, through Sec. 34-400)
 
 **Citation:** Sec. 34-394
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Subdivision VI.
-
-**Citation:** Sec. 34-400
-
-Record Retention and Availability
 
 ---
 
@@ -20585,25 +18861,11 @@ the public.
 
 ---
 
-## Short title.
+## (Reserved, through Sec. 34-449)
 
 **Citation:** Sec. 34-402
 
-Applicability.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 34-449
-
-34-452
-
-ARTICLE V
-BLASTING
+_No text — heading/divider record only._
 
 ---
 
@@ -20662,8 +18924,6 @@ FLYROCK — Rock that is propelled through the air or along the ground because o
 explosives.
 GROUND VIBRATIONS — The shaking of ground caused by the blast wave emanating from the
 detonation of an explosive.
-
-Sec. 34-455
 
 HERTZ — A term used to express the frequency of ground vibrations and airblast. One hertz is one cycle
 per second.
@@ -20848,8 +19108,6 @@ with the applicable requirements of Sections 34-457(c) or 34-457(i)].
 
 Evidence that notification of abutters has been sent by United States Postal Service (USPS)
 certified mail at least 10 calendar days prior to the intended date of the commencement of the
-
-Sec. 34-457
 
 blasting operations [in accordance with the applicable requirements of Sections 34-457(c) or
 34-457(i)].
@@ -21189,8 +19447,6 @@ suspended for more than six months.
 
 Emergency blasting operations:
 
-Sec. 34-460
-
 (1)
 
 The Fire Chief, or their designee, shall determine whether the need for a blasting operation
@@ -21306,30 +19562,11 @@ section, clause, or provision thereof, but the same shall remain in full force a
 
 ---
 
-## Title.
+## through § 34-475.
 
 **Citation:** Sec. 34-463
 
-Purpose.
-Definitions.
-Applicability.
-Permit.
-Authority.
-Application requirements.
-Performance standards.
-Conflict.
-Appeal of denial of a blasting
-permit.
-Conditions.
-Penalties.
-Severability.
-through § 34-475. (Reserved)
-
-ARTICLE VI
-POST-CONSTRUCTION STORMWATER
-DISCHARGE
-DIVISION 1
-GENERAL PROVISIONS
+(Reserved)
 
 ---
 
@@ -21502,11 +19739,6 @@ URBANIZED AREA (UA) — The cumulative areas of the State of Maine so defined by
 2010 decennial censuses by the United States Bureau of the Census.[Amended 6-20-2023 by Ord. No.
 2023.61]
 
-Sec. 34-481
-
-DIVISION 2
-MANAGEMENT PLAN
-
 ---
 
 ## Plan required.
@@ -21587,11 +19819,6 @@ standards or other provisions of such stormwater rules conflict with municipal o
 The applicant shall be responsible for all costs, including but not limited to attorney's fees incurred
 during the review of all documents by the City Attorney.
 
-Sec. 34-484
-
-DIVISION 3
-PLAN COMPLIANCE
-
 ---
 
 ## Demonstration of compliance.
@@ -21668,11 +19895,6 @@ management facilities are functioning as intended.
 
 Sec. 34-484
 
-Sec. 34-489
-
-DIVISION 4
-ENFORCEMENT; PENALTIES
-
 ---
 
 ## Compliance required.
@@ -21746,8 +19968,6 @@ agreement with the violator to address timely abatement of the violation(s) of t
 the post-construction stormwater management plan and of recovering fines, costs and fees without court
 action.
 
-Sec. 34-490
-
 ---
 
 ## Appeal of notice of violation.
@@ -21776,11 +19996,6 @@ that the City's attorney file an enforcement action in a Maine court of competen
 80K of the Maine Rules of Civil Procedure.
 
 35. Editor's Note: See Part III, Land Development Regulations, of this Code.
-
-Sec. 34-493
-
-DIVISION 5
-SEVERABILITY; STATUTORY AUTHORITY
 
 ---
 
@@ -21813,26 +20028,11 @@ redevelopment).
 
 ---
 
-## Severability.
+## (Reserved, through Sec. 34-549)
 
 **Citation:** Sec. 34-493
 
-Statutory authority.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 34-549
-
-34-554
-
-ARTICLE VII
-DOWNTOWN ANTI-BLIGHT
-[Adopted 2-21-2017 By Ord. No. 2017.12]
+_No text — heading/divider record only._
 
 ---
 
@@ -21991,8 +20191,6 @@ article and subject to the penalties for violation hereof.
 Complaints may be submitted to the Code Enforcement Officer and/or their designee and must be in
 writing and signed and dated by the complainant.
 
-Sec. 34-560
-
 ---
 
 ## Enforcement.
@@ -22098,27 +20296,12 @@ scheduled meeting.
 
 ---
 
-## Title.
+## Severability.
 
 **Citation:** Sec. 34-561
 
-Policy.
-Purpose.
-Creating or maintaining
-blighted premises prohibited.
-Definitions.
-Applicability.
-Responsibility for compliance.
-Complaints.
-Enforcement.
-Violations and penalties.
-Hearing and appeal procedure
-for notices of violation.
-Severability.
-
-ARTICLE VIII
-VACANT BUILDING REGISTRATION AND
-FEES
+If any provision of this article is declared unconstitutional or held invalid, it shall not affect any other
+section, clause, or provision thereof, but the same shall remain in full force and effect.
 
 ---
 
@@ -22294,8 +20477,6 @@ hazards or nuisances, including trash and overgrown vegetation.
 Ensuring the building remains structurally sound and free of damage that could pose risks to
 public health or safety.
 
-Sec. 34-563
-
 (g)
 
 Enforcement. The Code Enforcement Office will inspect vacant buildings during each registration
@@ -22375,8 +20556,6 @@ on the facts presented.
 
 Finality of decision. The decision of the City Manager is final. Further appeals may be pursued in
 accordance with state law.
-
-Sec. 38-3
 
 ---
 
@@ -22577,26 +20756,11 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 40-24)
 
 **Citation:** Sec. 40-1
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 40-24
-
-40-1
-
-Sec. 40-27
-
-ARTICLE II
-CURFEW HOURS FOR MINORS
 
 ---
 
@@ -22664,8 +20828,6 @@ allows a minor to remain upon the premises of the establishment during curfew ho
 (a)
 
 It is a defense to prosecution under Subsection (b) that the minor was:
-
-Sec. 40-31
 
 (1)
 
@@ -22768,30 +20930,11 @@ City of Biddeford.
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 40-40)
 
 **Citation:** Sec. 40-32
 
-Offenses.
-Defenses.
-Enforcement.
-Penalties.
-Severability.
-Effective date.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 40-40
-
-40-45
-
-ARTICLE III
-DISCHARGE OF FIREARMS
+_No text — heading/divider record only._
 
 ---
 
@@ -23025,29 +21168,11 @@ convened, appointed by the Mayor and confirmed by the City Council, to participa
 
 ---
 
-## Discharge of firearm in "no
-firearms discharge zone".
+## (Reserved, through Sec. 40-50)
 
 **Citation:** Sec. 40-48
 
-Exceptions.
-Definitions.
-Penalties.
-Committee review.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 40-50
-
-40-52
-
-ARTICLE IV
-PUBLIC URINATION OR DEFECATION
+_No text — heading/divider record only._
 
 ---
 
@@ -23061,24 +21186,11 @@ provided for this purpose. A person found guilty of violating this section shall
 
 ---
 
-## Public urination or defecation.
+## (Reserved, through Sec. 40-69)
 
 **Citation:** Sec. 40-52
 
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 40-69
-
-40-71
-
-ARTICLE V
-USE OF CITY-OWNED OR ACQUIRED PROPERTY
+_No text — heading/divider record only._
 
 ---
 
@@ -23100,10 +21212,6 @@ property including vehicles, not permitted on the site.
 **Citation:** Sec. 40-71
 
 40.79. (Reserved)
-
-ARTICLE VI
-Offenses Against Public Safety
-[Added 4-3-2012 by Ord. No. 2012.26]
 
 ---
 
@@ -23300,8 +21408,6 @@ except on paths or parts of roadways set aside for the exclusive use of such veh
 
 [Code 1975, §§ 6-20, 6-21]
 
-Sec. 42-7
-
 (a)
 
 Parking. No person shall park a bicycle upon a public street other than upon the roadway against the
@@ -23435,37 +21541,11 @@ Former Sec. 42-8, Parking authority, added by Ord. No. 2018.75, was repealed 11-
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 42-30)
 
 **Citation:** Sec. 42-9
 
-Suspension of chapter
-provisions.
-Temporary rules.
-Vehicles prohibited from public
-beaches; exceptions.
-Riding certain vehicles two
-abreast.
-Bicycles.
-Skateboards prohibited on
-roadways, sidewalks and other
-public places.
-General parking prohibitions.
-Parking Authority.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 42-30
-
-42-34
-
-ARTICLE II
-OPERATION
+_No text — heading/divider record only._
 
 ---
 
@@ -23521,29 +21601,11 @@ construction or repair work by state, municipal or public utilities.
 
 ---
 
-## U-turn prohibited.
+## (Reserved, through Sec. 42-49)
 
 **Citation:** Sec. 42-34
 
-Right turn on red light
-prohibited.
-Use of compression release
-engine brakes prohibited;
-exemptions.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 42-49
-
-42-55
-
-ARTICLE III
-PARKING, STOPPING AND STANDING
+_No text — heading/divider record only._
 
 ---
 
@@ -23622,8 +21684,6 @@ such further rules and regulations relative to such use as the Mayor and City Co
 operators of motor vehicles of common carriers of passengers shall park, except between the hours of 9:00
 p.m. and 6:00 a.m., such vehicles only within the designated areas set forth in Section 42-94. Nothing in
 this section shall restrict any public automobile from parking on any public way while actually hired or
-
-Sec. 42-59
 
 employed. No public automobile, while awaiting hire or employment, shall be left unattended by its owner
 or his servants for a longer period than 1/2 hour. No other vehicle shall park on any of the streets designated
@@ -23948,8 +22008,6 @@ Parking on sidewalks: $35.
 39. Editor's Note: Former Sec. 42-63, Parking by permit only, added 8-17-2010 by Ord. No. 2010.83, was repealed 5-21-2013 by Ord. No.
 2013.37.
 
-Sec. 42-66
-
 by Ord. No. 2021.61]
 All parking fines left unpaid after 30 days shall be doubled.
 (b)
@@ -24099,49 +22157,11 @@ pole J37.
 
 ---
 
-## Restrictions on common
-carriers of passengers.
+## (Reserved, through Sec. 42-85)
 
 **Citation:** Sec. 42-67
 
-Taxi parking.
-Truck tractor and trailer
-parking restricted; parking of
-trucks and certain other
-vehicles in residential zones
-prohibited.
-Time limit for parking during
-winter months.
-Snow emergency parking ban.
-Time limit on loading and
-unloading.
-Parking on public way for
-purpose of sale or repair
-prohibited.
-Identification and use of
-municipal parking lots.
-DPW Director to designate noparking areas for solid waste
-pickup.
-Fees for parking violations.
-Parking regulations for
-Biddeford School Department
-property.
-Beach permit parking
-regulations enumerated.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 42-85
-
-42-89
-
-ARTICLE IV
-SPECIFIC STREET REGULATIONS
+_No text — heading/divider record only._
 
 ---
 
@@ -25741,8 +23761,6 @@ Grayson Street, any part between Elm Street and Hill Street [Amended 6-20-2017 b
 2017.61]
 Janelle Street
 
-Sec. 42-100
-
 Maple Avenue, any part
 May Street, any part
 Round Hill Street [Added 2-15-2022 by Ord. No. 2022.8]
@@ -25907,8 +23925,6 @@ Bradbury Street Extension [Repealed 1-6-2015 by Ord. No. 2014.128]
 43. Editor's Note: Former Section 42-101, Farmer's Market, adopted as § 14-90 of the 1975 Code, as amended, was repealed by Ord. of
 4-6-1999.
 
-Sec. 46-1
-
 ---
 
 ## Chapter 46: Parks
@@ -26025,8 +24041,6 @@ Cannon Plaza 59 South Street
 GIS 39-201
 
 44. Editor's Note: See Section 46-5 for a list of City parks.
-
-Sec. 46-7
 
 Name
 
@@ -26602,38 +24616,13 @@ chapter.
 
 ---
 
-## Vehicles and traffic.
+## Violations and penalties.
 
 **Citation:** Sec. 46-16
 
-Recreational activities.
-Alcoholic beverages; camping
-and erection of structures;
-fires; use of closed areas.
-Merchandising, advertising and
-signs.
-Park operating policy.
-Safe zones.
-Enforcement.
-Violations and penalties.
-
-[HISTORY: Adopted by the City Council of the City of Biddeford as §§ 16-29, 16-30, 16-31(a) —
-(f); 16-32; 16-83(1) –– (8); 16-84(a) –– (c); 16-85; 16-86(a) –– (b); 16-87; 16-88; and 16-100 of the
-1975 Code; amended in its entirety 1-17-2017 by Ord. No. 2017.3. Subsequent amendments noted
-where applicable.]
-
-GENERAL REFERENCES
-Animals — See Ch. 10.
-
-Motor vehicles and traffic — See Ch. 42.
-
-Environment — See Ch. 34.
-
-Streets, sidewalks and other public places — See Ch. 62.
-
-Miscellaneous provisions and offenses — See Ch. 40.
-
-Waterways — See Ch. 74.
+Any person, firm or corporation violating any provisions of this chapter, upon conviction thereof, shall be
+fined in an amount not exceeding $100. Each day such violation is committed or permitted to continue
+shall constitute a separate offense and shall be punishable as such hereunder.
 
 ---
 
@@ -26645,28 +24634,11 @@ _No text — heading/divider record only._
 
 ---
 
-## ARTICLE II
+## (Reserved, through Sec. 50-25)
 
 **Citation:** Sec. 50-1
 
-TITLE, AUTHORITY, AND PURPOSE
-
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 50-25
-
-50-1
-
-Sec. 50-27
-
-ARTICLE II
-TITLE, AUTHORITY, AND PURPOSE
+_No text — heading/divider record only._
 
 ---
 
@@ -26740,34 +24712,15 @@ covered by this policy may require.45
 
 Copies of the Human Resources Policy and Procedure Manual and Benefit Manual are made available
 
-Sec. 50-28
-
 to the public in the City Clerk's office or Human Resources Department.
 
 ---
 
-## GENERAL REFERENCES
-Administration — See Ch.
+## (Reserved, through Sec. 50-68)
 
 **Citation:** Sec. 50-28
 
-2.
-
-Purpose and applicability.
-Authority.
-through
-
----
-
-## (Reserved)
-
-45.
-
-**Citation:** Sec. 50-68
-
-Editor's Note: This subsection was altered to remove references to the policies of the Police and Fire Departments as governed by
-commissions pursuant to the 11-8-2016 amendment to the City Charter that eliminated the Fire Commission and the Police
-Commission.
+_No text — heading/divider record only._
 
 ---
 
@@ -26799,11 +24752,6 @@ The City of Biddeford enacts this chapter pursuant to Public Law 2009, Chapter 5
 Maine State Legislature, "An Act To Increase the Affordability of Clean Energy for Homeowners and
 Businesses," also known as the "Property Assessed Clean Energy Act" or the "PACE Act" (codified at
 35-A M.R.S.A. § 10151 et seq.).
-
-Sec. 51-4
-
-ARTICLE II
-TITLE; DEFINITIONS
 
 ---
 
@@ -26869,13 +24817,6 @@ Sec. 51-4
 
 TRUST — The Efficiency Maine Trust established in 35-A M.R.S.A. § 10103 and/or its agent(s), if any.
 
-Sec. 51-6
-
-ARTICLE III
-PACE PROGRAM
-DIVISION 1
-GENERAL PROVISIONS
-
 ---
 
 ## Establishment of PACE District.
@@ -26888,23 +24829,11 @@ Program.
 
 ---
 
-## Establishment of program.
+## (Reserved, through Sec. 51-50)
 
 **Citation:** Sec. 51-6
 
-Amendments; additional
-funding.
-through
-
----
-
-## (Reserved)
-
-Conflicting standards.
-
-**Citation:** Sec. 51-50
-
-through
+_No text — heading/divider record only._
 
 ---
 
@@ -26946,27 +24875,11 @@ responsible for administration of loans made from those other funding sources.
 
 ---
 
-## through
+## (Reserved, through Sec. 51-100)
 
 **Citation:** Sec. 51-53
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-ARTICLE IV
-CONFORMITY WITH REQUIREMENTS OF
-TRUST
-
-Title.
-
-**Citation:** Sec. 51-100
-
-Definitions.
-ARTICLE III
-PACE PROGRAM
 
 ---
 
@@ -26988,24 +24901,11 @@ changes constitute an unacceptable burden as determined by the municipality.
 
 ---
 
-## DIVISION 1
+## (Reserved, through Sec. 51-150)
 
 **Citation:** Sec. 51-102
 
-GENERAL PROVISIONS
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 51-150
-
-51-153
-
-ARTICLE V
-PROGRAM ADMINISTRATION; MUNICIPAL LIABILITY
+_No text — heading/divider record only._
 
 ---
 
@@ -27089,32 +24989,11 @@ owner for or related to energy-savings improvements financed under a PACE progra
 
 ---
 
-## Program administration.
+## (Reserved, through Sec. 51-999)
 
 **Citation:** Sec. 51-153
 
-Liability of municipal officials;
-liability of municipality.
-through
-
----
-
-## (Reserved)
-
-[HISTORY: Adopted by the City Council of the City of Biddeford 10-5-2010 by Ord.
-
-**Citation:** Sec. 51-999
-
-No. 2010.102.
-Amendments noted where applicable.]
-
-GENERAL REFERENCES
-Building and building regulations — See Ch. 18.
-
-Sec. 51-2
-
-ARTICLE I
-PURPOSE; ENABLING LEGISLATION
+_No text — heading/divider record only._
 
 ---
 
@@ -27126,26 +25005,11 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 54-25)
 
 **Citation:** Sec. 54-1
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 54-25
-
-54-1
-
-Sec. 54-28
-
-ARTICLE II
-REHABILITATION LOAN-GRANT PROGRAM
 
 ---
 
@@ -27220,8 +25084,6 @@ of project costs up to a maximum of $10,000.
 Owner-occupant (Section 8 median), 20% CD financing. Applicant income must not exceed Section
 8 median income level as established for the county or other income limits as may be prescribed by
 the state relative to this program.
-
-Sec. 54-29
 
 Applicants meeting such income limits may qualify for a deferred payment loan (DPL) for 20%
 of project costs up to a maximum of $4,000. Assistance to owners under this category is subject
@@ -27557,8 +25419,6 @@ period(s) prescribed pursuant to this subsection.
 Program grant limits. Program grant limits will be reviewed on an annual basis and will be amended
 to reflect the annual increase or decrease in the cost of living index. This review will be conducted at
 
-Sec. 54-34
-
 the beginning of each community development program year and will reflect the change in the
 cost of living over the previous 12 months. A list of revised grant limits will be maintained by the
 Community Development Department.
@@ -27702,31 +25562,11 @@ Community Development Commission must be approved by the City Council.
 
 ---
 
-## Procurement of bids and
-contract for rehabilitation
-work.
+## (Reserved, through Sec. 54-60)
 
 **Citation:** Sec. 54-37
 
-Terms and conditions.
-Community Development
-Commission functions.
-Procedure for funds
-disbursement.
-Program amendments.
-through
-
----
-
-## (Reserved)
-
-ARTICLE III
-GENERAL ASSISTANCE PROGRAM
-[Ord.
-
-**Citation:** Sec. 54-60
-
-Of 5-3-1994; Amended In Its Entirety 5-3-2016 By Ord. No. 2016.29]
+_No text — heading/divider record only._
 
 ---
 
@@ -27896,8 +25736,6 @@ material or solid waste.
 SOLID WASTE — Useless, unwanted or discarded solid material with insufficient liquid content to be
 free-flowing, including, by way of example and not by limitation, rubbish, garbage, scrap materials, junk,
 refuse, inert fill material and landscape refuse, but shall not include septic tank sludge or agricultural or
-
-Sec. 58-4
 
 hazardous wastes.
 UNACCEPTABLE WASTE — All solid waste of the type municipalities are required to regulate by 38
@@ -28241,8 +26079,6 @@ c.
 Upon the third offense within 12 months of the second offense, the resident shall lose recycling
 curbside service. The Codes Department will be notified to allow enforcement action. Contact
 
-Sec. 58-12
-
 will be made with the building owner explaining that they have lost all curbside recycling
 privileges. City staff will explain other options. If there is a loss of recycling service and
 privileges as a result of noncompliance with the Recycling Rules, the resident who has lost such
@@ -28285,36 +26121,11 @@ application thereof shall not be affected thereby.
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 58-30)
 
 **Citation:** Sec. 58-12
 
-Legislative authority.
-Purpose.
-Regulated activity.
-Property rights.
-Administration.
-Regulated activities and
-administration.
-Variances.
-Penalties.
-Enforcement.
-Effect on other laws;
-severability.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 58-30
-
-58-35
-
-ARTICLE II
-COLLECTION
+_No text — heading/divider record only._
 
 ---
 
@@ -28476,23 +26287,11 @@ shall be evaluated through the variance process.
 
 ---
 
-## through
+## (Reserved, through Sec. 58-39)
 
 **Citation:** Sec. 58-36
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-Container repair and
-replacement; stolen containers.
-
-**Citation:** Sec. 58-39
-
-Container placement and
-removal.
-through
 
 ---
 
@@ -28554,30 +26353,11 @@ by 8:00 p.m. on the day of collection.
 
 ---
 
-## Effective date.
+## (Reserved, through Sec. 58-60)
 
 **Citation:** Sec. 58-42
 
-Mandatory separation.
-(Reserved)
-Exempted activities.
-Portable receptacles.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 58-60
-
-58-64
-
-ARTICLE III
-WASTE FLOW CONTROL AND TRANSFER STATION
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -28723,25 +26503,11 @@ Demolition debris: $20 per cubic yard. [Added 3-19-2019 by Ord. No. 2019.12]
 
 ---
 
-## DIVISION 2
+## (Reserved, through Sec. 58-75)
 
 **Citation:** Sec. 58-65
 
-LICENSING
-
----
-
-## (Reserved)
-
-49.
-
-**Citation:** Sec. 58-75
-
-Editor's Note: This ordinance also repealed former Subsections (c), At cost disposal, and (d), Nonpermit fee disposal. For current
-provisions on at cost disposal, see Subsection (b).
-
-DIVISION 2
-LICENSING
+_No text — heading/divider record only._
 
 ---
 
@@ -28918,8 +26684,6 @@ of a hearing in accordance with the procedures in Section 58-81, for the followi
 
 Violation of this article.
 
-Sec. 58-83
-
 (2)
 
 Violation of any provision of any state or local law, ordinance, code or regulation which relates
@@ -29001,25 +26765,11 @@ equipment, including vehicles.
 
 ---
 
-## ARTICLE IV
+## (Reserved, through Sec. 58-105)
 
 **Citation:** Sec. 58-83
 
-Single-Use Carryout Bags
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 58-105
-
-58-109
-
-ARTICLE IV
-Single-Use Carryout Bags
-[Adopted 4-16-2019 By Ord. No. 2019.29]
+_No text — heading/divider record only._
 
 ---
 
@@ -29093,8 +26843,6 @@ PRODUCE BAG or PRODUCT BAG — Any bag used exclusively to carry produce, meats,
 food items or bulk items within the store to the point of sale inside such store or to prevent such items from
 coming into direct contact with other purchased items.
 REUSABLE BAG — A bag that meets all of the following criteria:
-
-Sec. 58-113
 
 (a)
 
@@ -29211,46 +26959,19 @@ Each day that a violation occurs will be considered a subsequent violation.
 
 ---
 
-## When effective.
+## (Reserved, through Sec. 58-130)
 
 **Citation:** Sec. 58-114
-
-Purpose.
-Findings.
-Definitions.
-Restrictions on use.
-Permitted bags.
-Exemptions.
-Violations and enforcement.
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 58-130
-
-ARTICLE V
-(Reserved)
-
----
-
-## through
-
-**Citation:** Sec. 58-131
 
 _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
+## (Reserved, through Sec. 58-160)
 
-**Citation:** Sec. 58-160
+**Citation:** Sec. 58-131
 
-ARTICLE VI
-SOLID WASTE ADMINISTRATION
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -29271,127 +26992,73 @@ M.R.S.A. §§ 1304-B and 1305.
 
 ---
 
-## 1
-
-SOLID WASTE
-
-b.
+## 1.
 
 **Citation:** Sec. 58-163
 
-Two members initially appointed for one year;
+Recycling and Waste Management Commission. [Amended 9-3-2013 by Ord. No.
+2013.73; 4-1-2014 by Ord. No. 2014.27; 7-20-2021 by Ord. No. 2021.62]
+(a)
 
-c.
+(b)
 
-Two members initially appointed for two years;
+(c)
 
-d.
-
-Two members initially appointed for three years.
-
-(d)
-
-(3)
-
-Whenever a vacancy occurs in the membership, a replacement member shall be appointed to fill
-the unexpired term of the vacancy.
-
-(4)
-
-Members may be removed from the Commission by the Council, upon recommendation by the
-Commission Chairman to the Council, for reasons to include:
-a.
-
-Inability to attend scheduled meetings;
-
-b.
-
-Continual conflicts of interest;
-
-c.
-
-Inability to function with the group process.
-
-Organization.
+Mission.
 (1)
 
-(e)
-
-Sec. 58-164
-
-The Recycling and Waste Management Commission shall be composed of the following
-standing subcommittees, membership and Chair to be appointed by the Chairman of the
-Commission:
-a.
-
-Municipal solid waste: addressing issues of transportation and handling of municipal solid
-waste.
-
-b.
-
-Recycling: addressing issues of recycling.
-
-c.
-
-Transfer station: addressing transfer station issues.
-
-d.
-
-Wastewater Commission relations: to coordinate Wastewater Commission issues as
-relating to waste management.
+The Recycling and Waste Management Commission is created by the Council of the City of
+Biddeford to facilitate the development and implementation of the City's comprehensive waste
+management program and coordinate the efforts of the several departments in the City that
+address the municipal waste issues.
 
 (2)
 
-These subcommittees shall research issues and provide reports as needed by the Chairman of
-the Commission to fulfill the Commission's mission and long-term goals.
+The Commission is further charged with the operation and maintenance of the provisions of this
+article.
 
 (3)
 
-The Chairman may appoint additional committees as necessary to fulfill the mission and longterm goals of the Commission.
+The Commission shall report to the Mayor and Council upon a periodic basis.
 
-Relation with other commissions, committees, etc.
+Membership.
 (1)
 
-With the establishment of this Commission, all other waste management committees are
-abolished and their functions incorporated in this Commission.
+The Recycling and Waste Management Commission shall be composed of nine members. Of
+the nine voting members, two shall be Councilors. A 10th and nonvoting member shall be a
+School Department representative who shall be nominated by the Superintendent and confirmed
+by the School Committee. All other members are to be nominated by the Mayor and confirmed
+by the City Council.
 
 (2)
 
-This Commission may interact with other commissions, boards, committees and City
-departments as needed to fulfill its mission and long-term goals.
+The voting members shall be registered voters and residents of the City of Biddeford.
+
+(3)
+
+The Commission Chairman shall be appointed by the Mayor.
+
+Terms.
+(1)
+
+The members of the Recycling and Waste Management Commission shall serve three-year
+terms and may serve additional terms upon nomination and reappointment.
+
+(2)
+
+The initial membership shall be appointed for staggered terms in order that a stabilized
+organization remain in place as much as possible. Initial terms will be:
+a.
+
+Councilors serve two years;
 
 ---
 
-## Legislative authority.
+## (Reserved, through Sec. 58-185)
 
 **Citation:** Sec. 58-164
 
-(Reserved)
-Recycling and Waste
-Management Commission.
-through
-
----
-
-## (Reserved)
-
-Title.
-
-**Citation:** Sec. 58-185
-
-[HISTORY: Adopted by the City Council of the City of Biddeford 5-7-2013 by Ord. No. 2013.29.47
-Amendments noted where applicable.]
-
-GENERAL REFERENCES
-Littering — See Ch. 34, Art. II.
-
-Streets, sidewalks and other public places — See Ch. 62.
-
-47. Editor's Note: This ordinance also superseded former Ch. 58, Solid Waste, derived from Ords. of 2-4-1992, 5-19-1992(1) and
-9-20-1994, as amended.
-
-ARTICLE I
-IN GENERAL
+_No text — heading/divider record only._
 
 ---
 
@@ -29538,8 +27205,6 @@ of 4-18-1995]
 The Committee on Capital Projects shall, subject to the approval of the Mayor and Council, have the
 authority to negotiate a lease of any part of the buildings and appurtenances thereof owned by the City not
 
-Sec. 62-7
-
 already under lease or appropriated to the use of any of the various branches of the City government. Such
 lease shall be recommended to the full Council upon such terms and conditions as the Committee deems
 expedient and shall be for a period not to exceed five years, with one option to renew for a like period.
@@ -29560,42 +27225,11 @@ shall be for a period not to exceed 15 years, with one option to renew for a ten
 
 ---
 
-## ARTICLE I
-IN GENERAL
-
-ARTICLE IV
-STREETS
-
-Removal of ice and snow;
-responsibility.
+## (Reserved, through Sec. 62-30)
 
 **Citation:** Sec. 62-7
 
-Roof railings, guards, other
-protective devices.
-Depositing snow on streets,
-public squares.
-Responsibility for care, custody
-of City buildings.
-Authority to lease City
-buildings; terms and conditions
-of lease.
-Authorization to lease City
-land; terms and conditions of
-lease.
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 62-30
-
-DIVISION 1
-GENERALLY
-
-ARTICLE II
-DIRECTOR OF PUBLIC WORKS
+_No text — heading/divider record only._
 
 ---
 
@@ -29693,8 +27327,6 @@ Engineering Division. [Added 6-7-2016 by Ord. No. 2016.41]
 
 Prepare and provide all budget requests and reports required for his department, and supervise
 
-Sec. 62-37
-
 the expenditure of funds allocated for public works operations. He shall file all requests for
 purchases with the finance committee.
 (3)
@@ -29764,29 +27396,11 @@ continuing violations.
 
 ---
 
-## Nomination and appointment.
+## (Reserved, through Sec. 62-55)
 
 **Citation:** Sec. 62-37
 
-Compensation.
-Responsibilities.
-Powers.
-Duties.
-Encroachment on public ways.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 62-55
-
-62-57
-
-ARTICLE III
-SIDEWALKS
+_No text — heading/divider record only._
 
 ---
 
@@ -29865,8 +27479,6 @@ vehicle doors.
 51. Editor's Note: The provisions on noncontiguous outside seating areas were removed from this subsection as they expired on
 11-1-2018.
 
-Sec. 62-59
-
 (2)
 
 There are adequate provisions to collect and remove any and all waste or litter associated with
@@ -29923,37 +27535,11 @@ fine of not more than $10.
 
 ---
 
-## Injuring, defacing, altering
-restricted.
+## (Reserved, through Sec. 62-80)
 
 **Citation:** Sec. 62-59
 
-Displaying merchandise, goods,
-wares; standards for tables and
-chairs, and the service and
-consumption of alcoholic
-beverages.
-Riding bicycles, skating on
-sidewalks prohibited; penalty.
-through
-
----
-
-## (Reserved)
-
-52.
-
-**Citation:** Sec. 62-80
-
-Editor's Note: Former Subsection (c)(4), which set forth provisions on noncontiguous outside seating areas, was removed from the
-Code as they expired on 11-1-2018.
-
-Sec. 62-82
-
-ARTICLE IV
-STREETS
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -30027,50 +27613,33 @@ next following the completion of the proceedings of the committee. The report sh
 
 ---
 
-## 1
-
-by an accurate survey and plan giving the boundaries and measurements of such laying out, widening
-and/or altering.
+## Naming of streets, parks and public buildings.
 
 **Citation:** Sec. 62-83
 
-The plan shall indicate, as accurately as possible, all physical features of the subject
-way, both above grade and below grade. All such features shall be a part of the acceptance of the way
-[see Subsection (e) of this section] unless specifically excluded from such acceptance.
+[Ord. of 12-4-1991, § 20-3; Ord. No.
+2003.16, 2-4-2003; amended 4-2-2013 by Ord. No. 2013.17]
+(a)
+
+Prior to Planning Board review, the owner shall consult with the 911 Coordinator to determine if the
+street name is acceptable for the City’s 911 system. Once approved by the Planning Board and
+recorded on development plans, said name of street will be forwarded to the City Council with the
+application for street acceptance.
+
+(b)
+
+All streets heretofore laid out and dedicated, all parks and all public buildings shall be known by the
+names now recorded, and there shall not be a change in the name of any street, park or public building
+or the naming of a new or unnamed street, park or public building, except under the procedures
+outlined in this chapter.
+
 (c)
 
-The committee responsible for capital projects shall utilize the services of the engineer to aid it in any
-work required in performing its duties under this section. If there is no engineer, the committee may
-request that the City Manager employ any professional civil engineer or land surveyor to so assist. In
-such an event, the engineer or surveyor so employed shall be allowed reasonable compensation for
-his services.
-
-(d)
-
-The owner(s) shall present to the City a deed for the property within the boundaries of the right-ofway, and other areas as required, at the time of the street's acceptance by the City Council.
-
-(e)
-
-After the report of the committee responsible for capital projects on streets is accepted by the Council,
-and adopted by order of the Council, the way so laid out and reported on shall be established and
-known as a public way; and the Council order and the survey and plan accompanying the report of
-the committee shall be duly recorded by the City Clerk both in the files of their office.
-
-(f)
-
-The acceptance of the street shall be contingent upon the recordation of the final plan and the deed at
-the York County Registry of Deeds within 30 days, and the subsequent presentation to the City Clerk
-of copies thereof, bearing the imprimatur of the registry of deeds, and Y.C.R.D. file index numbers,
-and the date of recording.
-
-(g)
-
-The owner shall warranty all public improvements for a period of at least one year, or such a period
-of time as determined by Council, from the date of acceptance and post a maintenance guarantee. The
-bond shall cover 100% of all expenses to reconstruct the roadway, and that amount must be approved
-by the engineering department prior to acceptance. At the conclusion of the one-year warranty period,
-the City Council shall release the maintenance guarantee provided the engineer agrees the road and
-all associated structures show no sign of deterioration or poor construction.
+The City Council shall not approve and the City Engineer shall not record any street, park or public
+building name when any other street, park or public building shall have been recorded with the same
+name, unless a new street, park or public building is a continuation of or in alignment with or an
+addition to existing recorded streets, parks or public buildings, in which event they shall bear the
+same name of said existing streets, parks or public buildings.
 
 ---
 
@@ -30252,48 +27821,11 @@ Firm Name (if any)
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 62-100)
 
 **Citation:** Sec. 62-90
 
-Procedure for establishment of
-City park or establishing or
-altering public ways.
-Naming of streets, parks and
-public buildings.
-Procedure for adopting new
-names or changing existing
-names.
-Street signs.
-Setting posts, signs, other
-structures in right-of-way.
-Political signs.
-Boundary survey of proposed
-right-of-way required.
-Monumentation required.
-Plan and profile required.
-Surveyor's certificate.
-Professional engineer's
-certification.
-through
-
----
-
-## (Reserved)53
-53.
-
-**Citation:** Sec. 62-100
-
-Editor's Note: Former Section 62-90, adopted by § 20-55 of Ord. No. 12-4-1991, which contained provisions on application and
-
-recording, was repealed 2-4-2003 by Ord. No. 2003.16.
-
-Sec. 62-90
-
-Sec. 62-103
-
-DIVISION 2
-DESIGN STANDARDS
+_No text — heading/divider record only._
 
 ---
 
@@ -30360,8 +27892,6 @@ Aboveground features shall be located as delineated herein, to provide for a min
 interference. In general, traffic control devices shall be located behind the curb within the esplanade;
 utility poles, trees and other plantings may be within the esplanade or at the rear of the sidewalk,
 provided they are not underneath any overhead wires or over any subsurface conduits and do not
-
-Sec. 62-106
 
 block any line-of-sight required elsewhere in this chapter. Hydrants shall be located to the rear of the
 sidewalk unless circumstances demand an alternate location, as determined by the Chief of the Fire
@@ -30519,8 +28049,6 @@ or other suitable method, and shall discharge into a riprap protected area with 
 approved method. Maximum culvert side slopes shall be 33% (1:3), and shall be stabilized with grass
 or any other method allowed in Section 62-132. Ultimate discharge shall be into a receiving body
 having ample capacity to accommodate the added volume of water.
-
-Sec. 62-109
 
 (2)
 
@@ -30820,8 +28348,6 @@ intersections and to service three homes. For overhead power, type and size of s
 determined by public works. If underground power is used, the applicant needs to coordinate with the
 engineering department for City standard light fixtures and poles.
 
-Sec. 62-116
-
 These current guidelines may be reviewed on a case-by-case basis by the committee
 responsible for capital projects if extenuating circumstances exist. A plan showing all of the
 above details shall be furnished for the committee responsible for capital projects approval
@@ -30909,33 +28435,11 @@ Sec. 62-116
 
 ---
 
-## Drainage.
+## (Reserved, through Sec. 62-125)
 
 **Citation:** Sec. 62-116
 
-Roadway features.
-Sidewalks.
-Driveway aprons and curb cuts.
-Esplanades and plantings.
-Street signs and lighting.
-Sight distance.
-Soil conditions.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 62-125
-
-62-116
-
-Sec. 62-127
-
-DIVISION 3
-CONSTRUCTION STANDARDS
+_No text — heading/divider record only._
 
 ---
 
@@ -31064,8 +28568,6 @@ shall be used in strict accordance with the manufacturer's instructions. If a bu
 utilized for individual sections of pipe, the grade shall be checked with a surveyor's level every
 five sections of pipe, or every 50 feet, whichever is the lesser distance. Once in proper position,
 each section of pipe shall have approved backfill material placed under its entire length, and the
-
-Sec. 62-129
 
 grade checked again, before proceeding to place the next section.
 (2)
@@ -31198,8 +28700,6 @@ components of the mix. See Table A in Section 62-126 for pavement requirements.
 
 Methods. The provisions of the state specifications for highways and bridges shall be observed
 closely, and the methods therein specified (Division 400) shall be followed.
-
-Sec. 62-133
 
 (c)
 
@@ -31362,8 +28862,6 @@ of Section 502 of the Maine DOT Standard Specifications for Highways and Bridges
 After placing, the surface shall be finished with a wood float which shall be moved in a circular
 motion to produce a shell-like pattern. No plastering of the surface with mortar will be
 
-Sec. 62-137
-
 permitted. All outside edges of the slab and all joints shall be rounded with a one-fourth-inch
 radius edging tool.
 (5)
@@ -31513,8 +29011,6 @@ laboratory for analysis or testing. Material testing will follow generally the r
 106 of the Maine DOT Standard Specifications for Highways and Bridges. Results of any testing
 shall be furnished to the developer, or contractor, together with a statement by the inspector as to the
 
-Sec. 62-138
-
 results being satisfactory or not so. All costs associated with the tests shall be the responsibility of the
 contractor/developer.
 The engineer also has the option of requiring the contractor/developer perform the testing and
@@ -31525,48 +29021,19 @@ manufacturers on items furnished to the City.
 
 ---
 
-## ARTICLE V
+## (Reserved, through Sec. 62-160)
 
 **Citation:** Sec. 62-138
-
-EXCAVATIONS
-
-DIVISION 3
-CONSTRUCTION STANDARDS
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 62-160
-
-ARTICLE V
-EXCAVATIONS
-DIVISION 1
-GENERALLY
-
----
-
-## through
-
-**Citation:** Sec. 62-161
 
 _No text — heading/divider record only._
 
 ---
 
-## (Reserved)
+## (Reserved, through Sec. 62-170)
 
-Sec.
+**Citation:** Sec. 62-161
 
-**Citation:** Sec. 62-170
-
-62-161
-
-Sec. 62-173
-
-DIVISION 2
-PERMIT
+_No text — heading/divider record only._
 
 ---
 
@@ -31933,8 +29400,6 @@ access; emergency access; water supply; sewage disposal; management of stormwate
 sedimentation; protection of groundwater; protection of the environment, wildlife habitat, fisheries,
 and unique natural areas; protection of historic and archaeological resources; minimizing the adverse
 
-Sec. 66-4
-
 impacts on adjacent properties; fitting the project harmoniously into the fabric of the community, and
 to promote:
 (1)
@@ -32118,8 +29583,6 @@ the property and the applicant. This fee shall be in addition to any other appli
 recommendations made by the Coastal Area Committee, was removed from the Code pursuant to Ord. No. 2011.38, adopted
 9-20-2011. Said ordinance disbanded the Coastal Area Committee.
 
-Sec. 66-11
-
 (2)
 
 The applicant shall pay for first class postage for the notification of abutters for each public
@@ -32298,8 +29761,6 @@ until it has been certified in the manner set forth in Section 66-13 of this cha
 
 No transfer of the property, or interest in the development, without prior Planning Board
 approval (this approval is contingent upon satisfactory proof that the purchaser has the
-
-Sec. 66-17
 
 necessary technical and financial capacity to complete the project as approved).
 (c)
@@ -32493,57 +29954,11 @@ requirement shall also hold in cases where a common or communal system is propos
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 66-25)
 
 **Citation:** Sec. 66-22
 
-Intent.
-Authority and purpose.
-Applicability of this chapter.
-Conflicting provisions.
-Planning Board to administer
-chapter.
-(Reserved)
-Fee to cover administrative
-costs.
-Waiver variation permitted.
-Subdivisions to conform to the
-City's Comprehensive Plan,
-local codes and ordinances.
-Performance guarantee
-required; amount; conditions.
-Waiver of performance
-guarantee.
-Release of obligation required
-by performance guarantee.
-Extension of guaranteed
-performance period.
-(Reserved)
-Building permit restrictions.
-(Reserved)
-Potable water (water suitable
-for human consumption) wells
-required.
-(Reserved)
-No City services on private
-ways.
-Soils evaluations.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 66-25
-
-66-29
-
-ARTICLE II
-PLANS
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -32610,11 +30025,6 @@ acceptable to the York County Registry of Deeds.
 [Ord. of 6-20-1995]
 All plans for subdivisions shall indicate all measurements in common (English) units, and in addition shall
 indicate the metric equivalent of each dimension in parentheses.
-
-Sec. 66-33
-
-DIVISION 2
-SKETCH OR CONCEPT PLAN
 
 ---
 
@@ -32705,11 +30115,6 @@ accordance with Section 66-35(a) and (b).
 The Board may grant simultaneous preliminary and final plan approvals for minor subdivisions in
 clear cases where the purposes of this chapter will not be reduced. Such waiver of the Board's
 approval process shall be indicated on the final plan.
-
-Sec. 66-35
-
-DIVISION 3
-PRELIMINARY PLAN
 
 ---
 
@@ -32865,8 +30270,6 @@ Copies of such covenants or deed restrictions as are intended to all or part of 
 The City Planner shall be responsible for making a recommendation to the Board as to the
 completeness of the application.
 
-Sec. 66-39
-
 ---
 
 ## and
@@ -32878,18 +30281,10 @@ _No text — heading/divider record only._
 ---
 
 ## (Reserved)
-Board may require studies to be
-made.
 
 **Citation:** Sec. 66-37
 
-Board action on approval of
-preliminary plan.
-Extension of preliminary
-approval period.
-Board authorized to conduct
-hearing upon receipt of plan.
-through
+_No text — heading/divider record only._
 
 ---
 
@@ -33053,8 +30448,6 @@ the Board approval of conditions, if any, endorsed on each.
 
 The written statement shall specify the date upon which the final plan must be submitted for final
 
-Sec. 66-42
-
 approval. This date shall be no more than six months from the date of preliminary approval.
 (e)
 
@@ -33104,26 +30497,11 @@ needed (1-A M.R.S.A. § 4403, as amended).
 
 ---
 
-## Ten copies to be filed with
-request for approval.
+## (Reserved, through Sec. 66-44)
 
 **Citation:** Sec. 66-42
 
-Required information.
-and
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 66-44
-
-66-52
-
-DIVISION 4
-FINAL PLAN
+_No text — heading/divider record only._
 
 ---
 
@@ -33196,25 +30574,10 @@ _No text — heading/divider record only._
 ---
 
 ## (Reserved)
-To be legibly drawn.
 
 **Citation:** Sec. 66-50
 
-Contents generally.
-Improvements to be
-incorporated as-built plans.
-Certification to accompany
-plan; cost of certification,
-inspection.
-When to be considered.
-Right to appeal Board's
-decision.
-Effect of approval, length of
-approval.
-Approval to be attested.
-Disposition of plan and copies
-following approval.
-through 66-69. (Reserved)
+_No text — heading/divider record only._
 
 ---
 
@@ -33231,8 +30594,6 @@ the York County Registry Deeds.
 
 An original drawing and one copy shall be presented to the Board at the time of final approval for
 signatures of the Board.
-
-Sec. 66-55
 
 ---
 
@@ -33419,8 +30780,6 @@ recorded as an amendment to the approved subdivision.
 The approval of a final plan shall be attested on said plan by the signatures of legal majority of the members
 of the Board, being no less than three members.
 
-Sec. 66-60
-
 ---
 
 ## Disposition of plan and copies following approval.
@@ -33457,18 +30816,11 @@ registered mail.
 
 ---
 
-## Approval, recording of final
-plan prerequisite to sale of
-land, construction, etc.
+## through 66-69.
 
 **Citation:** Sec. 66-60
 
-Request for final approval to be
-made to Board; copies of plan
-to accompany request.
-When to be prepared.
-When to be submitted.
-and
+(Reserved)
 
 ---
 
@@ -33745,8 +31097,6 @@ road.
 
 No cutting of trees or clearing of vegetation shall be permitted in the vegetated buffer strip, whether
 
-Sec. 66-81
-
 preexisting or created as part of an approved landscaping plan, unless otherwise committed by a
 hazardous situation.
 
@@ -33792,24 +31142,19 @@ the Board.
 
 ---
 
-## DIVISION 2
+## and
 
 **Citation:** Sec. 66-81
 
-STREETS
+_No text — heading/divider record only._
 
 ---
 
 ## (Reserved)
 
-Sec.
-
 **Citation:** Sec. 66-82
 
-66-84
-
-DIVISION 2
-STREETS
+_No text — heading/divider record only._
 
 ---
 
@@ -33825,29 +31170,11 @@ Council.
 
 ---
 
-## through
+## (Reserved, through Sec. 66-104)
 
 **Citation:** Sec. 66-84
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)60
-
-60.
-
-**Citation:** Sec. 66-104
-
-Editor's Note: Former Section 66-84, which contained provisions on street signs, former Section 66-86, which contained provisions
-on continuation and projection of streets, former Section 66-95, which contained provisions on construction of streets according to
-the final plan, and former Section 66-96, which contained provisions on inspections of subdivision development, all adopted
-6-20-1995, were repealed 3-18-2003 by Ord. No. 2003.33.
-
-Sec. 66-106
-
-DIVISION 3
-GENERAL COSTS
 
 ---
 
@@ -33869,41 +31196,11 @@ payment by the City after they are installed.
 
 ---
 
-## ARTICLE III
-DESIGN STANDARDS AND
-IMPROVEMENTS
-DIVISION 1
-GENERALLY
-
-Subdividing land designated for
-public use.
+## (Reserved, through Sec. 66-108)
 
 **Citation:** Sec. 66-106
 
-Approval of plans prerequisite
-to construction of
-improvements.
-Lots to have access to streets.
-(Reserved)
-Authority to require
-subdivision design to show
-respect for natural features.
-Trees, esplanades, open spaces
-may be required.
-Cul-de-sac islands.
-Subdivision in the Rural Farm
-(RF) Zone.
-Permanent marker required.
-and
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 66-108
-
-ARTICLE IV
-ENFORCEMENT
+_No text — heading/divider record only._
 
 ---
 
@@ -33977,11 +31274,6 @@ The City's Code Enforcement Officer, Planning Board, or the appropriate municipa
 institute proceedings to enjoin the violations of this section; and if a violation is found by the court,
 the City, Municipal Planning Board or the appropriate municipal officers may be allowed attorney
 fees.
-
-Sec. 66-111
-
-ARTICLE V
-AMENDMENTS
 
 ---
 
@@ -34057,26 +31349,11 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 70-25)
 
 **Citation:** Sec. 70-1
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-25
-
-70-1
-
-ARTICLE II
-WASTEWATER SYSTEM
-DIVISION 1
-GENERALLY
 
 ---
 
@@ -34245,8 +31522,6 @@ cooling water or other similar discharge, not including domestic wastewater and/
 SUSPENDED SOLIDS (SS) — Solids that either float on the surface of, or are in suspension in, water,
 wastewater, or other liquids, and which are removable by laboratory filtering and are referred to as
 
-Sec. 70-28
-
 nonfilterable residue in the laboratory test prescribed in Standard Methods for the Examination of Water
 and Wastewater.
 TOTAL TOXIC WASTE ORGANICS — Any element or compound, alone or in combination, which
@@ -34395,8 +31670,6 @@ identification shall be permitted to enter all properties for the purpose of ins
 measurement, sampling and testing in accordance with the provisions of this article. The municipality
 shall have the right to set up on the discharger's property such devices as are necessary to conduct
 
-Sec. 70-31
-
 sampling, inspection, compliance monitoring and/or metering operations.
 (c)
 
@@ -34539,8 +31812,6 @@ the proceeding, constitute the record. All decisions become a part of the record
 a statement of findings and conclusions, as well as the reasons or basis for the findings and
 conclusions, upon all the material issues of fact, law or discretion presented and the appropriate
 order, relief or denial of relief.
-
-Sec. 70-32
 
 c.
 
@@ -34818,8 +32089,6 @@ demonstrating that a substantial portion of the total amount of metered water do
 POTW, then the Commission shall either establish a percentage of the total metered water to be used
 as a basis for such computations, or direct the installation of appropriate flow measuring (and
 
-Sec. 70-33
-
 totalizing) devices to measure and record the actual amount of flow into the POTW. In the event that
 a person discharging wastes into the POTW procures all or part of his water supply from unmetered
 sources, the Commission shall either direct the installation of water meters of the other sources of
@@ -34834,33 +32103,11 @@ owner's expense.
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 70-40)
 
 **Citation:** Sec. 70-33
 
-Construction of sewers.
-Licensed contractors.
-Protection from damage.
-Powers and authority of
-inspectors; confidential
-information.
-Enforcement of article;
-violations and penalties.
-User fees.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-40
-
-70-44
-
-DIVISION 2
-WASTEWATER MANAGEMENT COMMISSION
+_No text — heading/divider record only._
 
 ---
 
@@ -34932,29 +32179,11 @@ require.
 
 ---
 
-## Purpose.
+## (Reserved, through Sec. 70-55)
 
 **Citation:** Sec. 70-44
 
-Appointment of members,
-qualifications, term, filling of
-vacancies; election of officers;
-conduct of business.
-Powers and duties.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-55
-
-70-61
-
-DIVISION 3
-BUILDING SEWERS AND CONNECTIONS
+_No text — heading/divider record only._
 
 ---
 
@@ -35111,8 +32340,6 @@ the rear building through an adjoining alley, court, yard or driveway or under o
 determined in the discretion of the Director. Under these circumstances, and upon approval of the Director
 and Plumbing Inspector, the building sewer from the front building may be extended to the rear building,
 and the whole considered as one building sewer.
-
-Sec. 70-69
 
 ---
 
@@ -35290,66 +32517,11 @@ additional capacity is added to the facilities.
 
 ---
 
-## Sewer connection permit
-required prior to issuance of
-building permit.
+## (Reserved, through Sec. 70-85)
 
 **Citation:** Sec. 70-76
 
-Permit classes; application;
-fees.
-Installation, connection costs;
-indemnification of City.
-Permit for connection into
-public sewer.
-Manner of laying, connecting
-and disconnecting building
-sewer.
-Independent building sewers
-required; exception.
-Removal of material during
-excavation.
-Backfilling of building sewer.
-Inspection, approval of work
-under permit.
-Size, slope, alignment, materials
-of construction, excavation
-methods.
-Gravity flow; lift.
-Conformance with technical
-codes, other regulations;
-connections to be gas and
-watertight.
-Barricading, lighting of
-excavations; restoration of
-streets and other public
-property.
-Construction of private sewer
-collecting from two or more
-building sewers.
-Connection of old building
-sewers to new buildings.
-Prohibited and restricted
-discharges.
-Revocation of permits.
-Treatment capacity of City
-facilities.
-through
-
----
-
-## (Reserved)
-
-UTILITIES
-
-Sec.
-
-**Citation:** Sec. 70-85
-
-70-76
-
-DIVISION 4
-USE REGULATIONS
+_No text — heading/divider record only._
 
 ---
 
@@ -35573,8 +32745,6 @@ who discharges slugs of prohibited materials shall be liable for any expense, lo
 City wastewater facility in addition to the amount of any fines imposed on the City on account thereof
 under state or federal law.
 
-Sec. 70-92
-
 (c)
 
 Signs shall be permanently posted in conspicuous places on dischargers' premises advising employees
@@ -35750,8 +32920,6 @@ be amended.
 
 It shall be unlawful to discharge sewage, industrial wastes or other wastes to any sewer outlet within
 
-Sec. 70-99
-
 the jurisdiction of the City and to the City wastewater facilities without having first complied with
 the terms of this division.
 (b)
@@ -35894,8 +33062,6 @@ of the upset.
 The pretreatment manager shall promulgate an enforcement response program, setting out the
 procedure to be followed in cases of violations of any permit, compliance order or standard. The
 response program shall establish a uniform administrative process.
-
-Sec. 70-104
 
 ---
 
@@ -36344,60 +33510,11 @@ publicity and final approval will be the decision of the City Council.
 
 ---
 
-## Prohibited discharges.
+## (Reserved, through Sec. 70-125)
 
 **Citation:** Sec. 70-105
 
-Additional limitations
-authorized.
-State discharge limitations.
-Dilution of discharge.
-Protection from accidental
-discharge of prohibited
-material; notification
-requirements.
-Discharge limitations;
-enforcement of unlawful
-discharges.
-Pretreatment or equalization
-requirements; approval
-required for discharge of
-beryllium, mercury, arsenic or
-selenium.
-Grease, oil and sand
-interceptors.
-Maintenance of preliminary
-treatment or flow-equalizing
-facilities.
-Analysis, data requirements.
-Accepting waste of unusual
-strength; septage.
-Industrial discharge permit
-system.
-Administration.
-Enforcement.
-Records retention.
-Fees.
-(Reserved)
-Miscellaneous provisions.
-General rules and regulations
-for customers of sewer system.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-125
-
-70-128
-
-ARTICLE III
-WASTEWATER SYSTEM CAPACITY MANAGEMENT
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -36552,36 +33669,15 @@ forfeitures, may request injunctive relief, as necessary.
 The provisions of this Article III (Wastewater System Capacity Management), of the Biddeford Code
 of Ordinances, as most recently revised and ordained on March 5, 1991, be renewed in its entirety in
 
-Sec. 70-133
-
 accordance with the provisions of Section 70-130 hereof, and that this measure take effect upon passage.
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 70-140)
 
 **Citation:** Sec. 70-133
 
-Entry of wastewater, permit
-required; permit limitations.
-Findings, statement of
-emergency and purpose.
-Capacity of plant.
-Expiration of article; program
-monitoring; amendments.
-Penalties for violation of article.
-Growth management program
-renewed.
-through
-
----
-
-## (Reserved)
-
-**Citation:** Sec. 70-140
-
-DIVISION 2
-PERMITS
+_No text — heading/divider record only._
 
 ---
 
@@ -36798,27 +33894,11 @@ issued, but only for the life of the permit as indicated in Section 70-142.
 
 ---
 
-## Application; fee; determination
-of discharges.
+## (Reserved, through Sec. 70-155)
 
 **Citation:** Sec. 70-144
 
-Expiration of permits.
-Nontransferability.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-155
-
-70-158
-
-DIVISION 3
-CONSERVATION
+_No text — heading/divider record only._
 
 ---
 
@@ -36865,25 +33945,11 @@ reducing both residential and nonresidential wastewater discharge.
 
 ---
 
-## Mandatory.
+## (Reserved, through Sec. 70-170)
 
 **Citation:** Sec. 70-158
 
-Voluntary.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-170
-
-70-173
-
-DIVISION 4
-INFLOW AND INFILTRATION REMOVAL
+_No text — heading/divider record only._
 
 ---
 
@@ -36954,28 +34020,11 @@ GPD), versus the impact fee rate listed on Table 200.
 
 ---
 
-## Study by City Engineer; report;
-amendment of article.
+## (Reserved, through Sec. 70-195)
 
 **Citation:** Sec. 70-173
 
-Issuance of permit; interim fee.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-195
-
-70-198
-
-ARTICLE IV
-SEPTIC TANK SLUDGE DISPOSAL
-DIVISION 1
-GENERALLY
+_No text — heading/divider record only._
 
 ---
 
@@ -37082,29 +34131,11 @@ relief to prohibit violations of this article and to correct conditions caused b
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 70-210)
 
 **Citation:** Sec. 70-200
 
-Purpose.
-Industrial septage waste.
-Penalty for violation of article;
-continuing violations;
-injunctive relief.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-210
-
-70-216
-
-DIVISION 2
-LICENSE
+_No text — heading/divider record only._
 
 ---
 
@@ -37187,31 +34218,11 @@ The form of the waste disposal permit shall be as follows:63
 
 ---
 
-## Required.
+## (Reserved, through Sec. 70-225)
 
 **Citation:** Sec. 70-216
 
-Filing date.
-Fee.
-Contents of application.
-Form of license.
-through
-
----
-
-## (Reserved)
-
-62.
-
-**Citation:** Sec. 70-225
-
-Editor's Note: The form of the Septic Tank Sludge Disposal License is included at the end of this chapter.
-63. Editor's Note: The form of the Waste Disposal Permit is included at the end of this chapter.
-
-Sec. 70-233
-
-DIVISION 3
-PERMIT
+_No text — heading/divider record only._
 
 ---
 
@@ -37293,35 +34304,11 @@ in the City Clerk's office.
 
 ---
 
-## Form; assessment of fees.
+## (Reserved, through Sec. 70-239)
 
 **Citation:** Sec. 70-233
 
-Individual permit for low
-volume septic haulers, fee.
-Verification required.
-Contractor responsibility.
-Endorsement of application.
-Routing and filing.
-Failure to produce completed
-permit.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-239
-
-70-241
-
-ARTICLE V
-Fats, Oils And Grease Control
-[Added 4-7-2015 By Ord. No. 2015.12]
-DIVISION 1
-GENERAL PROVISIONS
+_No text — heading/divider record only._
 
 ---
 
@@ -37571,11 +34558,6 @@ Words used in this article in the singular may include the plural and the plural
 masculine shall mean feminine and use of feminine shall mean masculine. "Shall" is mandatory;
 "may" is permissive or discretionary.
 
-Sec. 70-244
-
-DIVISION 2
-GENERAL LIMITATIONS, PROHIBITIONS, AND REQUIREMENTS
-
 ---
 
 ## FOG discharge limitations.
@@ -37654,8 +34636,6 @@ include and install one or more grease control devices as approved by the Direct
 designee prior to commencing discharges of wastewater to the POTW, unless otherwise
 specified. Potential FSE spaces and tenant finish FSE spaces shall provide space and plumbing
 segregation for the future installation of one or more grease control devices for each tenant space
-
-Sec. 70-246
 
 prior to commencing discharges to the sewer system as determined by the Director.
 (2)
@@ -37764,31 +34744,11 @@ owner or operator, and shall constitute a debt to the City.
 
 ---
 
-## FOG discharge limitations.
+## (Reserved, through Sec. 70-248)
 
 **Citation:** Sec. 70-247
 
-Prohibitions.
-FOG pretreatment required.
-Commercial properties.
-Sewer system overflows (SSOs),
-abatement orders and cost
-recovery.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-248
-
-70-251
-
-DIVISION 3
-FACILITIES REQUIREMENTS
-All food service establishments shall comply with the following requirements, where applicable:
+_No text — heading/divider record only._
 
 ---
 
@@ -37941,8 +34901,6 @@ Sizing and installation of grease traps shall conform to the specifications of t
 International Plumbing Code, Maine version, as enforced by the Biddeford Code Enforcement Office,
 as specified by the Director for good cause, or as recommended by the manufacturer, whichever is
 
-Sec. 70-255
-
 more stringent.
 (b)
 
@@ -38092,29 +35050,11 @@ conspicuously in the food preparation and dishwashing areas at all times.
 
 ---
 
-## Drawing submittal
-requirements.
+## (Reserved)
 
 **Citation:** Sec. 70-256
 
-Grease interceptor installation
-requirements.
-Grease interceptor
-maintenance requirements.
-Grease trap installation
-requirements.
-Grease trap maintenance
-requirements.
-Monitoring facilities
-requirements.
-Requirements for best
-management practices.
-(Reserved)
-
-DIVISION 4
-MONITORING, REPORTING,
-NOTIFICATION, AND INSPECTION
-REQUIREMENTS
+_No text — heading/divider record only._
 
 ---
 
@@ -38247,29 +35187,11 @@ the Director.
 
 ---
 
-## Monitoring and reporting
-conditions.
+## (Reserved, through Sec. 70-265)
 
 **Citation:** Sec. 70-260
 
-Inspection and sampling
-conditions.
-Notification of planned
-changes.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-265
-
-70-268
-
-DIVISION 5
-FACILITY REQUIREMENTS
+_No text — heading/divider record only._
 
 ---
 
@@ -38326,25 +35248,11 @@ modification after the initial startup date.
 
 ---
 
-## FOG registration.
+## (Reserved, through Sec. 70-269)
 
 **Citation:** Sec. 70-268
 
-FOG registration fee.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 70-269
-
-70-272
-
-DIVISION 6
-COMPLIANCE AND ENFORCEMENT
+_No text — heading/divider record only._
 
 ---
 
@@ -38470,42 +35378,19 @@ be final.
 
 ---
 
-## DIVISION 7
+## (Reserved, through Sec. 70-279)
 
 **Citation:** Sec. 70-274
 
-SEVERABILITY
-
-DIVISION 6
-COMPLIANCE AND ENFORCEMENT
+_No text — heading/divider record only._
 
 ---
 
-## (Reserved)
-
-64.
-
-**Citation:** Sec. 70-279
-
-Editor's Note: Said table is included as an attachment to this chapter.
-
-DIVISION 7
-SEVERABILITY
-If any section, subsection, subdivision, sentence, clause or phrase of this article is for any reason held to be
-unconstitutional or otherwise invalid, such invalidity shall not affect the validity of this entire Rule or any
-of the remaining portions hereof.
-
----
-
-## Right of entry.
+## through § 70-290.
 
 **Citation:** Sec. 70-280
 
-FOG enforcement response
-plan.
-Violations; enforcement.
-Noncompliance fees.
-through
+(Reserved).
 
 ---
 
@@ -38899,9 +35784,6 @@ which are contributed to the POTW.
 WASTEWATER TREATMENT PLANT or TREATMENT PLANT — That portion of the POTW which
 is designed to provide treatment of municipal sewage and industrial waste.
 
-ARTICLE II
-GENERAL SEWER USE REQUIREMENTS
-
 ---
 
 ## Prohibited discharge standards.
@@ -38976,8 +35858,6 @@ state or federal regulations.
 (12) Stormwater, surface water, groundwater, artesian well water, roof runoff, subsurface drainage,
 swimming pool drainage, condensate, de-ionized water, noncontact cooling water, and
 unpolluted wastewater, unless specifically authorized by the Director of Wastewater or his/her
-
-Sec. 71-6
 
 designee.
 (13) Sludges, screenings, or other residues from the pretreatment of industrial wastes or other
@@ -39309,8 +36189,6 @@ TTO (total toxic organics)
 
 4.00 mg/l
 
-Sec. 71-10
-
 NOTE:
 *
 
@@ -39352,11 +36230,6 @@ expressly authorized by an applicable pretreatment standard or requirement. The 
 or his/her designee may impose mass limitations on users who are using dilution to meet applicable
 pretreatment standards or requirements, or in other cases when the imposition of mass limitations is
 appropriate.
-
-Sec. 71-13
-
-ARTICLE III
-PRETREATMENT OF WASTEWATER
 
 ---
 
@@ -39430,8 +36303,6 @@ Description of discharge practices, including nonroutine batch discharges;
 
 Description of stored chemicals;
 
-Sec. 71-14
-
 (3)
 
 Procedures for immediately notifying the Director of Wastewater or his/her designee of any
@@ -39482,11 +36353,6 @@ at a minimum, the name and address of the industrial waste hauler, permit number
 identification, names and addresses of sources of waste, and volume and characteristics of waste. The
 form shall identify the type of industry, known or suspected waste constituents, and whether any
 wastes are RCRA hazardous wastes.
-
-Sec. 71-19
-
-ARTICLE IV
-INDIVIDUAL WASTEWATER DISCHARGE PERMITS
 
 ---
 
@@ -39715,11 +36581,6 @@ Wastewater or his/her designee will determine whether to issue an individual was
 The Director of Wastewater or his/her designee may deny any application for an individual wastewater
 discharge permit.
 
-Sec. 71-23
-
-ARTICLE V
-INDIVIDUAL WASTEWATER DISCHARGE PERMIT ISSUANCE
-
 ---
 
 ## Duration of permit.
@@ -39881,8 +36742,6 @@ Aggrieved parties seeking judicial review of the final administrative individual
 permit decision must do so by filing a complaint with the York County Superior Court for equitable
 relief within 30 calendar days from the issuance of the decision of the Wastewater Director or his/her
 designee.
-
-Sec. 71-26
 
 ---
 
@@ -40152,9 +37011,6 @@ his/her designee; and
 A provision specifying remedies available for breach of the terms of the intermunicipal
 agreement.
 
-ARTICLE VI
-REPORTING REQUIREMENTS
-
 ---
 
 ## Baseline monitoring reports.
@@ -40231,8 +37087,6 @@ pretreatment standards and requirements.
 (4)
 
 Compliance schedule. If additional pretreatment and/or O&M will be required to meet the
-
-Sec. 71-33
 
 pretreatment standards, the shortest schedule by which the user will provide such additional
 pretreatment and/or O&M must be provided. The completion date in this schedule shall not
@@ -40592,8 +37446,6 @@ cause potential problems for the POTW, the user shall immediately telephone and 
 of Wastewater or his/her designee of the incident. This notification shall include the location of the
 discharge, type of waste, concentration and volume, if known, and corrective actions taken by the
 
-Sec. 71-38
-
 user.
 (b)
 
@@ -40737,8 +37589,6 @@ samples collected during a twenty-four-hour period may be composited prior to th
 follows: for cyanide, total phenols, and sulfides, the samples may be composited in the laboratory or
 in the field; for volatile organics and oil and grease, the samples may be composited in the laboratory.
 
-Sec. 71-43
-
 Composite samples for other parameters unaffected by the compositing procedures as documented in
 approved EPA methodologies may be authorized by the City of Biddeford, Maine, as appropriate. In
 addition, grab samples may be required to show compliance with instantaneous limits.
@@ -40847,11 +37697,6 @@ standard part(s)], I certify that, to the best of my knowledge and belief, there
 increase in the level of __________ [list pollutant(s)] in the wastewaters due to the activities at
 the facility since filing of the last periodic report under Section 71-33(a).
 
-Sec. 71-45
-
-ARTICLE VII
-COMPLIANCE MONITORING
-
 ---
 
 ## Right of entry; inspection and sampling.
@@ -40910,9 +37755,6 @@ or any permit or order issued hereunder, or to protect the overall public health
 community, the Director of Wastewater or his/her designee, may seek issuance of a search warrant from
 the Maine District Court or the York County Superior Court.
 
-ARTICLE VIII
-CONFIDENTIAL INFORMATION
-
 ---
 
 ## Availability of information to public; restrictions.
@@ -40932,9 +37774,6 @@ upon request to governmental agencies for uses related to the MEPDES program or 
 and in enforcement proceedings involving the person furnishing the report. Wastewater constituents and
 characteristics and other effluent data, as defined at 40 CFR 2.302 shall not be recognized as confidential
 information and shall be available to the public without restriction.
-
-ARTICLE IX
-SIGNIFICANT NONCOMPLIANCE
 
 ---
 
@@ -40998,11 +37837,6 @@ Failure to accurately report noncompliance; or
 Any other violation(s), which may include a violation of best management practices, which the
 Director of Wastewater or his/her designee determines will adversely affect the operation or
 implementation of the local pretreatment program.
-
-Sec. 71-51
-
-ARTICLE X
-ADMINISTRATIVE ENFORCEMENT REMEDIES
 
 ---
 
@@ -41068,8 +37902,6 @@ are installed and properly operated. Compliance orders also may contain other re
 the noncompliance, including additional self-monitoring and management practices designed to minimize
 the amount of pollutants discharged to the sewer. A compliance order may not extend the deadline for
 compliance established for a pretreatment standard or requirement, nor does a compliance order relieve the
-
-Sec. 71-54
 
 user of liability for any violation, including any continuing violation. Issuance of a compliance order shall
 not be a bar against or a prerequisite for taking any other action against the user.
@@ -41219,11 +38051,6 @@ to show cause under Section 71-50 of this chapter why the proposed action should
 Exercise of this option by the Director of Wastewater or his/her designee shall not be a bar to or a
 prerequisite for taking any other action against the user.
 
-Sec. 71-58
-
-ARTICLE XI
-JUDICIAL ENFORCEMENT REMEDIES
-
 ---
 
 ## Injunctive relief.
@@ -41322,11 +38149,6 @@ However, the Director of Wastewater or his/her designee may take other action ag
 circumstances warrant. Further, the Director of Wastewater or his/her designee, is empowered to take more
 than one enforcement action against any noncompliant user.
 
-Sec. 71-66
-
-ARTICLE XII
-SUPPLEMENT ENFORCEMENT ACTION
-
 ---
 
 ## Penalties for late reports.
@@ -41423,11 +38245,6 @@ not eligible to receive a contractual award for the sale of goods or services to
 Existing contracts for the sale of goods or services to the City of Biddeford, Maine, held by a user found
 to be in significant noncompliance with pretreatment standards or requirements may be terminated at the
 discretion of the Director of Wastewater or his/her designee.
-
-Sec. 71-69
-
-ARTICLE XIII
-AFFIRMATIVE DEFENSES TO DISCHARGE VIOLATIONS
 
 ---
 
@@ -41607,31 +38424,13 @@ The Director of Wastewater or his/her designee may approve an anticipated bypass
 considering its adverse effects, if the Director of Wastewater or his/her designee determines that
 it will meet the three conditions listed in Subsection (d)(1) of this section.
 
-ARTICLE XIV
-WASTEWATER TREATMENT RATES
-
 ---
 
-## through
+## (Reserved, through Sec. 71-75)
 
 **Citation:** Sec. 71-71
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 71-75
-
-71-71
-
-Sec. 71-78
-
-ARTICLE XV
-MISCELLANEOUS PROVISIONS
 
 ---
 
@@ -41682,23 +38481,12 @@ provisions shall not be affected and shall continue in full force and effect.
 
 ---
 
-## Pretreatment charges and fees.
+## When effective.
 
 **Citation:** Sec. 71-78
 
-Severability.
-When effective.
-
-[HISTORY: Adopted by the City Council of the City of Biddeford 7-21-2009 by Ord. No. 2009.46.
-Amendments noted where applicable.]
-
-GENERAL REFERENCES
-Utilities — See Ch. 70.
-
-Sec. 71-3
-
-ARTICLE I
-GENERAL PROVISIONS
+This chapter shall be in full force and effect immediately following its passage, approval and publication,
+as provided by law.
 
 ---
 
@@ -41710,26 +38498,11 @@ _No text — heading/divider record only._
 
 ---
 
-## through
+## (Reserved, through Sec. 74-25)
 
 **Citation:** Sec. 74-1
 
 _No text — heading/divider record only._
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 74-25
-
-74-1
-
-ARTICLE II
-HARBOR
-DIVISION 1
-GENERALLY
 
 ---
 
@@ -41770,8 +38543,6 @@ anchor is built with a helical disc welded to a solid shaft and a top mooring te
 tackle. Installation requires screwing the mooring anchor into the mud with a turning bar.[Added 9-2-2014
 by Ord. No. 2014.86]
 HOUSEBOAT — The use and occupancy of a raft, hull, barge or vessel, designed primarily to be occupied
-
-Sec. 74-29
 
 as living quarters, and providing living, sleeping, cooking and/or sanitary facilities, whether temporarily or
 permanently. [Added 2-19-2013 by Ord. No. 2013.765]
@@ -41934,8 +38705,6 @@ No person shall fish from City floats.
 No additions, alterations, new construction or/or changes to an existing wharf, pier or landing shall
 be made without prior permission of the Harbormaster.
 
-Sec. 74-37
-
 (b)
 
 Permission for the construction of any new wharf or pier within the jurisdictional limits of the City
@@ -42079,43 +38848,11 @@ Compliance with the applicable land use codes.
 
 ---
 
-## Definitions.
+## (Reserved, through Sec. 74-45)
 
 **Citation:** Sec. 74-40
 
-Qualified mooring inspector.
-Channels.
-Abandoned vessels.
-Derelict vessel.
-No-wake zones, headway speed
-zones, idle speed zones, nowake speed zones, slow-nowake zones.
-Obstructing public wharves,
-landings.
-Diving, swimming on or near
-public wharves, landings.
-Fishing from City floats.
-Construction of wharf, pier or
-landing regulated.
-Floats.
-Unseaworthy, dangerous or
-deteriorated vessels and other
-objects.
-Aquaculture.
-Houseboats.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 74-45
-
-74-52
-
-DIVISION 2
-HARBORMASTER
+_No text — heading/divider record only._
 
 ---
 
@@ -42202,26 +38939,11 @@ Must attend annual Maine Harbormasters Association training seminar.
 
 ---
 
-## ARTICLE II
+## (Reserved, through Sec. 74-60)
 
 **Citation:** Sec. 74-52
 
-HARBOR
-DIVISION 1
-GENERALLY
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 74-60
-
-74-64
-
-DIVISION 3
-HARBOR COMMISSION
+_No text — heading/divider record only._
 
 ---
 
@@ -42278,27 +39000,11 @@ to the Harbor Commission within 30 days of the date of such act or decision.
 
 ---
 
-## Appointment; terms,
-qualifications of members.
+## (Reserved, through Sec. 74-75)
 
 **Citation:** Sec. 74-64
 
-Duties generally.
-Appeals.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 74-75
-
-74-77
-
-DIVISION 4
-MOORING
+_No text — heading/divider record only._
 
 ---
 
@@ -42479,8 +39185,6 @@ child or sibling, by birth or adoption, including a relation of the half blood.
 Persons having moorings as of March 20, 1989, in a given location who apply for a permit for their
 moorings by September 1, 1989, shall have priority for that location as against other persons with the
 same or lower priority under Section 74-78. This section shall not apply to rental moorings unless,
-
-Sec. 74-80
 
 prior to March 20, 1989, a federal mooring permit has been granted to that individual. Failure to have
 a federal permit prior to March 20, 1989, shall terminate any rights that individual has in a mooring
@@ -42701,8 +39405,6 @@ The Harbormaster is responsible for enforcement of the provisions of Division 4 
 
 68. Editor's Note: This ordinance also repealed former Section 74-84, Mooring sticker required, as amended.
 
-Sec. 74-86
-
 (a)
 
 On the first violation relating to any mooring, the Harbormaster shall issue a written warning to the
@@ -42732,37 +39434,11 @@ expense if deemed a safety hazard.
 
 ---
 
-## Permit required.
+## (Reserved, through Sec. 74-100)
 
 **Citation:** Sec. 74-86
 
-Permit application.
-Assignments.
-Assignment of rights;
-grandfathering; large vessels.
-Mooring tackle; identification;
-inspections.
-Prohibited mooring areas.
-Unauthorized moorings;
-pumping out boats taking on
-water.
-Lobster traps and fishing gear.
-Temporary structures.
-Enforcement; penalties.
-through
-
----
-
-## (Reserved)
-
-Sec.
-
-**Citation:** Sec. 74-100
-
-74-103
-
-DIVISION 5
-SHELLFISH CONSERVATION ORDINANCE
+_No text — heading/divider record only._
 
 ---
 
@@ -42851,8 +39527,6 @@ marine resource scientists of the Department of Marine Resources.
 Submitting an annual report to the municipality and the Department of Marine Resources covering
 the above topics and all other committee activities. The Shellfish Management Plan shall include an
 annual review, budget, and objectives for the following year and will follow the DMR regulations as
-
-Sec. 74-105
 
 outlined in DMR Chs. 7.20 and 7.30.
 
@@ -43183,8 +39857,6 @@ to the licensee.
 3.
 
 Any licensee whose shellfish license has automatically been suspended pursuant to this section
-
-Sec. 74-107
 
 shall be entitled to a hearing before the Shellfish Conservation Committee upon the filing of
 a written request for hearing with the Clerk within 30 days following the effective date of

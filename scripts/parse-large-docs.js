@@ -32,6 +32,15 @@ const AUTO_PARSE_NOTE =
 
 function splitHeadingAndBody(raw) {
   const text = raw.trim();
+
+  // "through Sec.2-45. (Reserved)" (the neutered form of a reserved-range
+  // declaration — see the ordinances cleaning step) reads badly if split at
+  // the first period like a normal heading. Give it a clean heading instead.
+  const rangeMatch = text.match(/^through\s+Sec\.\s*(\d+-\d+[A-Za-z]?)\.\s*\(Reserved\)/i);
+  if (rangeMatch) {
+    return { heading: `(Reserved, through Sec. ${rangeMatch[1]})`, body: "" };
+  }
+
   // Heading = up to the first ". " or ".\n" (end of the title sentence);
   // body = everything after, including amendment-citation brackets.
   const m = text.match(/^(.{1,180}?\.)(?:\s|$)/s);
@@ -50,12 +59,59 @@ function parseFlatSections(body, refPattern) {
   const occ = matches.map((m, i) => {
     const s = m.index + m[0].length;
     const e = i + 1 < matches.length ? matches[i + 1].index : body.length;
-    return { num: m[1], raw: body.slice(s, e).trim() };
+    let raw = body.slice(s, e).trim();
+    // Safety net: if a section's body still leaks past a real structural
+    // boundary (a page-header variant the cleaning regexes didn't catch),
+    // cut it there instead of letting it swallow unrelated content from the
+    // next chapter/article.
+    const boundary = raw.match(/\n(?:ARTICLE [IVXLC]+|DIVISION \d+|Chapter \d+|APPENDIX [A-Z])\n/);
+    if (boundary && boundary.index !== undefined) {
+      raw = raw.slice(0, boundary.index).trim();
+    }
+    // A table-of-contents number-list entry sits tightly packed against its
+    // neighboring "Sec. N." match (just "Sec. 2-301.\nSec. 2-302." back to
+    // back, near-zero gap) — as opposed to real content, which always has a
+    // full paragraph before the next section starts. Flag these: their
+    // trailing text is NOT reliably paired with them (the two-column TOC
+    // layout can drift out of alignment once several consecutive ranges are
+    // listed), so it should never outrank genuine content — see rank().
+    const prevMatchEnd = i > 0 ? matches[i - 1].index + matches[i - 1][0].length : null;
+    const gapFromPrev = prevMatchEnd === null ? Infinity : m.index - prevMatchEnd;
+    const isTocNumberList = gapFromPrev < 3;
+    return { num: m[1], raw, isTocNumberList };
   });
   const best = new Map();
+  const RESERVED_RANGE_RE = /^through\s+Sec\.\s*\d+-\d+[A-Za-z]?\.\s*\(Reserved\)/i;
+  const CITATION_RE = /\[(?:Code 1975|Ord\.|Added|Amended)/i;
+
+  // Priority when two occurrences share a section number (one is always the
+  // real content, the other a table-of-contents artifact — see the comment
+  // above): a TOC number-list entry is ranked lowest regardless of what
+  // trailing text it happens to have (untrustworthy — may belong to an
+  // unrelated, misaligned range elsewhere in the scrambled TOC). A real
+  // citation bracket is the strongest signal of genuine content. Failing
+  // that, a clean "(Reserved)" or anchored range description wins. Failing
+  // that, longest text wins.
+  function rank(o) {
+    if (o.isTocNumberList) return 0;
+    if (CITATION_RE.test(o.raw)) return 3;
+    if (o.raw === "(Reserved)" || RESERVED_RANGE_RE.test(o.raw)) return 2;
+    return 1;
+  }
+
   for (const o of occ) {
     const existing = best.get(o.num);
-    if (!existing || o.raw.length > existing.raw.length) best.set(o.num, o);
+    if (!existing) {
+      best.set(o.num, o);
+      continue;
+    }
+    const oRank = rank(o);
+    const exRank = rank(existing);
+    if (oRank !== exRank) {
+      if (oRank > exRank) best.set(o.num, o);
+    } else if (o.raw.length > existing.raw.length) {
+      best.set(o.num, o);
+    }
   }
   return [...best.values()];
 }
@@ -70,8 +126,20 @@ function parseOrdinances() {
     .replace(/^BIDDEFORD CODE$/gm, "")
     .replace(/^Code of Ordinances$/gm, "")
     .replace(/^Downloaded from https:\/\/ecode360\.com\/BI3074.*$/gm, "")
+    // "Sec. 2-27. through Sec. 2-45. (Reserved)" is a single range
+    // declaration, not two sections — but the embedded "Sec. 2-45." looks
+    // exactly like a new section boundary to the splitter below, which
+    // corrupts both "2-27" (truncated to the word "through") and "2-45"
+    // (which swallows unrelated text up to the next real section). Strip
+    // the space after "Sec." in the *second* reference only, so it keeps
+    // reading as a range description but no longer matches the section-
+    // boundary regex. (135 occurrences in this document as of 2026-07-14.)
     .replace(
-      /^Sec\. (\d+-\d+[A-Za-z]?)\n+(?:(?!Chapter |ARTICLE |DIVISION )[A-Z0-9 ,'\/&\-]+\n+){1,2}(?:Sec\. \1\n+)?/gm,
+      /(through\s+)Sec\.\s*(\d+-\d+[A-Za-z]?)\.(\s*\(Reserved\))/gi,
+      "$1Sec.$2.$3"
+    )
+    .replace(
+      /^Sec\. \d+-\d+[A-Za-z]?\n+(?:(?!Chapter |ARTICLE |DIVISION )[A-Z0-9 ,'\/&\-]+\n+){1,2}(?:Sec\. \d+-\d+[A-Za-z]?\n+)?/gm,
       "\n"
     )
     .replace(/\n{3,}/g, "\n\n");
