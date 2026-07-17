@@ -22,6 +22,14 @@ export interface Section {
   tag?: string | null;
   reassembled?: string | null;
   isDivider?: boolean;
+  // Ordinances only: which Article/Division (if any) this section falls
+  // under within its chapter — Division numbers restart per Article, so
+  // both are needed to place a section precisely.
+  article?: string | null;
+  articleTitle?: string | null;
+  division?: string | null;
+  divisionTitle?: string | null;
+  breadcrumb?: string | null;
 }
 
 export interface CorpusVersion {

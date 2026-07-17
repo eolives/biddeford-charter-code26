@@ -82,6 +82,11 @@ function buildOrdinances(source) {
       isDivider: true,
     });
     for (const sec of ch.sections) {
+      const breadcrumb = sec.article
+        ? sec.division
+          ? `Art. ${sec.article}: ${sec.articleTitle} › Div. ${sec.division}: ${sec.divisionTitle}`
+          : `Art. ${sec.article}: ${sec.articleTitle}`
+        : null;
       records.push({
         corpus: "ordinances",
         id: `ch-${ch.chapter}-sec-${sec.sec}`,
@@ -90,6 +95,11 @@ function buildOrdinances(source) {
         citation: `Sec. ${sec.sec}`,
         heading: sec.heading,
         text: sec.text || "",
+        article: sec.article || null,
+        articleTitle: sec.articleTitle || null,
+        division: sec.division || null,
+        divisionTitle: sec.divisionTitle || null,
+        breadcrumb,
         isDivider: false,
       });
     }

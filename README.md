@@ -9,7 +9,7 @@ Not affiliated with the City of Biddeford, General Code, or eCode360.
 | Corpus | Source | Size | How it was built |
 |---|---|---|---|
 | `charter` | PDF export, ecode360.com/BI3074 | 12 Articles, 74 sections | **Hand-transcribed.** Every section read, and all 15 sections whose sub-lists were displaced by the PDF's two-column layout manually traced and reattached. See `data/source/charter.json`'s `reassembled` fields. |
-| `ordinances` | PDF export, ecode360.com/BI3074 | 23 Chapters, 1,374 sections | **Automated parse.** ~688 pages — not feasible to hand-verify. See "Automated parsing" below. |
+| `ordinances` | PDF export, ecode360.com/BI3074 | 23 Chapters, 1,239 sections | **Automated parse.** ~688 pages — not feasible to hand-verify. See "Automated parsing" below. |
 | `land_dev` | PDF export, ecode360.com/BI3074 | Appendix A + 15 Articles, 209 sections | **Automated parse.** ~346 pages (Rules of City Council + the zoning/subdivision/shoreland/historic-preservation code). |
 
 This distinction is surfaced everywhere: each corpus's `dataQualityNote` flows into the MCP server's tool output and `get_version`, and into the web explorer's document tabs (a "verified" vs "auto" badge) and footer.
@@ -19,11 +19,13 @@ This distinction is surfaced everywhere: each corpus's `dataQualityNote` flows i
 Given the scale (~1,000 pages combined), `ordinances` and `land_dev` are parsed programmatically from `pdftotext` output (`data/raw/*.txt`) rather than transcribed by hand:
 
 1. Strip repeated page headers/footers (page-break characters, "City of Biddeford, ME", "Downloaded from ecode360.com...", and the running section-reference/title triplet printed on every page).
-2. Split on citation markers — `Chapter N` for Ordinances; `APPENDIX A`, `Chapter LDR`, then `Article I–XV` for Land Development Regulations.
-3. Within each chapter/article, find every occurrence of a section citation (e.g. `Sec. 18-1.`). Each appears twice — once in that chapter's table of contents (a bare heading with no real body), once as actual content — so the parser keeps whichever occurrence has more trailing text before the next citation marker.
+2. Split on citation markers — `Chapter N` for Ordinances; `APPENDIX A`, `Chapter LDR`, then `Article I–XV` for Land Development Regulations. Within Ordinances, `ARTICLE` and `DIVISION` headers are also detected (see "Article/Division metadata" below).
+3. Within each chapter/article, find every occurrence of a section citation (e.g. `Sec. 18-1.`). Each appears twice — once in that chapter's table of contents (a bare heading with no real body), once as actual content — so rather than just picking the longer one (the TOC's own two-column layout can be internally scrambled and occasionally produce a *longer* fragment than the real content), the parser ranks occurrences: a real citation bracket like `[Code 1975, § ...]` wins outright; failing that, a clean placeholder (`(Reserved)`, or a `Sec. X. through Sec. Y. (Reserved)` range) wins; failing that, longest text wins.
 4. Split each section's raw text into a heading (up to the first sentence-ending period) and body.
 
-**Known limitations**, disclosed in the data itself: a handful of `(Reserved)` placeholder sections pick up a trailing title fragment from the next division; the heading/body split can occasionally cut a heading short around an abbreviation (spot-checked at ~1 in 1,580 sections). Always verify anything load-bearing — setbacks, fees, deadlines, permitting requirements — against the live source.
+**Article/Division metadata (Ordinances only):** where a Chapter has internal `ARTICLE`/`DIVISION` structure (about 19 of the 23 do — Division numbers restart within each Article, the same way Charter section numbers restart within each Article), each section in `data/source/ordinances.json` carries `article`, `articleTitle`, `division`, and `divisionTitle` fields, attributed by the section's text position relative to the nearest preceding real Article/Division divider (same TOC-vs-real disambiguation as above, since these headers are also duplicated in the table of contents). This flows through to a `breadcrumb` field on each `ordinances` record in `data/index/json/ordinances.json` (e.g. `"Art. III: Officers and Employees › Div. 2: City Clerk"`), which the MCP server shows in `get_section`/`search` output and the web explorer shows under the citation on each card.
+
+**Known limitations**, disclosed in the data itself: a handful of `(Reserved)` range-placeholder sections fall before any Article divider is detected and so have no Article/Division attributed; the heading/body split can occasionally cut a heading short around an abbreviation (spot-checked at ~1 in 1,580 sections). Always verify anything load-bearing — setbacks, fees, deadlines, permitting requirements — against the live source.
 
 To regenerate `data/raw/*.txt` from fresh PDFs (requires poppler's `pdftotext`):
 ```bash

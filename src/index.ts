@@ -148,7 +148,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         const text = results
           .map(
             (s) =>
-              `[${CORPUS_LABELS[s.corpus]}] ${s.citation} — ${s.heading}\n${s.text.slice(0, 400)}${s.text.length > 400 ? "…" : ""}`
+              `[${CORPUS_LABELS[s.corpus]}] ${s.citation}${s.breadcrumb ? ` (${s.breadcrumb})` : ""} — ${s.heading}\n${s.text.slice(0, 400)}${s.text.length > 400 ? "…" : ""}`
           )
           .join("\n\n---\n\n");
         return { content: [{ type: "text", text: withFooter(text) }] };
@@ -181,7 +181,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           };
         }
         const section = result.section;
-        const text = `[${CORPUS_LABELS[section.corpus]}] ${section.citation}\n${section.heading}\n\n${section.text}`;
+        const breadcrumbLine = section.breadcrumb ? `${section.breadcrumb}\n` : "";
+        const text = `[${CORPUS_LABELS[section.corpus]}] ${section.citation}\n${breadcrumbLine}${section.heading}\n\n${section.text}`;
         return { content: [{ type: "text", text: withFooter(text) }] };
       }
 

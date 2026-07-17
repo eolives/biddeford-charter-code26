@@ -1,19 +1,19 @@
 {
   "charter": {
     "currentThrough": "As transcribed from https://ecode360.com/BI3074 on 2026-07-09",
-    "indexedAt": "2026-07-16T01:32:26.525Z",
+    "indexedAt": "2026-07-17T00:27:22.564Z",
     "sectionCount": 74,
     "dataQuality": "hand-verified"
   },
   "ordinances": {
     "currentThrough": "As transcribed from https://ecode360.com/BI3074 on 2026-07-14",
-    "indexedAt": "2026-07-16T01:32:26.542Z",
+    "indexedAt": "2026-07-17T00:27:22.583Z",
     "sectionCount": 1239,
     "dataQuality": "automated-parse"
   },
   "land_dev": {
     "currentThrough": "As transcribed from https://ecode360.com/BI3074 on 2026-07-14",
-    "indexedAt": "2026-07-16T01:32:26.551Z",
+    "indexedAt": "2026-07-17T00:27:22.591Z",
     "sectionCount": 209,
     "dataQuality": "automated-parse"
   }

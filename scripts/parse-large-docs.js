@@ -28,7 +28,7 @@ const AUTO_PARSE_NOTE =
   SOURCE_URL +
   " on " +
   AS_OF +
-  " — unlike data/source/charter.json, it was NOT hand-verified section by section (that was feasible for the Charter's 74 sections; it is not for a corpus this size). The parser strips repeated page headers/footers and splits on citation markers (e.g. 'Sec. 18-1.', 'Article VI'), picking the longest of the two occurrences of each section (the real content, vs. its entry in that chapter's table of contents) as the canonical text. Known limitations: a small number of '(Reserved)' placeholder sections may show a trailing title fragment from the next division; heading/body splitting uses the first sentence-ending period, which can occasionally cut a heading short if it contains an abbreviation. Always verify anything load-bearing — especially permitting, setback, or fee figures — against the live source.";
+  " — unlike data/source/charter.json, it was NOT hand-verified section by section (that was feasible for the Charter's 74 sections; it is not for a corpus this size). The parser strips repeated page headers/footers, splits on citation markers ('Sec. 18-1.', 'ARTICLE VI', 'DIVISION 2'), and — since each of these appears twice in the source (once as a bare table-of-contents entry, once as the real content) — ranks the two occurrences by signal strength (a citation bracket like '[Code 1975, § ...]' beats a clean placeholder, which beats a raw TOC fragment) rather than by length alone, since the TOC's two-column layout can itself be internally scrambled. For Ordinances, each section also carries its enclosing Article/Division (when the chapter has that structure), attributed by text position relative to the nearest preceding real Article/Division divider. Known limitations: a small number of '(Reserved)' range-placeholder sections fall before any Article divider is detected and so have no Article/Division attributed; heading/body splitting uses the first sentence-ending period, which can occasionally cut a heading short if it contains an abbreviation. Always verify anything load-bearing — especially permitting, setback, or fee figures — against the live source.";
 
 function splitHeadingAndBody(raw) {
   const text = raw.trim();
@@ -78,7 +78,7 @@ function parseFlatSections(body, refPattern) {
     const prevMatchEnd = i > 0 ? matches[i - 1].index + matches[i - 1][0].length : null;
     const gapFromPrev = prevMatchEnd === null ? Infinity : m.index - prevMatchEnd;
     const isTocNumberList = gapFromPrev < 3;
-    return { num: m[1], raw, isTocNumberList };
+    return { num: m[1], raw, isTocNumberList, pos: m.index };
   });
   const best = new Map();
   const RESERVED_RANGE_RE = /^through\s+Sec\.\s*\d+-\d+[A-Za-z]?\.\s*\(Reserved\)/i;
@@ -116,6 +116,49 @@ function parseFlatSections(body, refPattern) {
   return [...best.values()];
 }
 
+// Finds real (non-table-of-contents) ARTICLE/DIVISION dividers within a
+// chapter. Like sections, these headers appear twice in the source: once in
+// the chapter's own local table of contents (a bare "ARTICLE II\nCITY
+// COUNCIL" immediately followed by a list of bare "Sec. N." entries with no
+// citation), and once as the real divider (immediately followed by actual
+// prose with a citation bracket). A citation bracket within the next ~400
+// characters reliably distinguishes the two — verified by inspection across
+// every Article/Division in Chapter 2, the most deeply-nested chapter.
+function findRealDividers(body, headerRegex) {
+  const CITATION_WINDOW = 400;
+  const CITATION_RE = /\[(?:Code 1975|Ord\.|Added|Amended)/;
+  const matches = [...body.matchAll(headerRegex)];
+  const real = [];
+  for (const m of matches) {
+    const after = body.slice(m.index + m[0].length, m.index + m[0].length + CITATION_WINDOW);
+    if (CITATION_RE.test(after)) {
+      real.push({ num: m[1], title: titleCase(m[2].replace(/\d+$/, "").trim()), pos: m.index });
+    }
+  }
+  return real; // already in document order (ascending pos), since matchAll is
+}
+
+// Given a section's position and the chapter's real Article/Division divider
+// lists (each ascending by pos), find which Article and Division it falls
+// under. Division numbers restart within each Article, so a division only
+// counts if its position is both before the section AND after the section's
+// enclosing Article — otherwise a chapter where only some Articles use
+// Divisions could attribute a later, Division-less Article's sections to an
+// earlier Article's trailing Division.
+function findEnclosing(sectionPos, articles, divisions) {
+  let article = null;
+  for (const a of articles) {
+    if (a.pos <= sectionPos) article = a;
+    else break;
+  }
+  let division = null;
+  for (const d of divisions) {
+    if (d.pos <= sectionPos && (!article || d.pos > article.pos)) division = d;
+    else if (d.pos > sectionPos) break;
+  }
+  return { article, division };
+}
+
 // ============================== ORDINANCES ==============================
 function parseOrdinances() {
   const raw = readFileSync(join(RAW_DIR, "ordinances.txt"), "utf8");
@@ -146,11 +189,15 @@ function parseOrdinances() {
 
   const chapterRe = /^Chapter (\d+)\n([A-Z][A-Z0-9 ,'\/&\-]+)$/gm;
   const chapterMatches = [...text.matchAll(chapterRe)];
+  const artRe = /^ARTICLE ([IVXLC]+)\n([A-Z][A-Z0-9 ,'\/&\-]+)$/gm;
+  const divRe = /^DIVISION (\d+[A-Za-z]?)\n([A-Z][A-Z0-9 ,'\/&\-()]+)$/gm;
 
   const chapters = chapterMatches.map((m, i) => {
     const start = m.index;
     const end = i + 1 < chapterMatches.length ? chapterMatches[i + 1].index : text.length;
     const body = text.slice(start, end);
+    const articles = findRealDividers(body, artRe);
+    const divisions = findRealDividers(body, divRe);
     const rawSections = parseFlatSections(body, "Sec\\. (\\d+-\\d+[A-Za-z]?)\\.\\s*");
     rawSections.sort((a, b) => {
       const an = parseInt(a.num.split("-")[1], 10);
@@ -160,9 +207,18 @@ function parseOrdinances() {
     return {
       chapter: m[1],
       title: titleCase(m[2].replace(/\d+$/, "").trim()),
-      sections: rawSections.map(({ num, raw }) => {
+      sections: rawSections.map(({ num, raw, pos }) => {
         const { heading, body } = splitHeadingAndBody(raw);
-        return { sec: num, heading, text: body };
+        const { article, division } = findEnclosing(pos, articles, divisions);
+        return {
+          sec: num,
+          heading,
+          text: body,
+          article: article ? article.num : null,
+          articleTitle: article ? article.title : null,
+          division: division ? division.num : null,
+          divisionTitle: division ? division.title : null,
+        };
       }),
     };
   });

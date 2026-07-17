@@ -153,6 +153,7 @@
   .citation-row{ display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
   .citation{ font-family: var(--mono); font-size: 11.5px; letter-spacing:.03em; color: var(--brick); text-transform: uppercase; }
   .corpus-chip{ font-family: var(--mono); font-size: 9.5px; text-transform:uppercase; letter-spacing:.04em; color: var(--river-dim); border:1px solid var(--rule-strong); border-radius:999px; padding:1px 7px; }
+  .breadcrumb{ font-family: var(--mono); font-size: 11px; color: color-mix(in srgb, var(--charcoal) 65%, transparent); margin: 2px 0 6px; }
   .badges{ display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
   .tag{ font-family: var(--mono); font-size: 10.5px; color: var(--gold); border: 1px solid color-mix(in srgb, var(--gold) 55%, transparent); border-radius: 999px; padding: 2px 8px; }
   h3.heading{ font-family: var(--display); font-weight:500; font-size: 18px; margin: 2px 0 10px; color: var(--ink); }
@@ -444,12 +445,14 @@
       ? '<span class="stitch-badge" tabindex="0" title="' + escapeHtml(r.reassembled) + '"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 12h4M10 12h4M16 12h4" stroke-dasharray="2 3"/></svg>stitched</span>'
       : '';
     var bodyHtml = q ? highlight(r.text, q) : escapeHtml(r.text);
+    var breadcrumbHtml = r.breadcrumb ? '<div class="breadcrumb">' + escapeHtml(r.breadcrumb) + '</div>' : '';
     return (
       '<article class="card" id="' + r.id + '">' +
         '<div class="card-top">' +
           '<span class="citation-row"><span class="corpus-chip">' + CORPUS_SHORT[r.corpus] + '</span><span class="citation">' + escapeHtml(r.citation) + '</span></span>' +
           '<span class="badges">' + tagHtml + stitchHtml + '</span>' +
         '</div>' +
+        breadcrumbHtml +
         '<h3 class="heading">' + (q ? highlight(r.heading, q) : escapeHtml(r.heading)) + '</h3>' +
         '<div class="body-text">' + (bodyHtml || '<em>No text on file.</em>') + '</div>' +
         (r.reassembled ? '<div class="reassembled-note">🧵 ' + escapeHtml(r.reassembled) + '</div>' : '') +
