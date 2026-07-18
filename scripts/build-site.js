@@ -1,68 +1,89 @@
 #!/usr/bin/env node
-// Builds docs/index.html — a single-file, offline-capable charter explorer —
-// from data/source/charter.json and scripts/site-template.html.
+// Builds docs/index.html — a single-file, offline-capable explorer covering
+// all corpora — from data/index/json/{charter,ordinances,land_dev,home_rule,versions}.json
+// (the same files src/corpus.ts reads at runtime) and scripts/site-template.html.
 //
-// Run: node scripts/build-site.js
+// Run: npm run build-index && node scripts/build-site.js
 // Then: open docs/index.html directly, or push this repo to GitHub and
 // enable Pages (Settings > Pages > Deploy from branch > /docs) for a public URL.
 
-import { writeFileSync, readFileSync, mkdirSync } from "fs";
+import { writeFileSync, readFileSync, mkdirSync, existsSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
-const SOURCE_PATH = join(ROOT, "data", "source", "charter.json");
+const JSON_DIR = join(ROOT, "data", "index", "json");
 const TEMPLATE_PATH = join(__dirname, "site-template.html");
 const OUT_DIR = join(ROOT, "docs");
 const OUT_PATH = join(OUT_DIR, "index.html");
 
-const source = JSON.parse(readFileSync(SOURCE_PATH, "utf8"));
-
-const articles = [];
-const sections = [];
-
-for (const article of source.articles) {
-  articles.push({ id: article.article, title: article.title, count: article.sections.length });
-
-  sections.push({
-    id: `art-${article.article}`,
-    articleId: article.article,
-    articleTitle: article.title,
-    citation: `Art. ${article.article}`,
-    heading: "",
-    tag: null,
-    text: "",
-    reassembled: null,
-    isDivider: true,
-  });
-
-  for (const sec of article.sections) {
-    const citation = sec.sec ? `Art. ${article.article}, Sec. ${sec.sec}` : `Art. ${article.article}`;
-    const tag = sec.amended ? `Amended ${sec.amended}` : sec.added ? `Added ${sec.added}` : null;
-    sections.push({
-      id: `art-${article.article}-sec-${sec.sec || "0"}`,
-      articleId: article.article,
-      articleTitle: article.title,
-      citation,
-      heading: sec.sec ? `Sec. ${sec.sec}. ${sec.heading}` : sec.heading,
-      tag,
-      text: sec.text || "",
-      reassembled: sec.reassembled || null,
-      isDivider: false,
-    });
+function loadIndex(corpus) {
+  const path = join(JSON_DIR, `${corpus}.json`);
+  if (!existsSync(path)) {
+    console.error(`Missing ${path}. Run "npm run build-index" first.`);
+    process.exit(1);
   }
+  return JSON.parse(readFileSync(path, "utf8"));
 }
+
+const CORPUS_META = {
+  charter: { label: "City Charter", short: "Charter", sourceUrl: "https://ecode360.com/BI3074", sourceLabel: "ecode360.com/BI3074" },
+  ordinances: { label: "Code of Ordinances", short: "Ordinances", sourceUrl: "https://ecode360.com/BI3074", sourceLabel: "ecode360.com/BI3074" },
+  land_dev: { label: "Land Development Regulations", short: "Land Dev.", sourceUrl: "https://ecode360.com/BI3074", sourceLabel: "ecode360.com/BI3074" },
+  home_rule: {
+    label: "Maine Home Rule Statute",
+    short: "Home Rule (State)",
+    sourceUrl: "https://legislature.maine.gov/statutes/30-A/title30-Ach111sec0.html",
+    sourceLabel: "legislature.maine.gov",
+  },
+};
+
+const versions = JSON.parse(readFileSync(join(JSON_DIR, "versions.json"), "utf8"));
+
+let sections = [];
+for (const corpus of Object.keys(CORPUS_META)) {
+  sections = sections.concat(loadIndex(corpus));
+}
+
+const groups = [];
+const seenGroups = new Set();
+for (const r of sections) {
+  if (!r.isDivider) continue;
+  const key = `${r.corpus}::${r.group}`;
+  if (seenGroups.has(key)) continue;
+  seenGroups.add(key);
+  groups.push({ corpus: r.corpus, group: r.group, label: r.groupLabel, citation: r.citation });
+}
+// count children per group
+const groupCounts = {};
+for (const r of sections) {
+  if (r.isDivider) continue;
+  const key = `${r.corpus}::${r.group}`;
+  groupCounts[key] = (groupCounts[key] || 0) + 1;
+}
+groups.forEach((g) => {
+  g.count = groupCounts[`${g.corpus}::${g.group}`] || 0;
+});
 
 const data = {
   meta: {
-    asOf: source.asOf,
-    sourceUrl: source.sourceUrl,
-    sourceLabel: source.sourceLabel,
-    dataQualityNote: source.dataQualityNote,
-    sectionCount: sections.filter((s) => !s.isDivider).length,
+    corpora: Object.fromEntries(
+      Object.entries(CORPUS_META).map(([key, m]) => [
+        key,
+        {
+          label: m.label,
+          short: m.short,
+          sourceUrl: m.sourceUrl,
+          sourceLabel: m.sourceLabel,
+          asOf: versions[key]?.currentThrough?.match(/on (\S+)$/)?.[1] || "",
+          sectionCount: versions[key]?.sectionCount ?? 0,
+          dataQuality: versions[key]?.dataQuality ?? "unknown",
+        },
+      ])
+    ),
   },
-  articles,
+  groups,
   sections,
 };
 
@@ -76,6 +97,5 @@ const html = template.replace("/*__CHARTER_DATA__*/", json);
 mkdirSync(OUT_DIR, { recursive: true });
 writeFileSync(OUT_PATH, html);
 
-console.log(`Built ${OUT_PATH}`);
-console.log(`  ${articles.length} articles, ${data.meta.sectionCount} sections`);
-console.log(`  ${sections.filter((s) => s.reassembled).length} sections flagged "reassembled"`);
+console.log(`Built ${OUT_PATH} (${(html.length / 1024 / 1024).toFixed(2)} MB)`);
+console.log(`  ${groups.length} groups, ${sections.filter((s) => !s.isDivider).length} sections across ${Object.keys(CORPUS_META).length} corpora`);

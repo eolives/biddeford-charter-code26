@@ -5,25 +5,39 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INDEX_DIR = join(__dirname, "..", "data", "index", "json");
 
-// Only "charter" is populated today. If you later add Biddeford's Code of
-// Ordinances or Land Development Regulations, extend this union and the
-// CORPORA-shaped logic below follows the same pattern as
-// nyc-charter-laws-rules' three-corpus (charter/admin_code/rules) model.
-export type Corpus = "charter";
-const ALL_CORPORA: Corpus[] = ["charter"];
+// Charter (hand-verified), Ordinances, Land Development Regulations (both
+// automated-parse), and the Home Rule statute (hand-verified) — see each
+// corpus's dataQualityNote in data/index/json/versions.json and the MCP
+// server's footer text.
+export type Corpus = "charter" | "ordinances" | "land_dev" | "home_rule";
+const ALL_CORPORA: Corpus[] = ["charter", "ordinances", "land_dev", "home_rule"];
 
 export interface Section {
   corpus: Corpus;
   id: string;
+  group: string; // groups a divider record with its child sections (e.g. "18", "app-a", "ldr-VI")
+  groupLabel: string; // human-readable group name, e.g. "Chapter 18: Buildings and Building Regulations"
   citation: string;
   heading: string;
   text: string;
+  tag?: string | null;
+  reassembled?: string | null;
+  isDivider?: boolean;
+  // Ordinances only: which Article/Division (if any) this section falls
+  // under within its chapter — Division numbers restart per Article, so
+  // both are needed to place a section precisely.
+  article?: string | null;
+  articleTitle?: string | null;
+  division?: string | null;
+  divisionTitle?: string | null;
+  breadcrumb?: string | null;
 }
 
 export interface CorpusVersion {
   currentThrough: string;
   indexedAt: string;
   sectionCount: number;
+  dataQuality: "hand-verified" | "automated-parse";
 }
 
 export type Versions = Record<Corpus, CorpusVersion>;
@@ -100,27 +114,32 @@ const ARABIC_TO_ROMAN: [number, string][] = [
   [6, "vi"], [5, "v"], [4, "iv"], [3, "iii"], [2, "ii"], [1, "i"],
 ];
 
-// Normalize a citation for comparison: strip "Art."/"Sec."/"§" prefixes,
-// lowercase, collapse whitespace, and convert an arabic article number to
-// its roman-numeral form. Biddeford's charter cites Articles in roman
-// numerals ("Art. II, Sec. 4") but people will type "Article 2 Section 4",
-// "Art II Sec 4", "2-4", "Sec. 4" (ambiguous across articles), etc.
+// Normalize a citation for comparison: strip "Art."/"Sec."/"Ch."/"App."/"§"
+// prefixes, lowercase, collapse whitespace, and convert an arabic article
+// number to its roman-numeral form. Each corpus has its own citation style —
+// charter: "Art. II, Sec. 4"; ordinances: "Ch. 18" / "Sec. 18-1"; land_dev:
+// "App. A" / "Sec. A-1" / "LDR Art. VI" / "LDR Art. VI, Sec. 7" — but people
+// will type "Article 2 Section 4", "Chapter 18", "Appendix A", "Art II Sec
+// 4", etc. across all of them.
 export function normalizeCitation(input: string): string {
   let s = input
     .toLowerCase()
-    .replace(/§§?\s*/g, "")
+    .replace(/§§?\s*/g, "sec ")
     .replace(/\barticle\b\.?/g, "art")
     .replace(/\bsection\b\.?/g, "sec")
+    .replace(/\bchapter\b\.?/g, "ch")
+    .replace(/\bappendix\b\.?/g, "app")
     .replace(/\bart\.?\s*/g, "art ")
     .replace(/\bsec\.?\s*/g, "sec ")
+    .replace(/\bch\.?\s*/g, "ch ")
+    .replace(/\bapp\.?\s*/g, "app ")
     .replace(/,/g, "")
     .replace(/\s+/g, " ")
     .trim();
 
-  // "art 2 sec 4" -> "art ii sec 4" (only converts a plain arabic numeral
-  // immediately after "art "; already-roman input like "art ii" is untouched
-  // since \d+ won't match letters).
-  s = s.replace(/^art (\d+)\b/, (_, num) => {
+  // "art 2 sec 4" -> "art ii sec 4", including when "art" isn't at the very
+  // start of the string (e.g. land_dev's "ldr art 6 sec 7" -> "...art vi...").
+  s = s.replace(/\bart (\d+)\b/, (_, num) => {
     const n = parseInt(num, 10);
     const roman = ARABIC_TO_ROMAN.find(([v]) => v === n)?.[1];
     return roman ? `art ${roman}` : `art ${num}`;
@@ -176,27 +195,35 @@ export function getSection(
   return { kind: "none" };
 }
 
+// Lists the top-level divider records for a corpus: Articles for "charter",
+// Chapters for "ordinances", Appendix A + LDR Articles for "land_dev". Uses
+// the isDivider flag rather than string-matching the heading, since each
+// corpus names its groups differently ("Article II", "Chapter 18", "LDR
+// Article VI", "Appendix A").
 export function listTitles(corpus: Corpus): { citation: string; heading: string }[] {
   const sections = loadCorpus(corpus);
   return sections
-    .filter((s) => s.heading.toLowerCase().startsWith("article"))
+    .filter((s) => s.isDivider)
     .map(({ citation, heading }) => ({ citation, heading }));
 }
 
-// Whole-token prefix match on an Article identifier: "Art. II" matches every
-// section within Article II (both the divider record and its Sec. N
-// entries), keyed off the citation prefix "Art. II" / "Art. II, Sec. ...".
-// Unlike nyc-charter-laws-rules (whose index is flat with no deep hierarchy),
-// this corpus IS fully hierarchical — every section belongs to exactly one
-// article record — so get_title returns the complete article, not just a
-// chapter-level stub.
+// Retrieve every record in a group (the divider + all its sections) by
+// citation or group id — e.g. "Art. II", "Article 2", "Ch. 18", "Chapter 18",
+// "App. A", "LDR Art. VI", "LDR Article 6". Matches on the normalized
+// citation of each corpus's divider records, so it automatically works for
+// all three corpora's different naming schemes without per-corpus logic.
 export function getTitle(corpus: Corpus, title: string): Section[] {
   const sections = loadCorpus(corpus);
   const q = title.trim();
   if (!q) return [];
   const normQ = normalizeCitation(q);
-  return sections.filter((s) => {
-    const normCitation = normalizeCitation(s.citation);
-    return normCitation === normQ || normCitation.startsWith(`${normQ} sec`);
-  });
+
+  const divider = sections.find((s) => s.isDivider && normalizeCitation(s.citation) === normQ);
+  if (divider) return sections.filter((s) => s.group === divider.group);
+
+  // Fallback: maybe they typed a group id directly (e.g. "18" or "ldr-VI").
+  const byGroupId = sections.filter((s) => s.group === q);
+  if (byGroupId.length) return byGroupId;
+
+  return [];
 }

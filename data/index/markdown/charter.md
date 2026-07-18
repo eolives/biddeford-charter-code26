@@ -2,7 +2,7 @@
 
 > As of 2026-07-09. Source: https://ecode360.com/BI3074
 
-_86 records indexed (12 articles). History: Adopted by 10-5-1987 by referendum; amended in its entirety 11-7-2006 by referendum. Subsequent amendments noted where applicable._
+_86 records indexed._
 
 > ⚠️ **Data quality note:** This corpus was hand-transcribed from a PDF export downloaded from ecode360.com/BI3074 on 2026-07-09, not from a bulk data feed. The source PDF's text layer interleaves some lettered sub-lists (a), (b), (c)... after later sections in the same Article, a known artifact of eCode360's two-column PDF export. Where that occurred, the sub-list has been reattached to the section it grammatically belongs to (e.g. a paragraph ending '...and shall:' followed immediately by its list), based on wording and content, not by rerunning an automated parser. Reattachments are noted per-section below via the 'reassembled' field. Always verify against the live page for anything load-bearing.
 
@@ -24,7 +24,7 @@ The inhabitants of the City of Biddeford, in the County of York, shall continue 
 
 ---
 
-## Sec. 2. Powers and duties. [Amended 11-8-2016]
+## Sec. 2. Powers and duties.
 
 **Citation:** Art. I, Sec. 2
 
@@ -40,7 +40,7 @@ _No text — heading/divider record only._
 
 ---
 
-## Sec. 1. Executive Authority of the Mayor. [Amended 11-8-2016]
+## Sec. 1. Executive Authority of the Mayor.
 
 **Citation:** Art. II, Sec. 1
 
@@ -64,7 +64,7 @@ On the first Tuesday after the first Monday in December, biennially, or no later
 
 ---
 
-## Sec. 2a. Appointments of Citizens. [Added 11-8-2016]
+## Sec. 2a. Appointments of Citizens.
 
 **Citation:** Art. II, Sec. 2a
 
@@ -80,7 +80,7 @@ Every resolve or order appropriating money, having passed the City Council, shal
 
 ---
 
-## Sec. 4. Election; tenure of office; prohibition; compensation. [Amended 11-6-2012]
+## Sec. 4. Election; tenure of office; prohibition; compensation.
 
 **Citation:** Art. II, Sec. 4
 
@@ -96,7 +96,7 @@ In the event of a vacancy in the office of the Mayor due to death, resignation, 
 
 ---
 
-## Sec. 6. Elected Office. [Added 11-8-2016]
+## Sec. 6. Elected Office.
 
 **Citation:** Art. II, Sec. 6
 
@@ -120,7 +120,7 @@ For the purpose of all elections, the City shall be divided into seven wards. Th
 
 ---
 
-## Sec. 2. Composition; election; tenure of office; compensation; prohibition. [Amended 11-6-2012; 11-8-2016]
+## Sec. 2. Composition; election; tenure of office; compensation; prohibition.
 
 **Citation:** Art. III, Sec. 2
 
@@ -179,7 +179,7 @@ A majority of the members of the City Council shall constitute a quorum for the 
 
 ---
 
-## Sec. 8. Procedure. [Amended 11-8-2016]
+## Sec. 8. Procedure.
 
 **Citation:** Art. III, Sec. 8
 
@@ -232,7 +232,7 @@ The City Manager shall be the chief administrative officer of the City of Biddef
 
 ---
 
-## Sec. 3. Residency. [Amended 11-8-2016]
+## Sec. 3. Residency.
 
 **Citation:** Art. IV, Sec. 3
 
@@ -248,7 +248,7 @@ _No text — heading/divider record only._
 
 ---
 
-## Sec. 1. Composition; election; tenure of office; organization; compensation. [Amended 11-6-2012]
+## Sec. 1. Composition; election; tenure of office; organization; compensation.
 
 **Citation:** Art. V, Sec. 1
 
@@ -277,7 +277,7 @@ The Mayor shall be the ex officio chair of the School Committee and shall:
 
 ---
 
-## Sec. 4. The budget. [Amended 11-8-2016]
+## Sec. 4. The budget.
 
 **Citation:** Art. V, Sec. 4
 
@@ -313,7 +313,7 @@ _No text — heading/divider record only._
 
 ---
 
-## Police Advisory Committee. [Amended 11-8-2016]
+## Police Advisory Committee.
 
 **Citation:** Art. VI
 
@@ -329,7 +329,7 @@ _No text — heading/divider record only._
 
 ---
 
-## Fire Advisory Committee. [Amended 11-8-2016]
+## Fire Advisory Committee.
 
 **Citation:** Art. VII
 
@@ -393,7 +393,7 @@ The nomination petitions for any one candidate must be assembled and united into
 
 ---
 
-## Sec. 6. Form of ballot. [Amended 11-6-2012]
+## Sec. 6. Form of ballot.
 
 **Citation:** Art. VIII, Sec. 6
 
@@ -411,7 +411,7 @@ The City Clerk shall cause ballots to be prepared from the arrangement of the fi
 
 ---
 
-## Sec. 8. Write-In Candidate. [Added 11-6-2012]
+## Sec. 8. Write-In Candidate.
 
 **Citation:** Art. VIII, Sec. 8
 
@@ -443,7 +443,7 @@ The Mayor, or any member of the City Council or School Committee may be recalled
 
 ---
 
-## Sec. 2. Petition for recall. [Amended 11-8-2016]
+## Sec. 2. Petition for recall.
 
 **Citation:** Art. IX, Sec. 2
 
@@ -467,7 +467,7 @@ If the City Clerk's certification should show that the petitions are sufficient,
 
 ---
 
-## Sec. 5. Count of ballot. [Amended 11-6-2012]
+## Sec. 5. Count of ballot.
 
 **Citation:** Art. IX, Sec. 5
 
@@ -483,7 +483,7 @@ _No text — heading/divider record only._
 
 ---
 
-## Sec. 1. Appointments. [Amended 11-8-2016]
+## Sec. 1. Appointments.
 
 **Citation:** Art. X, Sec. 1
 
@@ -540,7 +540,7 @@ The Finance Director shall:
 
 ---
 
-## Sec. 5. City Assessor. [Amended 11-8-2016]
+## Sec. 5. City Assessor.
 
 **Citation:** Art. X, Sec. 5
 
@@ -636,7 +636,7 @@ The Finance Committee shall be comprised of the Mayor, Council President and two
 
 ---
 
-## Sec. 3. Appropriation resolve. [Amended 11-8-2016]
+## Sec. 3. Appropriation resolve.
 
 **Citation:** Art. XI, Sec. 3
 
@@ -686,7 +686,7 @@ All monies received by any officer, employee, or agent of the City belonging to 
 
 ---
 
-## Sec. 9. Contributions. [Added 11-8-2016]
+## Sec. 9. Contributions.
 
 **Citation:** Art. XI, Sec. 9
 
@@ -702,7 +702,7 @@ _No text — heading/divider record only._
 
 ---
 
-## Sec. 1. No personal interest. [Amended 11-6-2012; 11-8-2016]
+## Sec. 1. No personal interest.
 
 **Citation:** Art. XII, Sec. 1
 
@@ -729,7 +729,7 @@ All rights, actions, proceedings, prosecutions and contracts of the City, or any
 
 ---
 
-## Sec. 4. General meetings of citizens. [Amended 11-8-2016]
+## Sec. 4. General meetings of citizens.
 
 **Citation:** Art. XII, Sec. 4
 
@@ -745,7 +745,7 @@ Any highway, town way, or bridge which has been, or may hereafter be, located wi
 
 ---
 
-## Sec. 6. Revision of Charter. [Amended 11-6-2012]
+## Sec. 6. Revision of Charter.
 
 **Citation:** Art. XII, Sec. 6
 
@@ -777,7 +777,7 @@ All meetings of the City of Biddeford shall be duly posted on the central bullet
 
 ---
 
-## Sec. 9. Residency requirement. [Amended 11-6-2012]
+## Sec. 9. Residency requirement.
 
 **Citation:** Art. XII, Sec. 9
 
@@ -785,7 +785,7 @@ Any and all members of boards, committees and commissions nominated by the Mayor
 
 ---
 
-## Sec. 10. Code of Ethics. [Added 11-8-2016]
+## Sec. 10. Code of Ethics.
 
 **Citation:** Art. XII, Sec. 10
 
