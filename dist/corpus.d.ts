@@ -1,4 +1,4 @@
-export type Corpus = "charter" | "ordinances" | "land_dev";
+export type Corpus = "charter" | "ordinances" | "land_dev" | "home_rule";
 export interface Section {
     corpus: Corpus;
     id: string;

@@ -3,7 +3,7 @@ import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INDEX_DIR = join(__dirname, "..", "data", "index", "json");
-const ALL_CORPORA = ["charter", "ordinances", "land_dev"];
+const ALL_CORPORA = ["charter", "ordinances", "land_dev", "home_rule"];
 // Lazy-loaded per-corpus index.
 const cache = {};
 let versionsCache = null;
@@ -75,7 +75,7 @@ const ARABIC_TO_ROMAN = [
 export function normalizeCitation(input) {
     let s = input
         .toLowerCase()
-        .replace(/§§?\s*/g, "")
+        .replace(/§§?\s*/g, "sec ")
         .replace(/\barticle\b\.?/g, "art")
         .replace(/\bsection\b\.?/g, "sec")
         .replace(/\bchapter\b\.?/g, "ch")

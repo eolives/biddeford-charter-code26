@@ -167,6 +167,34 @@ function buildLandDev(source) {
   return records;
 }
 
+// ------------------------------- home_rule -------------------------------
+function buildHomeRule(source) {
+  const records = [];
+  records.push({
+    corpus: "home_rule",
+    id: "ch-111",
+    group: "111",
+    groupLabel: "30-A M.R.S. Chapter 111: Home Rule",
+    citation: "Ch. 111",
+    heading: "30-A M.R.S. Chapter 111: Home Rule",
+    text: "",
+    isDivider: true,
+  });
+  for (const sec of source.sections) {
+    records.push({
+      corpus: "home_rule",
+      id: `sec-${sec.sec}`,
+      group: "111",
+      groupLabel: "30-A M.R.S. Chapter 111: Home Rule",
+      citation: `Sec. ${sec.sec}`,
+      heading: `§${sec.sec}. ${sec.heading}`,
+      text: sec.text || "",
+      isDivider: false,
+    });
+  }
+  return records;
+}
+
 // --------------------------------- shared ---------------------------------
 function writeCorpus(corpusKey, records, source, extraMeta) {
   writeFileSync(join(JSON_DIR, `${corpusKey}.json`), JSON.stringify(records, null, 2));
@@ -214,6 +242,7 @@ console.log("\nBuilding all corpora...\n");
 const charterSource = loadSource("charter");
 const ordinancesSource = loadSource("ordinances");
 const landDevSource = loadSource("land_dev");
+const homeRuleSource = loadSource("home_rule");
 
 const versions = {
   charter: writeCorpus("charter", buildCharter(charterSource), charterSource, {
@@ -224,6 +253,9 @@ const versions = {
   }),
   land_dev: writeCorpus("land_dev", buildLandDev(landDevSource), landDevSource, {
     title: "City of Biddeford, ME — Land Development Regulations",
+  }),
+  home_rule: writeCorpus("home_rule", buildHomeRule(homeRuleSource), homeRuleSource, {
+    title: "Maine Revised Statutes, Title 30-A, Chapter 111: Home Rule",
   }),
 };
 

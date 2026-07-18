@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Builds docs/index.html — a single-file, offline-capable explorer covering
-// all 3 corpora — from data/index/json/{charter,ordinances,land_dev,versions}.json
+// all corpora — from data/index/json/{charter,ordinances,land_dev,home_rule,versions}.json
 // (the same files src/corpus.ts reads at runtime) and scripts/site-template.html.
 //
 // Run: npm run build-index && node scripts/build-site.js
@@ -28,9 +28,15 @@ function loadIndex(corpus) {
 }
 
 const CORPUS_META = {
-  charter: { label: "City Charter", short: "Charter" },
-  ordinances: { label: "Code of Ordinances", short: "Ordinances" },
-  land_dev: { label: "Land Development Regulations", short: "Land Dev." },
+  charter: { label: "City Charter", short: "Charter", sourceUrl: "https://ecode360.com/BI3074", sourceLabel: "ecode360.com/BI3074" },
+  ordinances: { label: "Code of Ordinances", short: "Ordinances", sourceUrl: "https://ecode360.com/BI3074", sourceLabel: "ecode360.com/BI3074" },
+  land_dev: { label: "Land Development Regulations", short: "Land Dev.", sourceUrl: "https://ecode360.com/BI3074", sourceLabel: "ecode360.com/BI3074" },
+  home_rule: {
+    label: "Maine Home Rule Statute",
+    short: "Home Rule (State)",
+    sourceUrl: "https://legislature.maine.gov/statutes/30-A/title30-Ach111sec0.html",
+    sourceLabel: "legislature.maine.gov",
+  },
 };
 
 const versions = JSON.parse(readFileSync(join(JSON_DIR, "versions.json"), "utf8"));
@@ -62,13 +68,14 @@ groups.forEach((g) => {
 
 const data = {
   meta: {
-    sourceUrl: "https://ecode360.com/BI3074",
     corpora: Object.fromEntries(
       Object.entries(CORPUS_META).map(([key, m]) => [
         key,
         {
           label: m.label,
           short: m.short,
+          sourceUrl: m.sourceUrl,
+          sourceLabel: m.sourceLabel,
           asOf: versions[key]?.currentThrough?.match(/on (\S+)$/)?.[1] || "",
           sectionCount: versions[key]?.sectionCount ?? 0,
           dataQuality: versions[key]?.dataQuality ?? "unknown",
@@ -91,4 +98,4 @@ mkdirSync(OUT_DIR, { recursive: true });
 writeFileSync(OUT_PATH, html);
 
 console.log(`Built ${OUT_PATH} (${(html.length / 1024 / 1024).toFixed(2)} MB)`);
-console.log(`  ${groups.length} groups, ${sections.filter((s) => !s.isDivider).length} sections across 3 corpora`);
+console.log(`  ${groups.length} groups, ${sections.filter((s) => !s.isDivider).length} sections across ${Object.keys(CORPUS_META).length} corpora`);

@@ -1,16 +1,17 @@
 # biddeford-charter-code
 
-An MCP (Model Context Protocol) server *and* web explorer for the **City of Biddeford, ME** municipal code — the City Charter, Code of Ordinances, and Land Development Regulations — adapted from [BetaNYC's nyc-charter-laws-rules](https://github.com/BetaNYC/nyc-charter-laws-rules) and [nyc-charter-explorer](https://github.com/joshgreenman1973/nyc-charter-explorer).
+An MCP (Model Context Protocol) server *and* web explorer for the **City of Biddeford, ME** municipal code — the City Charter, Code of Ordinances, and Land Development Regulations — plus the **Maine state statute** that grants municipalities their charter-amendment powers in the first place. Adapted from [BetaNYC's nyc-charter-laws-rules](https://github.com/BetaNYC/nyc-charter-laws-rules) and [nyc-charter-explorer](https://github.com/joshgreenman1973/nyc-charter-explorer).
 
-Not affiliated with the City of Biddeford, General Code, or eCode360.
+Not affiliated with the City of Biddeford, General Code, eCode360, or the Maine Office of the Revisor of Statutes.
 
-## Three corpora, two different levels of confidence
+## Four corpora, two different levels of confidence, two different sources
 
 | Corpus | Source | Size | How it was built |
 |---|---|---|---|
 | `charter` | PDF export, ecode360.com/BI3074 | 12 Articles, 74 sections | **Hand-transcribed.** Every section read, and all 15 sections whose sub-lists were displaced by the PDF's two-column layout manually traced and reattached. See `data/source/charter.json`'s `reassembled` fields. |
 | `ordinances` | PDF export, ecode360.com/BI3074 | 23 Chapters, 1,239 sections | **Automated parse.** ~688 pages — not feasible to hand-verify. See "Automated parsing" below. |
 | `land_dev` | PDF export, ecode360.com/BI3074 | Appendix A + 15 Articles, 209 sections | **Automated parse.** ~346 pages (Rules of City Council + the zoning/subdivision/shoreland/historic-preservation code). |
+| `home_rule` | PDF export, legislature.maine.gov | 1 Chapter, 9 sections | **Hand-transcribed.** Maine's 30-A M.R.S. Chapter 111 — the state statute Biddeford's own Charter cites (Art. XII, Sec. 6: "30-A M.R.S.A, §§ 2101—2106") as its authority to revise or amend itself. Small and clean enough to transcribe directly, unlike the eCode360 exports. |
 
 This distinction is surfaced everywhere: each corpus's `dataQualityNote` flows into the MCP server's tool output and `get_version`, and into the web explorer's document tabs (a "verified" vs "auto" badge) and footer.
 
@@ -38,11 +39,11 @@ node scripts/parse-large-docs.js   # -> data/source/ordinances.json, land_dev.js
 
 | Tool | Example |
 |---|---|
-| `search` | `search({ query: "setback", corpus: "land_dev" })` — omit `corpus` to search all three |
-| `get_section` | `get_section({ citation: "Sec. 18-1" })` (Ordinances) · `get_section({ citation: "LDR Art. VI, Sec. 7" })` (Land Dev) · `get_section({ citation: "Art. II, Sec. 4" })` (Charter) |
+| `search` | `search({ query: "setback", corpus: "land_dev" })` — omit `corpus` to search all four |
+| `get_section` | `get_section({ citation: "Sec. 18-1" })` (Ordinances) · `get_section({ citation: "LDR Art. VI, Sec. 7" })` (Land Dev) · `get_section({ citation: "Art. II, Sec. 4" })` (Charter) · `get_section({ citation: "§2102" })` (Home Rule) |
 | `list_titles` | `list_titles({ corpus: "ordinances" })` — lists all 23 Chapters |
 | `get_title` | `get_title({ corpus: "land_dev", title: "App. A" })` — full text of a Chapter/Article/Appendix |
-| `get_version` | `get_version()` — currency date **and data-quality status** for all 3 corpora |
+| `get_version` | `get_version()` — currency date **and data-quality status** for all 4 corpora |
 
 Each corpus has its own citation convention (see table above); natural-language forms are also accepted — "Chapter 18", "Article 2 Section 4", "Appendix A" — see `normalizeCitation` in `src/corpus.ts`.
 
@@ -69,7 +70,7 @@ npm start               # runs the MCP server over stdio
 
 ## Web explorer (`docs/index.html`)
 
-A single-file, searchable/sortable web explorer, adapted from [nyc-charter-explorer](https://github.com/joshgreenman1973/nyc-charter-explorer). Document tabs to filter to Charter / Code of Ordinances / Land Development Regulations / All (each tab shows its section count and a hand-verified/auto-parsed badge); a chapter/article sidebar scoped to whichever document is selected; full-text search with relevance ranking across one or all documents; sort (document order / A–Z / longest first); a toggle for the Charter's 15 "reassembled" sections; pagination (results load 40 at a time, since the combined corpus is ~1,700 sections); light/dark/auto theme; shareable URLs; keyboard shortcuts (`/` to search, `Esc` to clear).
+A single-file, searchable/sortable web explorer, adapted from [nyc-charter-explorer](https://github.com/joshgreenman1973/nyc-charter-explorer). Document tabs to filter to Charter / Code of Ordinances / Land Development Regulations / Home Rule Statute / All (each tab shows its section count and a hand-verified/auto-parsed badge); a chapter/article sidebar scoped to whichever document is selected; full-text search with relevance ranking across one or all documents; sort (document order / A–Z / longest first); a toggle for the Charter's 15 "reassembled" sections; pagination (results load 40 at a time, since the combined corpus is ~1,530 sections); light/dark/auto theme; shareable URLs; keyboard shortcuts (`/` to search, `Esc` to clear).
 
 ```bash
 npm run build-index          # must run first — the site reads data/index/json/*.json
@@ -82,22 +83,23 @@ node scripts/build-site.js   # regenerates docs/index.html
 
 ## Updating the data
 
-There's no automated refresh here — eCode360 has no public bulk feed (see "Automated parsing" above). When the code is amended:
+There's no automated refresh here — eCode360 has no public bulk feed, and Maine's statute site (legislature.maine.gov) is simple HTML but likewise has no bulk API (see "Automated parsing" above). When a source document is amended:
 
-1. Download a fresh PDF export from ecode360.com/BI3074, or request eCode360 API credentials from the City of Biddeford for a cleaner JSON source going forward.
-2. For the Charter: update `data/source/charter.json` directly, watching for the sub-list displacement issue described in its `dataQualityNote`.
-3. For Ordinances/Land Development Regs: re-run `pdftotext` and `node scripts/parse-large-docs.js` (spot-check the diff — the parser is good but not infallible at this scale).
+1. Download a fresh PDF export from ecode360.com/BI3074 (municipal code) or legislature.maine.gov/statutes (Home Rule statute), or request eCode360 API credentials from the City of Biddeford for a cleaner JSON source going forward.
+2. For the Charter or Home Rule statute (both hand-transcribed): update `data/source/charter.json` or `data/source/home_rule.json` directly, watching for the sub-list displacement issue described in charter.json's `dataQualityNote`.
+3. For Ordinances/Land Development Regs (automated parse): re-run `pdftotext` and `node scripts/parse-large-docs.js` (spot-check the diff — the parser is good but not infallible at this scale).
 4. Bump each file's `asOf` field.
 5. Run `npm run build-index && node scripts/build-site.js` and commit the regenerated `data/index/` and `docs/` files.
 
 ## Adding more corpora
 
-The three corpora above cover everything currently on ecode360.com/BI3074. If Biddeford publishes something else under the same site (e.g. a separate Personnel Policy manual), the pattern is:
+The four corpora above cover Biddeford's own code (ecode360.com/BI3074) plus the one state statute its Charter directly invokes. `home_rule` is a good template for adding another small, clean, hand-transcribed corpus from a different source — the pattern:
 
 1. Add it to the `Corpus` union and `ALL_CORPORA` in `src/corpus.ts`.
-2. Add a `data/source/<corpus>.json` (hand-curated like `charter.json`, or parsed like the other two).
+2. Add a `data/source/<corpus>.json` (hand-curated like `charter.json`/`home_rule.json`, or parsed like `ordinances`/`land_dev`).
 3. Add a `build<Corpus>()` function to `scripts/build-index.js` producing the same flat record shape (`corpus`, `id`, `group`, `groupLabel`, `citation`, `heading`, `text`, `isDivider`).
-4. Update the `enum` lists in each tool's `inputSchema` in `src/index.ts`, and `CORPUS_META` in `scripts/build-site.js`.
+4. Update the `enum` lists and `CORPUS_LABELS` in each tool's `inputSchema` in `src/index.ts`, and `CORPUS_META` in `scripts/build-site.js`.
+5. If citations use a symbol/word `normalizeCitation` in `src/corpus.ts` doesn't already handle (like Maine's `§`), extend it there rather than special-casing the new corpus.
 
 ## License
 

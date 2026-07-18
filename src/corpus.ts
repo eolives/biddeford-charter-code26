@@ -5,11 +5,12 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const INDEX_DIR = join(__dirname, "..", "data", "index", "json");
 
-// Charter (hand-verified), Ordinances, and Land Development Regulations
-// (both automated-parse — see each corpus's dataQualityNote in
-// data/index/json/versions.json and the MCP server's footer text).
-export type Corpus = "charter" | "ordinances" | "land_dev";
-const ALL_CORPORA: Corpus[] = ["charter", "ordinances", "land_dev"];
+// Charter (hand-verified), Ordinances, Land Development Regulations (both
+// automated-parse), and the Home Rule statute (hand-verified) — see each
+// corpus's dataQualityNote in data/index/json/versions.json and the MCP
+// server's footer text.
+export type Corpus = "charter" | "ordinances" | "land_dev" | "home_rule";
+const ALL_CORPORA: Corpus[] = ["charter", "ordinances", "land_dev", "home_rule"];
 
 export interface Section {
   corpus: Corpus;
@@ -123,7 +124,7 @@ const ARABIC_TO_ROMAN: [number, string][] = [
 export function normalizeCitation(input: string): string {
   let s = input
     .toLowerCase()
-    .replace(/§§?\s*/g, "")
+    .replace(/§§?\s*/g, "sec ")
     .replace(/\barticle\b\.?/g, "art")
     .replace(/\bsection\b\.?/g, "sec")
     .replace(/\bchapter\b\.?/g, "ch")
