@@ -77,9 +77,29 @@ npm run build-index          # must run first — the site reads data/index/json
 node scripts/build-site.js   # regenerates docs/index.html
 ```
 
-**To use it right now:** open `docs/index.html` directly in a browser — it's fully self-contained (~2.7 MB, all three corpora embedded inline), no server required.
+**To use it right now:** open `docs/index.html` directly in a browser — it's fully self-contained (~2.9 MB, all four corpora embedded inline), no server required.
 
 **To get a public URL:** push this repo to GitHub, then in the repo's **Settings → Pages**, set Source to "Deploy from a branch", branch `main`, folder `/docs`, and save. GitHub will publish it at `https://<your-username>.github.io/<repo-name>/` within a minute or two.
+
+## Civic quiz (`docs/quiz.html`)
+
+A ten-question quiz, adapted (feel, not code or graphics) from [LovePawsona](https://github.com/IseeJ/LovePawsona)'s personality-quiz interactivity. Each attempt draws 2 random questions from each of 5 themes — Welcome to City Hall, Who Does What?, How Decisions Are Made, Your Voice Matters, You're in Charge! — so every run covers the whole Charter, in a different order, every time.
+
+- **Immediate reveal**, NYT-News-Quiz style: answer, see whether you're right, read a short explanation, and see what percentage of other respondents got that question right.
+- **"Read the Charter" pop-up** on every question, showing the exact cited section's text inline, plus a deep link that opens the full section in the web explorer (`docs/index.html?doc=charter&grp=charter::<article>#<section-id>`).
+- **Six civic titles** assigned by final score, from 🌱 Emerging Citizen up to 🏛️ Charter Champion (10/10).
+- **Live answer stats** ("62% of 340 respondents got this right") use the `window.storage` API when the quiz is opened as a Claude artifact — genuinely shared across everyone who takes it, the same as the NYT's live counters. Outside that environment (a plain browser, GitHub Pages, etc.) it automatically falls back to per-browser `localStorage`, so the quiz still works everywhere — the stats just aren't shared across visitors. This is disclosed in the stat line itself ("(this device)" appears when running on the fallback).
+
+The 50-question bank lives in `data/source/quiz-questions.json`, each entry hand-written and cited against the actual Charter text (not generated from a template) — see its `citations` field for the exact quoted text and explorer deep-link ID behind every "Read the Charter" pop-up.
+
+```bash
+node scripts/build-quiz.js   # regenerates docs/quiz.html, linking to index.html (same-folder deploy)
+
+# for a standalone copy (e.g. to hand someone a single file, not the whole repo):
+node scripts/build-quiz.js --explorer-url=biddeford-charter-explorer.html --out=/tmp/quiz.html
+```
+
+**Adding or editing questions:** edit `data/source/quiz-questions.json`. Every question needs a `theme` (1–5, matching the `themes` object), a `citation` key that exists in the `citations` map (or a new entry there — copy the Charter section's exact text and the explorer record id, e.g. `art-II-sec-4`), and enough questions per theme that a random 2-per-theme draw never runs dry (currently 6–15 per theme). Re-run `node scripts/build-quiz.js` after editing.
 
 ## Updating the data
 
